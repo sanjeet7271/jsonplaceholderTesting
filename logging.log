@@ -2,3 +2,5 @@
 2020-01-29 16:41:52 INFO  configReader:16 - /comments
 2020-01-29 16:41:52 INFO  configReader:17 - /posts/
 2020-01-29 16:41:52 INFO  configReader:18 - /posts/
+2020-02-01 21:46:15 INFO  TC01_Users:50 - Test cases starts for :Karianne
+2020-02-01 21:46:15 INFO  TC01_Users:58 - email validation for users

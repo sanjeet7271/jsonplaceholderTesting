@@ -19,10 +19,3 @@
 4. RestAssured 4.0.0 and above
 5. google gson-simple 2.8.5
 6. Jacoco 0.8.2
-
-## How to install & Run using command prompt
-1. Please extract the project at your desired path.
-2. Go to `src/test/resources/config/config.properties` file and update configurations. 
-3. Open the command prompt and go to the project path.
-4. Run the command "mvn clean install -DsuiteXmlFile=testng.xml"
-5. All the automated test cases in the testNG.xml will be executed.
