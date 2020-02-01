@@ -4,7 +4,7 @@ import com.freenow.config.configReader;
 
 public class QueryParametersForUserAndPost extends configReader {
 	String queryParamForUserId, queryParamForPostId;
-	QueryParametersForUserAndPost(){
+	public QueryParametersForUserAndPost(){
 		this.queryParamForUserId=prop.getProperty("userId");
 		this.queryParamForPostId=prop.getProperty("postId");
 		

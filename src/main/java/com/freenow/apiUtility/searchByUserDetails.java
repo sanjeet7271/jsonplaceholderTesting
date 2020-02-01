@@ -4,7 +4,7 @@ import com.freenow.config.configReader;
 
 public class searchByUserDetails extends configReader{
 	
-	@SuppressWarnings("deprecation")
+	/*@SuppressWarnings("deprecation")
 	private void searchByUniqueSignature() {
 		switch (browsers.valueOf(FrameworkConstant.GLOBALCONFIG.get("BROWSER").toUpperCase())) {
 		case IE:
@@ -28,7 +28,7 @@ public class searchByUserDetails extends configReader{
 			driver = new InternetExplorerDriver(ieCapabilities);
 			break;
 		}
-	}
+	}*/
 
 
 }

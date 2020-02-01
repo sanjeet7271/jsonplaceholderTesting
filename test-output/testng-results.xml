@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4078" started-at="2020-02-01T16:16:11Z" finished-at="2020-02-01T16:16:15Z">
+  <suite name="Default suite" duration-ms="4898" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:31:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4078" started-at="2020-02-01T16:16:11Z" finished-at="2020-02-01T16:16:15Z">
-      <class name="com.freenow.testcases.TC01_Users">
-        <test-method status="PASS" signature="verifyToGetUserID()[pri:0, instance:com.freenow.testcases.TC01_Users@a67c67e]" name="verifyToGetUserID" duration-ms="4053" started-at="2020-02-01T16:16:11Z" finished-at="2020-02-01T16:16:15Z">
+    <test name="Default test" duration-ms="4898" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:31:00Z">
+      <class name="com.freenow.testcases.TC01_Posts">
+        <test-method status="PASS" signature="verifyToGetUserID()[pri:0, instance:com.freenow.testcases.TC01_Posts@a67c67e]" name="verifyToGetUserID" duration-ms="3560" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:30:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyToGetUserID -->
-      </class> <!-- com.freenow.testcases.TC01_Users -->
+        <test-method status="PASS" signature="verifyToGetPostIds()[pri:0, instance:com.freenow.testcases.TC01_Posts@a67c67e]" name="verifyToGetPostIds" duration-ms="1313" started-at="2020-02-01T16:30:58Z" depends-on-methods="com.freenow.testcases.TC01_Posts.verifyToGetUserID" finished-at="2020-02-01T16:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToGetPostIds -->
+      </class> <!-- com.freenow.testcases.TC01_Posts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
