@@ -160,3 +160,87 @@
 2020-02-02 22:25:54 INFO  TC03_Comments:89 - made comment for the post 29 is successful
 2020-02-02 22:25:54 INFO  TC03_Comments:83 - Creating comment for the post 30
 2020-02-02 22:25:55 INFO  TC03_Comments:89 - made comment for the post 30 is successful
+2020-02-02 23:27:38 ERROR TC02_Posts:75 - Exception java.lang.NumberFormatException: For input string: ""
+2020-02-02 23:27:38 ERROR TC02_Posts:76 - Response not found.
+2020-02-02 23:29:02 ERROR TC02_Posts:75 - Exception java.lang.NumberFormatException: For input string: """"
+2020-02-02 23:29:02 ERROR TC02_Posts:76 - Response not found.
+2020-02-02 23:30:16 ERROR TC02_Posts:75 - Exception java.lang.NumberFormatException: For input string: "null"
+2020-02-02 23:30:16 ERROR TC02_Posts:76 - Response not found.
+2020-02-02 23:34:34 INFO  CommonUtility:31 - Test case starts..
+2020-02-02 23:34:34 INFO  CommonUtility:33 - Total 10 users present int the user list
+2020-02-02 23:34:34 INFO  CommonUtility:38 - Test case starts for :Samantha
+2020-02-02 23:34:34 INFO  CommonUtility:40 - User id for username Samantha is 3
+2020-02-02 23:34:34 INFO  CommonUtility:43 - Test case finished..
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :54
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :asperiores ea ipsam voluptatibus modi minima quia sint and post Id id  :21
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :54
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :repellat aliquid praesentium dolorem quo
+sed totam minus non itaque
+nihil labore molestiae sunt dolor eveniet hic recusandae veniam
+tempora et tenetur expedita sunt and post Id id :21
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :41
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :dolor sint quo a velit explicabo quia nam and post Id id  :22
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :41
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :eos qui et ipsum ipsam suscipit aut
+sed omnis non odio
+expedita earum mollitia molestiae aut atque rem suscipit
+nam impedit esse and post Id id :22
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :29
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :maxime id vitae nihil numquam and post Id id  :23
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :29
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :veritatis unde neque eligendi
+quae quod architecto quo neque vitae
+est illo sit tempora doloremque fugit quod
+et et vel beatae sequi ullam sed tenetur perspiciatis and post Id id :23
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :38
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :autem hic labore sunt dolores incidunt and post Id id  :24
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :38
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :enim et ex nulla
+omnis voluptas quia qui
+voluptatem consequatur numquam aliquam sunt
+totam recusandae id dignissimos aut sed asperiores deserunt and post Id id :24
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :29
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :rem alias distinctio quo quis and post Id id  :25
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :29
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :ullam consequatur ut
+omnis quis sit vel consequuntur
+ipsa eligendi ipsum molestiae et omnis error nostrum
+molestiae illo tempore quia et distinctio and post Id id :25
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :24
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :est et quae odit qui non and post Id id  :26
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :24
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :similique esse doloribus nihil accusamus
+omnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus
+perspiciatis cum ut laudantium
+omnis aut molestiae vel vero and post Id id :26
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :37
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :quasi id et eos tenetur aut quo autem and post Id id  :27
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :37
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :eum sed dolores ipsam sint possimus debitis occaecati
+debitis qui qui et
+ut placeat enim earum aut odit facilis
+consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur and post Id id :27
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :47
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :delectus ullam et corporis nulla voluptas sequi and post Id id  :28
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :47
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :non et quaerat ex quae ad maiores
+maiores recusandae totam aut blanditiis mollitia quas illo
+ut voluptatibus voluptatem
+similique nostrum eum and post Id id :28
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :39
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :iusto eius quod necessitatibus culpa ea and post Id id  :29
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :39
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :odit magnam ut saepe sed non qui
+tempora atque nihil
+accusamus illum doloribus illo dolor
+eligendi repudiandae odit magni similique sed cum maiores and post Id id :29
+2020-02-02 23:34:35 INFO  CommonUtility:85 - length of the title is :33
+2020-02-02 23:34:35 INFO  CommonUtility:86 - Title of the post is :a quo magni similique perferendis and post Id id  :30
+2020-02-02 23:34:35 INFO  CommonUtility:91 - length of the body is :33
+2020-02-02 23:34:35 INFO  CommonUtility:92 - Body of the post is :alias dolor cumque
+impedit blanditiis non eveniet odio maxime
+blanditiis amet eius quis tempora quia autem rem
+a provident perspiciatis quia and post Id id :30
+2020-02-02 23:34:35 ERROR TC02_Posts:48 - Post IDs are :[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 23:34:35 ERROR TC02_Posts:49 - Validating duplicate Post ID
+2020-02-02 23:34:35 INFO  CommonUtility:73 - duplicate id is not found

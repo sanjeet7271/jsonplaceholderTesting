@@ -5,7 +5,7 @@
     <classes>
       <class name="com.freenow.testcases.TC02_Posts">
         <methods>
-          <include name="getResponseFromCreatedNewUser"/>
+          <include name="getResponseFromCreatedNewUser" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.freenow.testcases.TC02_Posts -->
     </classes>

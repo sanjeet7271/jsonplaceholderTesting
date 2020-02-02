@@ -1,15 +1,18 @@
 package com.freenow.testcases;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.freenow.apiUtility.CommonUtility;
 import com.freenow.commonPojoForPost.PostJsonforCreation;
 import com.freenow.commonPojoForResponse.Posts;
 import com.freenow.constants.HttpMethods;
 import com.freenow.constants.HttpStatusCodes;
+import com.freenow.excelsheetreader.ExcelSheetReader;
 import com.freenow.resources.ParametersForUserAndPost;
 import com.freenow.resources.ResourceURLs;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
@@ -17,6 +20,10 @@ import com.freenow.restassuredmethods.RestAssuredMethodsCall;
 import io.restassured.response.Response;
 
 public class TC02_Posts {
+	String xlFilePath="./src/main/resources/testdata/TestDataForPosts.xlsx";
+	String sheetName="posts";
+	ExcelSheetReader provideData=new ExcelSheetReader();
+	Object[][] data=null;
 	ResourceURLs resources = new ResourceURLs();
 	public static Logger logger = Logger.getLogger(TC02_Posts.class);
 	Response response;
@@ -25,7 +32,7 @@ public class TC02_Posts {
 	CommonUtility commonUtility = new CommonUtility();
 	PostJsonforCreation postData = new PostJsonforCreation();
 
-	// @Test(priority = 1, description = "verify all post IDs and its duplication")
+	@Test(priority = 1, description = "verify all post IDs and its duplication")
 	public void verifyToGetPostIds() {
 		try {
 			response = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers(), "", " ");
@@ -48,13 +55,17 @@ public class TC02_Posts {
 			Assert.fail("Properties file not found.");
 		}
 	}
-
-	//@Test(priority = 2, description = "to create dummy post data")
-	public void createNewUser() {
+	@DataProvider(name="post")
+	public Object[][] testData() throws IOException{
+		data=provideData.testData(xlFilePath, sheetName);
+		return data;
+	}
+	@Test(priority = 2,dataProvider="post", description = "to create dummy post data")
+	public void createNewUser(String userId, String id, String title, String body) {
 		try {
 
-			String dummyTestData = postData.postJsonData();
-			System.out.println(dummyTestData);
+			String dummyTestData = postData.postJsonData(Integer.parseInt(userId),Integer.parseInt(id),title,body);
+			//System.out.println(dummyTestData);
 			response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(), "", "");
 			int statusCode = response.getStatusCode();
 			System.out.println(response.asString());
@@ -67,15 +78,14 @@ public class TC02_Posts {
 		}
 	}
 
-	 @Test(priority = 2, description = "get response from newly created post")
-	public void getResponseFromCreatedNewUser() {
+	 @Test(priority = 3, dataProvider="post",description = "get response from newly created post")
+	public void getResponseFromCreatedNewUser(String userId, String id, String title, String body) {
 		try {
 			
-			String dummyTestData=postData.postJsonData();
+			String dummyTestData=postData.postJsonData(Integer.parseInt(userId),Integer.parseInt(id),title,body);;
 			System.out.println(dummyTestData);
 			Response response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(), "", "");
 			int statusCode = response.getStatusCode();
-			//System.out.println(response.asString());
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode);
 			List<Posts> postJson = Arrays.asList(response.getBody().as(Posts.class));
 			for(int i = 0; i < postJson.size(); i++) {
@@ -83,9 +93,7 @@ public class TC02_Posts {
 			Response getresponse = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforPosts()+newPostid,
 					"", "");
 			
-			System.out.println(getresponse.asString());
 			int statusCode1 = getresponse.getStatusCode();
-			//System.out.println(response.asString());
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1," Status code is not 200");
 			}
 
