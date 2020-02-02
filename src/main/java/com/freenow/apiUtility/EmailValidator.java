@@ -32,6 +32,6 @@ public class EmailValidator {
 			System.out.println("Email is valid : " + temp + " , " + valid);
 			Assert.assertEquals(valid, true);
 		}
-
+		Email.clear();
 	}
 }

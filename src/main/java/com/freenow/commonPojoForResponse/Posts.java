@@ -1,4 +1,4 @@
-package com.freenow.commonPojoClass;
+package com.freenow.commonPojoForResponse;
 
 
 public class Posts {
@@ -7,7 +7,8 @@ public class Posts {
 	private Integer id;
 	private String title;
 	private String body;
-
+	
+	
 	public Integer getUserId() {
 		return userId;
 	}

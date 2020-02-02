@@ -439,3 +439,576 @@ unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
 2020-02-02 11:47:38 INFO  CommonUtility:51 - duplicate id is not found
 2020-02-02 11:47:38 INFO  TC01_Users:64 - email validation for users is started.
 2020-02-02 11:47:38 INFO  TC01_Users:66 - email validation for users is successfully done
+2020-02-02 11:57:08 INFO  CommonUtility:19 - Test case starts..
+2020-02-02 11:57:08 INFO  CommonUtility:21 - Total 10 users present int the user list
+2020-02-02 11:57:08 INFO  CommonUtility:26 - Test case starts for :Karianne
+2020-02-02 11:57:08 INFO  CommonUtility:28 - User id for username Karianne is 4
+2020-02-02 11:57:08 INFO  CommonUtility:31 - Test case finished..
+2020-02-02 11:57:09 INFO  TC01_Users:55 - Storing email address to list
+2020-02-02 11:57:09 INFO  TC01_Users:61 - checking user id is duplicate or not.
+2020-02-02 11:57:09 INFO  CommonUtility:51 - duplicate id is not found
+2020-02-02 11:57:09 INFO  TC01_Users:64 - email validation for users is started.
+2020-02-02 11:57:09 INFO  TC01_Users:66 - email validation for users is successfully done
+2020-02-02 12:02:50 INFO  CommonUtility:19 - Test case starts..
+2020-02-02 12:02:50 INFO  CommonUtility:21 - Total 10 users present int the user list
+2020-02-02 12:02:50 INFO  CommonUtility:26 - Test case starts for :Karianne
+2020-02-02 12:02:50 INFO  CommonUtility:28 - User id for username Karianne is 4
+2020-02-02 12:02:50 INFO  CommonUtility:31 - Test case finished..
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :39
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :39
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :29
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :29
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :31
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :31
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :20
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :20
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :46
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :46
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :45
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :45
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :32
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :32
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :51
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :51
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :43
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :43
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:02:53 INFO  TC01_Posts:60 - length of the title is :15
+2020-02-02 12:02:53 INFO  TC01_Posts:61 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:02:53 INFO  TC01_Posts:66 - length of the body is :15
+2020-02-02 12:02:53 INFO  TC01_Posts:67 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:15:22 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:15:22 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:15:22 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:15:22 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:15:22 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :39
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :39
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :29
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :29
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :31
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :31
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :20
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :20
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :46
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :46
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :45
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :45
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :32
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :32
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :51
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :51
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :43
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :43
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:15:23 INFO  CommonUtility:72 - length of the title is :15
+2020-02-02 12:15:23 INFO  CommonUtility:73 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:15:23 INFO  CommonUtility:78 - length of the body is :15
+2020-02-02 12:15:23 INFO  CommonUtility:79 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:15:23 ERROR TC01_Posts:40 - IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2020-02-02 12:20:03 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:20:04 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:20:04 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:20:04 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:20:04 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :39
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :39
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :29
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :29
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :31
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :31
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :20
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :20
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :46
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :46
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :45
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :45
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :32
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :32
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :51
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :51
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :43
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :43
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:20:05 INFO  CommonUtility:72 - length of the title is :15
+2020-02-02 12:20:05 INFO  CommonUtility:73 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:20:05 INFO  CommonUtility:78 - length of the body is :15
+2020-02-02 12:20:05 INFO  CommonUtility:79 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:20:05 ERROR TC01_Posts:37 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2020-02-02 12:20:05 ERROR TC01_Posts:38 - Validating duplicate Post ID
+2020-02-02 12:20:05 INFO  CommonUtility:60 - duplicate id is not found
+2020-02-02 12:31:46 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:31:46 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:31:46 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:31:46 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:31:46 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :39
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :39
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :29
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :29
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :31
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :31
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :20
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :20
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :46
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :46
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :45
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :45
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :32
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :32
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :51
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :51
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :43
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :43
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:31:47 INFO  CommonUtility:72 - length of the title is :15
+2020-02-02 12:31:47 INFO  CommonUtility:73 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:31:47 INFO  CommonUtility:78 - length of the body is :15
+2020-02-02 12:31:47 INFO  CommonUtility:79 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:31:47 ERROR TC01_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2020-02-02 12:31:47 ERROR TC01_Posts:39 - Validating duplicate Post ID
+2020-02-02 12:31:47 INFO  CommonUtility:60 - duplicate id is not found
+2020-02-02 12:37:56 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:37:57 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:37:57 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:37:57 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:37:57 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :39
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :39
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :29
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :29
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :31
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :31
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :20
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :20
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :46
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :46
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :45
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :45
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :32
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :32
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :51
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :51
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :43
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :43
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:37:57 INFO  CommonUtility:72 - length of the title is :15
+2020-02-02 12:37:57 INFO  CommonUtility:73 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:37:57 INFO  CommonUtility:78 - length of the body is :15
+2020-02-02 12:37:57 INFO  CommonUtility:79 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:37:57 ERROR TC01_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2020-02-02 12:37:57 ERROR TC01_Posts:39 - Validating duplicate Post ID
+2020-02-02 12:37:57 INFO  CommonUtility:60 - duplicate id is not found
+2020-02-02 12:43:40 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:43:40 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:43:40 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:43:40 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:43:40 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :39
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :39
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :29
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :29
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :31
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :31
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :20
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :20
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :46
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :46
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :45
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :45
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :32
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :32
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :51
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :51
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :43
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :43
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:43:42 INFO  CommonUtility:72 - length of the title is :15
+2020-02-02 12:43:42 INFO  CommonUtility:73 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:43:42 INFO  CommonUtility:78 - length of the body is :15
+2020-02-02 12:43:42 INFO  CommonUtility:79 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:46:44 INFO  CommonUtility:28 - Test case starts..
+2020-02-02 12:46:44 INFO  CommonUtility:30 - Total 10 users present int the user list
+2020-02-02 12:46:44 INFO  CommonUtility:35 - Test case starts for :Karianne
+2020-02-02 12:46:44 INFO  CommonUtility:37 - User id for username Karianne is 4
+2020-02-02 12:46:44 INFO  CommonUtility:40 - Test case finished..
+2020-02-02 12:53:53 INFO  CommonUtility:29 - Test case starts..
+2020-02-02 12:53:53 INFO  CommonUtility:31 - Total 10 users present int the user list
+2020-02-02 12:53:53 INFO  CommonUtility:36 - Test case starts for :Karianne
+2020-02-02 12:53:53 INFO  CommonUtility:38 - User id for username Karianne is 4
+2020-02-02 12:53:53 INFO  CommonUtility:41 - Test case finished..
+2020-02-02 12:54:44 INFO  CommonUtility:29 - Test case starts..
+2020-02-02 12:54:45 INFO  CommonUtility:31 - Total 10 users present int the user list
+2020-02-02 12:54:45 INFO  CommonUtility:36 - Test case starts for :Karianne
+2020-02-02 12:54:45 INFO  CommonUtility:38 - User id for username Karianne is 4
+2020-02-02 12:54:45 INFO  CommonUtility:41 - Test case finished..
+2020-02-02 12:55:41 INFO  CommonUtility:29 - Test case starts..
+2020-02-02 12:55:41 INFO  CommonUtility:31 - Total 10 users present int the user list
+2020-02-02 12:55:41 INFO  CommonUtility:36 - Test case starts for :Karianne
+2020-02-02 12:55:41 INFO  CommonUtility:38 - User id for username Karianne is 4
+2020-02-02 12:55:41 INFO  CommonUtility:41 - Test case finished..
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :39
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :39
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
+impedit ut qui consequatur sed aut in
+quidem sit nostrum et maiores adipisci atque
+quaerat voluptatem adipisci repudiandae and post Id id :31
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :29
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :29
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :deserunt eos nobis asperiores et hic
+est debitis repellat molestiae optio
+nihil ratione ut eos beatae quibusdam distinctio maiores
+earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :31
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :31
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :rerum ut et numquam laborum odit est sit
+id qui sint in
+quasi tenetur tempore aperiam et quaerat qui in
+rerum officiis sequi cumque quod and post Id id :33
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :20
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :magnam ut rerum iure and post Id id  :34
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :20
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
+totam pariatur in
+nemo voluptatem voluptatem autem magni tempora minima in
+est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :46
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :46
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :nisi error delectus possimus ut eligendi vitae
+placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
+modi ducimus quo illum voluptas eligendi
+et nobis quia fugit and post Id id :35
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :45
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :45
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :ad mollitia et omnis minus architecto odit
+voluptas doloremque maxime aut non ipsa qui alias veniam
+blanditiis culpa aut quia nihil cumque facere et occaecati
+qui aspernatur quia eaque ut aperiam inventore and post Id id :36
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :32
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :32
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
+voluptatem iste vero et ea
+numquam aut expedita ipsum nulla in
+voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :51
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :51
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
+quia voluptatibus provident quia necessitatibus ea
+rerum repudiandae quia voluptatem delectus fugit aut id quia
+ratione optio eos iusto veniam iure and post Id id :38
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :43
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :43
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :corporis rerum ducimus vel eum accusantium
+maxime aspernatur a porro possimus iste omnis
+est in deleniti asperiores fuga aut
+voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
+2020-02-02 12:55:42 INFO  CommonUtility:73 - length of the title is :15
+2020-02-02 12:55:42 INFO  CommonUtility:74 - Title of the post is :enim quo cumque and post Id id  :40
+2020-02-02 12:55:42 INFO  CommonUtility:79 - length of the body is :15
+2020-02-02 12:55:42 INFO  CommonUtility:80 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
+ipsum rem optio mollitia quas
+voluptatem eum voluptas qui
+unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
+2020-02-02 12:55:42 ERROR TC01_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+2020-02-02 12:55:42 ERROR TC01_Posts:39 - Validating duplicate Post ID
+2020-02-02 12:55:42 INFO  CommonUtility:61 - duplicate id is not found
+2020-02-02 13:01:12 INFO  CommonUtility:29 - Test case starts..
+2020-02-02 13:01:12 INFO  CommonUtility:31 - Total 10 users present int the user list
+2020-02-02 13:01:12 INFO  CommonUtility:36 - Test case starts for :Karianne
+2020-02-02 13:01:12 INFO  CommonUtility:38 - User id for username Karianne is 4
+2020-02-02 13:01:12 INFO  CommonUtility:41 - Test case finished..
+2020-02-02 13:07:14 INFO  CommonUtility:29 - Test case starts..
+2020-02-02 13:07:15 INFO  CommonUtility:31 - Total 10 users present int the user list
+2020-02-02 13:07:15 INFO  CommonUtility:36 - Test case starts for :Karianne
+2020-02-02 13:07:15 INFO  CommonUtility:38 - User id for username Karianne is 4
+2020-02-02 13:07:15 INFO  CommonUtility:41 - Test case finished..

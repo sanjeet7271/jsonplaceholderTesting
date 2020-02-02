@@ -1,4 +1,4 @@
-package com.freenow.commonPojoClass;
+package com.freenow.commonPojoForPost;
 
 public class Comments {
 
@@ -7,7 +7,13 @@ public class Comments {
 	private String name;
 	private String email;
 	private String body;
-
+	public Comments(Integer postId,Integer id,String name,String email, String body) {
+		this.postId=postId;
+		this.id=id;
+		this.name=name;
+		this.email=email;
+		this.body=body;
+	}
 	public Integer getPostId() {
 		return postId;
 	}

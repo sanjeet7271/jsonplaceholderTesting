@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11262" started-at="2020-02-02T06:17:30Z" finished-at="2020-02-02T06:17:41Z">
+  <suite name="Default suite" duration-ms="13389" started-at="2020-02-02T08:11:33Z" finished-at="2020-02-02T08:11:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11262" started-at="2020-02-02T06:17:30Z" finished-at="2020-02-02T06:17:41Z">
-      <class name="com.freenow.testcases.TC01_Users">
-        <test-method status="PASS" signature="verifyToGetUserID()[pri:1, instance:com.freenow.testcases.TC01_Users@78c03f1f]" name="verifyToGetUserID" duration-ms="7590" started-at="2020-02-02T06:17:30Z" description="finding User ID id when username known" finished-at="2020-02-02T06:17:37Z">
+    <test name="Default test" duration-ms="13389" started-at="2020-02-02T08:11:33Z" finished-at="2020-02-02T08:11:46Z">
+      <class name="com.freenow.testcases.TC01_Comments">
+        <test-method status="PASS" signature="verifyToGetCommentsOnUserEachPost()[pri:0, instance:com.freenow.testcases.TC01_Comments@78c03f1f]" name="verifyToGetCommentsOnUserEachPost" duration-ms="13360" started-at="2020-02-02T08:11:33Z" finished-at="2020-02-02T08:11:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyToGetUserID -->
-        <test-method status="PASS" signature="verifyToUserEmailAddress()[pri:2, instance:com.freenow.testcases.TC01_Users@78c03f1f]" name="verifyToUserEmailAddress" duration-ms="799" started-at="2020-02-02T06:17:37Z" description="to verify email address is proper and Unique user Id" finished-at="2020-02-02T06:17:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyToUserEmailAddress -->
-        <test-method status="PASS" signature="createNewUser()[pri:3, instance:com.freenow.testcases.TC01_Users@78c03f1f]" name="createNewUser" duration-ms="2830" started-at="2020-02-02T06:17:38Z" description="to verify email address is proper and Unique user Id" finished-at="2020-02-02T06:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewUser -->
-      </class> <!-- com.freenow.testcases.TC01_Users -->
+        </test-method> <!-- verifyToGetCommentsOnUserEachPost -->
+      </class> <!-- com.freenow.testcases.TC01_Comments -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
