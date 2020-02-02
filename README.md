@@ -19,3 +19,21 @@
 4. RestAssured 4.0.0 and above
 5. google gson-simple 2.8.5
 6. Jacoco 0.8.2
+7. Jackson
+## How to install & Run using command prompt
+1. Please extract the project at your desired path.
+2. Go to `/src/main/resources/config/config.properties` file and update username configurations.
+	for e.g.	if you want to run test cases for "Samantha", then just update name into username
+				like : username=Samantha
+				
+3. Open the command prompt and go to the project path.
+4. Run the command "mvn clean install -DsuiteXmlFile=testng.xml"
+5. All the automated test cases in the testNG.xml will be executed.
+
+		
+## To view Report 
+1. Go to the root directory under `/test-output/emailable-report.html`
+2. All code coverage reports are saved under `/target/jacoco-ut/` 
+
+
+Note: Test cases are available in `Testcases.xlsx` for your reference.
