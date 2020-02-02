@@ -392,3 +392,50 @@ unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
 2020-02-02 10:09:49 INFO  CommonUtility:53 - duplicate id is not found
 2020-02-02 10:09:49 INFO  TC01_Users:63 - email validation for users is started.
 2020-02-02 10:09:49 INFO  TC01_Users:65 - email validation for users is successfully done
+2020-02-02 11:23:31 ERROR TC01_Users:68 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@88a8218; line: 3, column: 5]
+2020-02-02 11:23:31 ERROR TC01_Users:69 - Response not found.
+2020-02-02 11:32:00 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@18ca3c62; line: 3, column: 5]
+2020-02-02 11:32:00 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:33:58 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@18ca3c62; line: 3, column: 5]
+2020-02-02 11:33:58 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:37:27 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@7d2a6eac; line: 3, column: 5]
+2020-02-02 11:37:27 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:39:21 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@328572f0; line: 3, column: 5]
+2020-02-02 11:39:21 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:41:14 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@3704122f; line: 3, column: 5]
+2020-02-02 11:41:14 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:42:10 INFO  CommonUtility:21 - Test case starts..
+2020-02-02 11:42:11 ERROR TC01_Users:41 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@e72dba7; line: 3, column: 5]
+2020-02-02 11:42:11 ERROR TC01_Users:42 - Response not found.
+2020-02-02 11:42:11 ERROR TC01_Users:69 - Exception org.codehaus.jackson.map.JsonMappingException: No suitable constructor found for type [simple type, class com.freenow.usersPojoClass.UsersJson]: can not instantiate from JSON object (need to add/enable type information?)
+ at [Source: java.io.StringReader@420bc288; line: 3, column: 5]
+2020-02-02 11:42:11 ERROR TC01_Users:70 - Response not found.
+2020-02-02 11:46:10 INFO  CommonUtility:19 - Test case starts..
+2020-02-02 11:46:11 INFO  CommonUtility:21 - Total 10 users present int the user list
+2020-02-02 11:46:11 INFO  CommonUtility:26 - Test case starts for :Karianne
+2020-02-02 11:46:11 INFO  CommonUtility:28 - User id for username Karianne is 4
+2020-02-02 11:46:11 INFO  CommonUtility:31 - Test case finished..
+2020-02-02 11:46:12 INFO  TC01_Users:55 - Storing email address to list
+2020-02-02 11:46:12 INFO  TC01_Users:61 - checking user id is duplicate or not.
+2020-02-02 11:46:12 INFO  CommonUtility:51 - duplicate id is not found
+2020-02-02 11:46:12 INFO  TC01_Users:64 - email validation for users is started.
+2020-02-02 11:46:12 INFO  TC01_Users:66 - email validation for users is successfully done
+2020-02-02 11:47:12 ERROR TC01_Users:41 - Exception java.net.SocketTimeoutException: Read timed out
+2020-02-02 11:47:12 ERROR TC01_Users:42 - Response not found.
+2020-02-02 11:47:37 INFO  CommonUtility:19 - Test case starts..
+2020-02-02 11:47:37 INFO  CommonUtility:21 - Total 10 users present int the user list
+2020-02-02 11:47:37 INFO  CommonUtility:26 - Test case starts for :Karianne
+2020-02-02 11:47:37 INFO  CommonUtility:28 - User id for username Karianne is 4
+2020-02-02 11:47:37 INFO  CommonUtility:31 - Test case finished..
+2020-02-02 11:47:38 INFO  TC01_Users:55 - Storing email address to list
+2020-02-02 11:47:38 INFO  TC01_Users:61 - checking user id is duplicate or not.
+2020-02-02 11:47:38 INFO  CommonUtility:51 - duplicate id is not found
+2020-02-02 11:47:38 INFO  TC01_Users:64 - email validation for users is started.
+2020-02-02 11:47:38 INFO  TC01_Users:66 - email validation for users is successfully done

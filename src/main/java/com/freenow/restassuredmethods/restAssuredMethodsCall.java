@@ -27,8 +27,8 @@ public class RestAssuredMethodsCall {
 
 		case HttpMethods.POST:
 			RestAssured.baseURI = resource.getBaseURI();
-			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON).log().all()
-					.when().post().then().extract().response();
+			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON)
+					.when().post(request).then().extract().response();
 			break;
 
 		case HttpMethods.PUT:

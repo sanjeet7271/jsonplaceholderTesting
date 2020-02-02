@@ -6,6 +6,7 @@
       <class name="com.freenow.testcases.TC01_Users">
         <methods>
           <include name="verifyToGetUserID"/>
+          <include name="verifyToUserEmailAddress"/>
         </methods>
       </class> <!-- com.freenow.testcases.TC01_Users -->
     </classes>

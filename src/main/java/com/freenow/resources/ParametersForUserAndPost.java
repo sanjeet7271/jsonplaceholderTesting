@@ -2,11 +2,13 @@ package com.freenow.resources;
 
 import com.freenow.config.ConfigReader;
 
-public class QueryParametersForUserAndPost extends ConfigReader {
-	String queryParamForUserId, queryParamForPostId;
-	public QueryParametersForUserAndPost(){
+public class ParametersForUserAndPost extends ConfigReader {
+	String queryParamForUserId, queryParamForPostId,pathParam;
+	
+	public ParametersForUserAndPost(){
 		this.queryParamForUserId=prop.getProperty("userId");
 		this.queryParamForPostId=prop.getProperty("postId");
+		//this.pathParam=prop.getProperty("");
 		
 	}
 	

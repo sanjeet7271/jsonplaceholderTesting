@@ -12,11 +12,11 @@ import com.freenow.apiUtility.EmailValidator;
 import com.freenow.commonPojoClass.Posts;
 import com.freenow.constants.HttpMethods;
 import com.freenow.constants.HttpStatusCodes;
-import com.freenow.resources.QueryParametersForUserAndPost;
+import com.freenow.resources.ParametersForUserAndPost;
 import com.freenow.resources.ResourceURLs;
 import com.freenow.resources.SearchForUseName;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
-import com.freenow.usersPojoClass.UsersJson;
+import com.freenow.usersPojoForResponse.UsersJson;
 
 import io.restassured.response.Response;
 
@@ -33,7 +33,7 @@ public class TC01_Posts {
 	int id, userId;
 	SearchForUseName username = new SearchForUseName();
 	EmailValidator emailValidators = new EmailValidator();
-	QueryParametersForUserAndPost queryParam=new QueryParametersForUserAndPost();
+	ParametersForUserAndPost queryParam=new ParametersForUserAndPost();
 	@SuppressWarnings("static-access")
 	@Test
 	public void verifyToGetUserID() {

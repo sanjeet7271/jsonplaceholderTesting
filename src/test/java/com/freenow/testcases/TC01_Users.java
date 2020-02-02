@@ -10,9 +10,11 @@ import com.freenow.apiUtility.CommonUtility;
 import com.freenow.apiUtility.EmailValidator;
 import com.freenow.constants.HttpMethods;
 import com.freenow.constants.HttpStatusCodes;
+import com.freenow.resources.ParametersForUserAndPost;
 import com.freenow.resources.ResourceURLs;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
-import com.freenow.usersPojoClass.UsersJson;
+import com.freenow.usersPojoForPost.UserJsonforCreation;
+import com.freenow.usersPojoForResponse.UsersJson;
 
 import io.restassured.response.Response;
 
@@ -25,7 +27,8 @@ public class TC01_Users {
 	List<Integer> userIds = new ArrayList<>();
 	EmailValidator emailValidators = new EmailValidator();
 	CommonUtility commonUtility = new CommonUtility();
-
+	UserJsonforCreation userTestData=new UserJsonforCreation();
+	ParametersForUserAndPost queryParam = new ParametersForUserAndPost();
 	@Test(priority = 1, description = "finding User ID id when username known")
 	public void verifyToGetUserID() {
 		try {
@@ -45,7 +48,7 @@ public class TC01_Users {
 	@Test(priority = 2, description = "to verify email address is proper and Unique user Id")
 	public void verifyToUserEmailAddress() {
 		try {
-			response = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers(), "", " ");
+			response = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers(), "","");
 			int statusCode = response.getStatusCode();
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode);
 			List<UsersJson> userjson = Arrays.asList(response.getBody().as(UsersJson[].class));
@@ -61,6 +64,25 @@ public class TC01_Users {
 			logger.info("email validation for users is started.");
 			emailValidators.ValidEmailTest(usersEmails);
 			logger.info("email validation for users is successfully done");
+
+		} catch (Exception e) {
+			logger.error("Exception " + e);
+			logger.error("Response not found.");
+			Assert.fail("Status code is not correct.");
+		}
+	}
+	
+	@Test(priority = 3, description = "to verify email address is proper and Unique user Id")
+	public void createNewUser() {
+		try {
+			
+			String dummyTestData=userTestData.userJsonData();
+			System.out.println(dummyTestData);
+			response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforUsers(), "", "");
+			int statusCode = response.getStatusCode();
+			System.out.println(response.asString());
+			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode);
+			
 
 		} catch (Exception e) {
 			logger.error("Exception " + e);

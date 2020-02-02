@@ -4,12 +4,10 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-
 import com.freenow.resources.SearchForUseName;
-import com.freenow.usersPojoClass.UsersJson;
+import com.freenow.usersPojoForResponse.UsersJson;
 
 import io.restassured.response.Response;
 
