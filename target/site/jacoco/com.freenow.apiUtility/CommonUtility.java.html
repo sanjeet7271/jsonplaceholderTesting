@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CommonUtility.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">BackendTestChallenge</a> &gt; <a href="index.source.html" class="el_package">com.freenow.apiUtility</a> &gt; <span class="el_source">CommonUtility.java</span></div><h1>CommonUtility.java</h1><pre class="source lang-java linenums">package com.freenow.apiUtility;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import org.apache.log4j.Logger;
+import org.testng.Assert;
+
+import com.freenow.commonPojoForResponse.Comments;
+import com.freenow.commonPojoForResponse.Posts;
+import com.freenow.constants.HttpStatusCodes;
+import com.freenow.resources.SearchForUseName;
+import com.freenow.usersPojoForResponse.UsersJson;
+
+import io.restassured.response.Response;
+
+<span class="fc" id="L19">public class CommonUtility {</span>
+<span class="fc" id="L20">	SearchForUseName username = new SearchForUseName();</span>
+<span class="fc" id="L21">	private static Logger logger = Logger.getLogger(CommonUtility.class);</span>
+	int id;
+<span class="fc" id="L23">	List&lt;String&gt; usernames = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L24">	List&lt;Integer&gt; ids = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L25">	List&lt;Integer&gt; postIds = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L26">	List&lt;Integer&gt; postsId = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L27">	List&lt;String&gt; emailsCommentByUsers = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L28">	List&lt;String&gt; usersEmails = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L29">	EmailValidator emailValidators = new EmailValidator();</span>
+	public int findUserID(Response response) {
+<span class="fc" id="L31">		logger.info(&quot;Test case starts..&quot;);</span>
+<span class="fc" id="L32">		List&lt;UsersJson&gt; userjson = Arrays.asList(response.getBody().as(UsersJson[].class));</span>
+<span class="fc" id="L33">		logger.info(&quot;Total &quot; + userjson.size() + &quot; users present int the user list&quot;);</span>
+<span class="fc bfc" id="L34" title="All 2 branches covered.">		for (int i = 0; i &lt; userjson.size(); i++) {</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">			if (userjson.get(i).getUsername().equals(username.getUserName())) {</span>
+<span class="fc" id="L36">				Assert.assertEquals(userjson.get(i).getUsername(), username.getUserName(),</span>
+						&quot;user name not found int the list&quot;);
+<span class="fc" id="L38">				logger.info(&quot;Test case starts for :&quot; + username.getUserName());</span>
+<span class="fc" id="L39">				id = userjson.get(i).getId();</span>
+<span class="fc" id="L40">				logger.info(&quot;User id for username &quot; + userjson.get(i).getUsername() + &quot; is &quot; + id);</span>
+			}
+		}
+<span class="fc" id="L43">		logger.info(&quot;Test case finished..&quot;);</span>
+<span class="fc" id="L44">		return id;</span>
+	}
+	
+	public int getUserID(Response response) {
+<span class="fc" id="L48">		List&lt;UsersJson&gt; userjson = Arrays.asList(response.getBody().as(UsersJson[].class));</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">		for (int i = 0; i &lt; userjson.size(); i++) {</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">			if (userjson.get(i).getUsername().equals(username.getUserName())) {</span>
+<span class="fc" id="L51">				id = userjson.get(i).getId();</span>
+			}
+		}
+<span class="fc" id="L54">		return id;</span>
+	}
+	
+	public void CheckDuplicate(List&lt;Integer&gt; ids) {
+<span class="fc" id="L58">		Object[] arr = ids.toArray();</span>
+<span class="fc" id="L59">		Set&lt;Integer&gt; hs = new HashSet&lt;&gt;();</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">		for (int i = 0; i &lt; arr.length; i++) {</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">			for (int j = i + 1; j &lt; arr.length; j++) {</span>
+<span class="pc bpc" id="L62" title="1 of 2 branches missed.">				if (arr[i] == arr[j]) {</span>
+<span class="nc" id="L63">					hs.add((Integer) arr[i]);</span>
+<span class="nc" id="L64">					break;</span>
+				}
+			}
+		}
+<span class="fc" id="L68">		Object[] B = hs.toArray();</span>
+<span class="pc bpc" id="L69" title="1 of 2 branches missed.">		if (B.length &gt; 0) {</span>
+<span class="nc" id="L70">			logger.info(&quot;duplicate ids are :&quot; + Arrays.toString(B));</span>
+<span class="nc" id="L71">			Assert.fail(&quot;id should be unique.&quot;);</span>
+		} else {
+<span class="fc" id="L73">			logger.info(&quot;duplicate id is not found&quot;);</span>
+		}
+<span class="fc" id="L75">	}</span>
+
+	public List&lt;Integer&gt; getAllPostIdsAndPostDetails(Response response) {
+<span class="fc" id="L78">		List&lt;Posts&gt; postJson = Arrays.asList(response.getBody().as(Posts[].class));</span>
+
+<span class="fc bfc" id="L80" title="All 2 branches covered.">		for (int i = 0; i &lt; postJson.size(); i++) {</span>
+<span class="fc" id="L81">			postIds.add(postJson.get(i).getId());</span>
+
+<span class="fc" id="L83">			String title = postJson.get(i).getTitle();</span>
+<span class="fc" id="L84">			int titleLength = title.length();</span>
+<span class="fc" id="L85">			logger.info(&quot;length of the title is :&quot; + titleLength);</span>
+<span class="fc" id="L86">			logger.info(&quot;Title of the post is :&quot; + title + &quot; and post Id id  :&quot; + postJson.get(i).getId());</span>
+
+<span class="fc" id="L88">			String body = postJson.get(i).getBody();</span>
+<span class="fc" id="L89">			int bodyLength = title.length();</span>
+
+<span class="fc" id="L91">			logger.info(&quot;length of the body is :&quot; + bodyLength);</span>
+<span class="fc" id="L92">			logger.info(&quot;Body of the post is :&quot; + body + &quot; and post Id id :&quot; + postJson.get(i).getId());</span>
+			
+		}
+<span class="fc" id="L95">		return postIds;</span>
+	}
+	
+	public List&lt;Integer&gt; getAllPostIds(Response response) {
+<span class="fc" id="L99">		List&lt;Posts&gt; postJson = Arrays.asList(response.getBody().as(Posts[].class));</span>
+<span class="fc bfc" id="L100" title="All 2 branches covered.">		for (int i = 0; i &lt; postJson.size(); i++) {</span>
+<span class="fc" id="L101">			postsId.add(postJson.get(i).getId());</span>
+			
+		}
+<span class="fc" id="L104">		return postsId;</span>
+	}
+	
+	@SuppressWarnings(&quot;static-access&quot;)
+	public void validatingComments(Response commentResponse){
+<span class="fc" id="L109">		int statusCode2 = commentResponse.getStatusCode();</span>
+<span class="fc" id="L110">		Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode2);</span>
+
+<span class="fc" id="L112">		List&lt;Comments&gt; comments = Arrays.asList(commentResponse.getBody().as(Comments[].class));</span>
+<span class="fc bfc" id="L113" title="All 2 branches covered.">		for (Comments comment : comments) {</span>
+<span class="fc" id="L114">			emailsCommentByUsers.add(comment.getEmail());</span>
+<span class="fc" id="L115">		}</span>
+<span class="fc" id="L116">		System.out.println(emailsCommentByUsers);</span>
+<span class="fc" id="L117">		emailValidators.ValidEmailTest(emailsCommentByUsers);</span>
+<span class="fc" id="L118">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

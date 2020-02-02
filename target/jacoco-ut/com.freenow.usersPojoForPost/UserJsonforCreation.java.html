@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UserJsonforCreation.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">BackendTestChallenge</a> &gt; <a href="index.source.html" class="el_package">com.freenow.usersPojoForPost</a> &gt; <span class="el_source">UserJsonforCreation.java</span></div><h1>UserJsonforCreation.java</h1><pre class="source lang-java linenums">package com.freenow.usersPojoForPost;
+
+import java.io.IOException;
+
+import org.codehaus.jackson.JsonGenerationException;
+import org.codehaus.jackson.map.JsonMappingException;
+import org.codehaus.jackson.map.ObjectMapper;
+
+<span class="fc" id="L9">public class UserJsonforCreation {</span>
+	public String userJsonData() throws JsonGenerationException, JsonMappingException, IOException {
+<span class="fc" id="L11">		Geo geo = new Geo(&quot;12.34&quot;, &quot;234.234&quot;);</span>
+<span class="fc" id="L12">		Address addr = new Address(&quot;kala lumpur&quot;, &quot;apt 312&quot;, &quot;george villa&quot;, &quot;11000939&quot;, geo);</span>
+<span class="fc" id="L13">		Company company = new Company(&quot;cronear&quot;, &quot;multi clien feature&quot;, &quot;real time market&quot;);</span>
+<span class="fc" id="L14">		UsersJson p = new UsersJson(12, &quot;namdal&quot;, &quot;fgyfg&quot;, &quot;adam@gmail.com&quot;, addr, &quot;1323413&quot;, &quot;werwer.com&quot;, company);</span>
+<span class="fc" id="L15">		ObjectMapper objMap = new ObjectMapper();</span>
+<span class="fc" id="L16">		String mydata = objMap.writerWithDefaultPrettyPrinter().writeValueAsString(p);</span>
+		
+<span class="fc" id="L18">		return mydata;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19189" started-at="2020-02-02T16:22:38 IST" finished-at="2020-02-02T16:22:57 IST">
+    <groups>
+    </groups>
+    <test name="Test Cases for users" duration-ms="7406" started-at="2020-02-02T16:22:38 IST" finished-at="2020-02-02T16:22:45 IST">
+      <class name="com.freenow.testcases.TC01_Users">
+        <test-method status="PASS" signature="verifyToGetUserID()[pri:1, instance:com.freenow.testcases.TC01_Users@4eb45fec]" name="verifyToGetUserID" duration-ms="4593" started-at="2020-02-02T16:22:38 IST" description="finding User ID id when username known" finished-at="2020-02-02T16:22:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToGetUserID -->
+        <test-method status="PASS" signature="verifyToUserEmailAddress()[pri:2, instance:com.freenow.testcases.TC01_Users@4eb45fec]" name="verifyToUserEmailAddress" duration-ms="1054" started-at="2020-02-02T16:22:43 IST" description="to verify email address is proper and Unique user Id" finished-at="2020-02-02T16:22:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToUserEmailAddress -->
+        <test-method status="PASS" signature="createNewUser()[pri:3, instance:com.freenow.testcases.TC01_Users@4eb45fec]" name="createNewUser" duration-ms="1678" started-at="2020-02-02T16:22:44 IST" description="to verify email address is proper and Unique user Id" finished-at="2020-02-02T16:22:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+      </class> <!-- com.freenow.testcases.TC01_Users -->
+    </test> <!-- Test Cases for users -->
+    <test name="Test Cases Posts" duration-ms="3514" started-at="2020-02-02T16:22:45 IST" finished-at="2020-02-02T16:22:49 IST">
+      <class name="com.freenow.testcases.TC02_Posts">
+        <test-method status="PASS" signature="verifyToGetPostIds()[pri:1, instance:com.freenow.testcases.TC02_Posts@36061cf3]" name="verifyToGetPostIds" duration-ms="1735" started-at="2020-02-02T16:22:45 IST" description="verify all post IDs and its duplication" finished-at="2020-02-02T16:22:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToGetPostIds -->
+        <test-method status="PASS" signature="createNewUser()[pri:2, instance:com.freenow.testcases.TC02_Posts@36061cf3]" name="createNewUser" duration-ms="1778" started-at="2020-02-02T16:22:47 IST" description="to create dummy post data" finished-at="2020-02-02T16:22:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+      </class> <!-- com.freenow.testcases.TC02_Posts -->
+    </test> <!-- Test Cases Posts -->
+    <test name="Test Cases" duration-ms="8228" started-at="2020-02-02T16:22:49 IST" finished-at="2020-02-02T16:22:57 IST">
+      <class name="com.freenow.testcases.TC03_Comments">
+        <test-method status="PASS" signature="verifyToGetCommentsOnUserEachPost()[pri:0, instance:com.freenow.testcases.TC03_Comments@5412bfea]" name="verifyToGetCommentsOnUserEachPost" duration-ms="8227" started-at="2020-02-02T16:22:49 IST" finished-at="2020-02-02T16:22:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToGetCommentsOnUserEachPost -->
+      </class> <!-- com.freenow.testcases.TC03_Comments -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
