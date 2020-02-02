@@ -113,7 +113,8 @@ public class CommonUtility {
 		for (Comments comment : comments) {
 			emailsCommentByUsers.add(comment.getEmail());
 		}
-		System.out.println(emailsCommentByUsers);
+		logger.info("Validating email Ids for commented users on particular comments, and the email Ids are "+emailsCommentByUsers);
 		emailValidators.ValidEmailTest(emailsCommentByUsers);
+		logger.info("Validating done for email Ids");
 	}
 }

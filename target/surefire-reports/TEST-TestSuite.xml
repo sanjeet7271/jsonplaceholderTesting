@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="21.238" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="TestSuite" time="20.653" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="D:\FreeNow\BackendTestChallenge"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter8480715870842744990.jar;C:\\Users\\sanjeetpandit\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="surefire.real.class.path" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter3545993341130920597.jar;C:\\Users\\sanjeetpandit\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\SANJEE~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter8480715870842744990.jar D:\FreeNow\BackendTestChallenge\target\surefire\surefire6010372938007456279tmp D:\FreeNow\BackendTestChallenge\target\surefire\surefire2116289622686229128tmp"/>
+    <property name="sun.java.command" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter3545993341130920597.jar D:\FreeNow\BackendTestChallenge\target\surefire\surefire2980901213304875088tmp D:\FreeNow\BackendTestChallenge\target\surefire\surefire2498464996302803688tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToGetUserID" time="4.593"/>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToUserEmailAddress" time="1.054"/>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="createNewUser" time="1.678"/>
-  <testcase classname="com.freenow.testcases.TC02_Posts" name="verifyToGetPostIds" time="1.735"/>
-  <testcase classname="com.freenow.testcases.TC02_Posts" name="createNewUser" time="1.778"/>
-  <testcase classname="com.freenow.testcases.TC03_Comments" name="verifyToGetCommentsOnUserEachPost" time="8.227"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToGetUserID" time="5.659"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToUserEmailAddress" time="0.631"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="createNewUser" time="1.844"/>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="verifyToGetPostIds" time="1.352"/>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="createNewUser" time="1.439"/>
+  <testcase classname="com.freenow.testcases.TC03_Comments" name="verifyToGetCommentsOnUserEachPost" time="7.412"/>
 </testsuite>

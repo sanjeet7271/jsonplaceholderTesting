@@ -1,352 +1,162 @@
-2020-02-02 16:01:39 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:01:39 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:01:39 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:01:39 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:01:39 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :39
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :39
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
-impedit ut qui consequatur sed aut in
-quidem sit nostrum et maiores adipisci atque
-quaerat voluptatem adipisci repudiandae and post Id id :31
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :29
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :29
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :deserunt eos nobis asperiores et hic
-est debitis repellat molestiae optio
-nihil ratione ut eos beatae quibusdam distinctio maiores
-earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :31
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :31
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :rerum ut et numquam laborum odit est sit
-id qui sint in
-quasi tenetur tempore aperiam et quaerat qui in
-rerum officiis sequi cumque quod and post Id id :33
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :20
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :magnam ut rerum iure and post Id id  :34
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :20
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
-totam pariatur in
-nemo voluptatem voluptatem autem magni tempora minima in
-est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :46
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :46
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :nisi error delectus possimus ut eligendi vitae
-placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
-modi ducimus quo illum voluptas eligendi
-et nobis quia fugit and post Id id :35
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :45
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :45
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :ad mollitia et omnis minus architecto odit
-voluptas doloremque maxime aut non ipsa qui alias veniam
-blanditiis culpa aut quia nihil cumque facere et occaecati
-qui aspernatur quia eaque ut aperiam inventore and post Id id :36
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :32
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :32
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
-voluptatem iste vero et ea
-numquam aut expedita ipsum nulla in
-voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :51
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :51
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
-quia voluptatibus provident quia necessitatibus ea
-rerum repudiandae quia voluptatem delectus fugit aut id quia
-ratione optio eos iusto veniam iure and post Id id :38
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :43
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :43
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :corporis rerum ducimus vel eum accusantium
-maxime aspernatur a porro possimus iste omnis
-est in deleniti asperiores fuga aut
-voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
-2020-02-02 16:01:40 INFO  CommonUtility:85 - length of the title is :15
-2020-02-02 16:01:40 INFO  CommonUtility:86 - Title of the post is :enim quo cumque and post Id id  :40
-2020-02-02 16:01:40 INFO  CommonUtility:91 - length of the body is :15
-2020-02-02 16:01:40 INFO  CommonUtility:92 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
-ipsum rem optio mollitia quas
-voluptatem eum voluptas qui
-unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
-2020-02-02 16:01:40 ERROR TC02_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-2020-02-02 16:01:40 ERROR TC02_Posts:39 - Validating duplicate Post ID
-2020-02-02 16:01:40 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:02:02 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:02:02 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:02:02 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:02:02 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:02:02 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:02:03 INFO  TC01_Users:55 - Storing email address to list
-2020-02-02 16:02:03 INFO  TC01_Users:61 - checking user id is duplicate or not.
-2020-02-02 16:02:03 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:02:03 INFO  TC01_Users:64 - email validation for users is started.
-2020-02-02 16:02:03 INFO  TC01_Users:66 - email validation for users is successfully done
-2020-02-02 16:04:13 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:04:13 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:04:13 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:04:13 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:04:13 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:04:14 INFO  TC01_Users:55 - Storing email address to list
-2020-02-02 16:04:14 INFO  TC01_Users:61 - checking user id is duplicate or not.
-2020-02-02 16:04:14 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:04:14 INFO  TC01_Users:64 - email validation for users is started.
-2020-02-02 16:04:14 INFO  TC01_Users:66 - email validation for users is successfully done
-2020-02-02 16:04:16 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:04:16 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:04:16 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:04:16 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:04:16 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :39
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :39
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
-impedit ut qui consequatur sed aut in
-quidem sit nostrum et maiores adipisci atque
-quaerat voluptatem adipisci repudiandae and post Id id :31
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :29
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :29
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :deserunt eos nobis asperiores et hic
-est debitis repellat molestiae optio
-nihil ratione ut eos beatae quibusdam distinctio maiores
-earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :31
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :31
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :rerum ut et numquam laborum odit est sit
-id qui sint in
-quasi tenetur tempore aperiam et quaerat qui in
-rerum officiis sequi cumque quod and post Id id :33
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :20
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :magnam ut rerum iure and post Id id  :34
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :20
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
-totam pariatur in
-nemo voluptatem voluptatem autem magni tempora minima in
-est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :46
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :46
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :nisi error delectus possimus ut eligendi vitae
-placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
-modi ducimus quo illum voluptas eligendi
-et nobis quia fugit and post Id id :35
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :45
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :45
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :ad mollitia et omnis minus architecto odit
-voluptas doloremque maxime aut non ipsa qui alias veniam
-blanditiis culpa aut quia nihil cumque facere et occaecati
-qui aspernatur quia eaque ut aperiam inventore and post Id id :36
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :32
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :32
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
-voluptatem iste vero et ea
-numquam aut expedita ipsum nulla in
-voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :51
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :51
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
-quia voluptatibus provident quia necessitatibus ea
-rerum repudiandae quia voluptatem delectus fugit aut id quia
-ratione optio eos iusto veniam iure and post Id id :38
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :43
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :43
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :corporis rerum ducimus vel eum accusantium
-maxime aspernatur a porro possimus iste omnis
-est in deleniti asperiores fuga aut
-voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
-2020-02-02 16:04:17 INFO  CommonUtility:85 - length of the title is :15
-2020-02-02 16:04:17 INFO  CommonUtility:86 - Title of the post is :enim quo cumque and post Id id  :40
-2020-02-02 16:04:17 INFO  CommonUtility:91 - length of the body is :15
-2020-02-02 16:04:17 INFO  CommonUtility:92 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
-ipsum rem optio mollitia quas
-voluptatem eum voluptas qui
-unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
-2020-02-02 16:04:17 ERROR TC02_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-2020-02-02 16:04:17 ERROR TC02_Posts:39 - Validating duplicate Post ID
-2020-02-02 16:04:17 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:20:04 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:20:04 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:20:04 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:20:04 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:20:04 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:20:05 INFO  TC01_Users:55 - Storing email address to list
-2020-02-02 16:20:05 INFO  TC01_Users:61 - checking user id is duplicate or not.
-2020-02-02 16:20:05 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:20:05 INFO  TC01_Users:64 - email validation for users is started.
-2020-02-02 16:20:05 INFO  TC01_Users:66 - email validation for users is successfully done
-2020-02-02 16:20:10 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:20:10 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:20:10 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:20:10 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:20:10 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :39
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :39
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
-impedit ut qui consequatur sed aut in
-quidem sit nostrum et maiores adipisci atque
-quaerat voluptatem adipisci repudiandae and post Id id :31
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :29
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :29
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :deserunt eos nobis asperiores et hic
-est debitis repellat molestiae optio
-nihil ratione ut eos beatae quibusdam distinctio maiores
-earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :31
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :31
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :rerum ut et numquam laborum odit est sit
-id qui sint in
-quasi tenetur tempore aperiam et quaerat qui in
-rerum officiis sequi cumque quod and post Id id :33
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :20
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :magnam ut rerum iure and post Id id  :34
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :20
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
-totam pariatur in
-nemo voluptatem voluptatem autem magni tempora minima in
-est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :46
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :46
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :nisi error delectus possimus ut eligendi vitae
-placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
-modi ducimus quo illum voluptas eligendi
-et nobis quia fugit and post Id id :35
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :45
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :45
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :ad mollitia et omnis minus architecto odit
-voluptas doloremque maxime aut non ipsa qui alias veniam
-blanditiis culpa aut quia nihil cumque facere et occaecati
-qui aspernatur quia eaque ut aperiam inventore and post Id id :36
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :32
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :32
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
-voluptatem iste vero et ea
-numquam aut expedita ipsum nulla in
-voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :51
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :51
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
-quia voluptatibus provident quia necessitatibus ea
-rerum repudiandae quia voluptatem delectus fugit aut id quia
-ratione optio eos iusto veniam iure and post Id id :38
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :43
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :43
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :corporis rerum ducimus vel eum accusantium
-maxime aspernatur a porro possimus iste omnis
-est in deleniti asperiores fuga aut
-voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
-2020-02-02 16:20:11 INFO  CommonUtility:85 - length of the title is :15
-2020-02-02 16:20:11 INFO  CommonUtility:86 - Title of the post is :enim quo cumque and post Id id  :40
-2020-02-02 16:20:11 INFO  CommonUtility:91 - length of the body is :15
-2020-02-02 16:20:11 INFO  CommonUtility:92 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
-ipsum rem optio mollitia quas
-voluptatem eum voluptas qui
-unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
-2020-02-02 16:20:11 ERROR TC02_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-2020-02-02 16:20:11 ERROR TC02_Posts:39 - Validating duplicate Post ID
-2020-02-02 16:20:11 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:22:42 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:22:43 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:22:43 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:22:43 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:22:43 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:22:44 INFO  TC01_Users:55 - Storing email address to list
-2020-02-02 16:22:44 INFO  TC01_Users:61 - checking user id is duplicate or not.
-2020-02-02 16:22:44 INFO  CommonUtility:73 - duplicate id is not found
-2020-02-02 16:22:44 INFO  TC01_Users:64 - email validation for users is started.
-2020-02-02 16:22:44 INFO  TC01_Users:66 - email validation for users is successfully done
-2020-02-02 16:22:46 INFO  CommonUtility:31 - Test case starts..
-2020-02-02 16:22:46 INFO  CommonUtility:33 - Total 10 users present int the user list
-2020-02-02 16:22:46 INFO  CommonUtility:38 - Test case starts for :Karianne
-2020-02-02 16:22:46 INFO  CommonUtility:40 - User id for username Karianne is 4
-2020-02-02 16:22:46 INFO  CommonUtility:43 - Test case finished..
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :39
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :ullam ut quidem id aut vel consequuntur and post Id id  :31
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :39
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :debitis eius sed quibusdam non quis consectetur vitae
-impedit ut qui consequatur sed aut in
-quidem sit nostrum et maiores adipisci atque
-quaerat voluptatem adipisci repudiandae and post Id id :31
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :29
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :doloremque illum aliquid sunt and post Id id  :32
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :29
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :deserunt eos nobis asperiores et hic
-est debitis repellat molestiae optio
-nihil ratione ut eos beatae quibusdam distinctio maiores
-earum voluptates et aut adipisci ea maiores voluptas maxime and post Id id :32
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :31
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :qui explicabo molestiae dolorem and post Id id  :33
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :31
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :rerum ut et numquam laborum odit est sit
-id qui sint in
-quasi tenetur tempore aperiam et quaerat qui in
-rerum officiis sequi cumque quod and post Id id :33
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :20
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :magnam ut rerum iure and post Id id  :34
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :20
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :ea velit perferendis earum ut voluptatem voluptate itaque iusto
-totam pariatur in
-nemo voluptatem voluptatem autem magni tempora minima in
-est distinctio qui assumenda accusamus dignissimos officia nesciunt nobis and post Id id :34
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :46
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :id nihil consequatur molestias animi provident and post Id id  :35
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :46
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :nisi error delectus possimus ut eligendi vitae
-placeat eos harum cupiditate facilis reprehenderit voluptatem beatae
-modi ducimus quo illum voluptas eligendi
-et nobis quia fugit and post Id id :35
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :45
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :fuga nam accusamus voluptas reiciendis itaque and post Id id  :36
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :45
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :ad mollitia et omnis minus architecto odit
-voluptas doloremque maxime aut non ipsa qui alias veniam
-blanditiis culpa aut quia nihil cumque facere et occaecati
-qui aspernatur quia eaque ut aperiam inventore and post Id id :36
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :32
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :provident vel ut sit ratione est and post Id id  :37
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :32
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :debitis et eaque non officia sed nesciunt pariatur vel
-voluptatem iste vero et ea
-numquam aut expedita ipsum nulla in
-voluptates omnis consequatur aut enim officiis in quam qui and post Id id :37
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :51
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :explicabo et eos deleniti nostrum ab id repellendus and post Id id  :38
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :51
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :animi esse sit aut sit nesciunt assumenda eum voluptas
-quia voluptatibus provident quia necessitatibus ea
-rerum repudiandae quia voluptatem delectus fugit aut id quia
-ratione optio eos iusto veniam iure and post Id id :38
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :43
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :eos dolorem iste accusantium est eaque quam and post Id id  :39
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :43
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :corporis rerum ducimus vel eum accusantium
-maxime aspernatur a porro possimus iste omnis
-est in deleniti asperiores fuga aut
-voluptas sapiente vel dolore minus voluptatem incidunt ex and post Id id :39
-2020-02-02 16:22:47 INFO  CommonUtility:85 - length of the title is :15
-2020-02-02 16:22:47 INFO  CommonUtility:86 - Title of the post is :enim quo cumque and post Id id  :40
-2020-02-02 16:22:47 INFO  CommonUtility:91 - length of the body is :15
-2020-02-02 16:22:47 INFO  CommonUtility:92 - Body of the post is :ut voluptatum aliquid illo tenetur nemo sequi quo facilis
-ipsum rem optio mollitia quas
-voluptatem eum voluptas qui
-unde omnis voluptatem iure quasi maxime voluptas nam and post Id id :40
-2020-02-02 16:22:47 ERROR TC02_Posts:38 - Post IDs are :[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
-2020-02-02 16:22:47 ERROR TC02_Posts:39 - Validating duplicate Post ID
-2020-02-02 16:22:47 INFO  CommonUtility:73 - duplicate id is not found
+2020-02-02 16:57:37 INFO  TC03_Comments:34 - getting user id for the corresponding username
+2020-02-02 16:57:41 INFO  TC03_Comments:40 - Recieved user id for the corresponding username 3
+2020-02-02 16:57:41 INFO  TC03_Comments:41 - getting post ids for the corresponding user Id
+2020-02-02 16:58:12 INFO  TC03_Comments:47 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 16:58:13 INFO  TC03_Comments:52 - comments validation starts for the post id 21
+2020-02-02 16:58:13 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Lura@rod.tv, Lottie.Zieme@ruben.us, Winona_Price@jevon.me, Gabriel@oceane.biz, Adolph.Ondricka@mozell.co.uk]
+2020-02-02 16:58:13 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:13 INFO  TC03_Comments:52 - comments validation starts for the post id 22
+2020-02-02 16:58:13 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Allen@richard.biz, Nicholaus@mikayla.ca, Kayla@susanna.org, Gideon@amina.name, Cassidy@maribel.io]
+2020-02-02 16:58:13 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:14 INFO  TC03_Comments:52 - comments validation starts for the post id 23
+2020-02-02 16:58:14 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Stefan.Crist@duane.ca, Aniyah.Ortiz@monte.me, Laverna@rico.biz, Derek@hildegard.net, Tyrell@abdullah.ca]
+2020-02-02 16:58:14 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:14 INFO  TC03_Comments:52 - comments validation starts for the post id 24
+2020-02-02 16:58:14 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Reyes@hailey.name, Danika.Dicki@mekhi.biz, Alessandra.Nitzsche@stephania.us, Matteo@marquis.net, Joshua.Spinka@toby.io]
+2020-02-02 16:58:14 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:15 INFO  TC03_Comments:52 - comments validation starts for the post id 25
+2020-02-02 16:58:15 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Annabelle@cole.com, Kacey@jamal.info, Mina@mallie.name, Hudson.Blick@ruben.biz, Domenic.Durgan@joaquin.name]
+2020-02-02 16:58:15 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:16 INFO  TC03_Comments:52 - comments validation starts for the post id 26
+2020-02-02 16:58:16 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Alexie@alayna.org, Haven_Barrows@brant.org, Marianne@maximo.us, Fanny@danial.com, Trevion_Kuphal@bernice.name]
+2020-02-02 16:58:16 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:16 INFO  TC03_Comments:52 - comments validation starts for the post id 27
+2020-02-02 16:58:16 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Emmet@guy.biz, Megane.Fritsch@claude.name, Amya@durward.ca, Jasen_Rempel@willis.org, Harmony@reggie.com]
+2020-02-02 16:58:16 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:17 INFO  TC03_Comments:52 - comments validation starts for the post id 28
+2020-02-02 16:58:17 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Rosanna_Kunze@guy.net, Ressie.Boehm@flossie.com, Domenic.Wuckert@jazmyne.us, Rhett.OKon@brian.info, Mathias@richmond.info]
+2020-02-02 16:58:17 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:18 INFO  TC03_Comments:52 - comments validation starts for the post id 29
+2020-02-02 16:58:18 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Ottis@lourdes.org, Estel@newton.ca, Bertha@erik.co.uk, Joesph@matteo.info, Alva@cassandre.net]
+2020-02-02 16:58:18 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 16:58:18 INFO  TC03_Comments:52 - comments validation starts for the post id 30
+2020-02-02 16:58:18 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Vivienne@willis.org, Angelita@aliza.me, Timmothy_Okuneva@alyce.tv, Moriah_Welch@richmond.org, Ramiro_Kuhn@harmon.biz]
+2020-02-02 16:58:18 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:09:54 INFO  TC03_Comments:68 - getting user id for the corresponding username
+2020-02-02 22:10:03 INFO  TC03_Comments:74 - Recieved user id for the corresponding username 3
+2020-02-02 22:10:03 INFO  TC03_Comments:75 - getting post ids for the corresponding user Id
+2020-02-02 22:10:04 INFO  TC03_Comments:81 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:12:51 INFO  TC03_Comments:68 - getting user id for the corresponding username
+2020-02-02 22:12:58 INFO  TC03_Comments:74 - Recieved user id for the corresponding username 3
+2020-02-02 22:12:58 INFO  TC03_Comments:75 - getting post ids for the corresponding user Id
+2020-02-02 22:12:59 INFO  TC03_Comments:81 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:17:17 INFO  TC03_Comments:68 - getting user id for the corresponding username
+2020-02-02 22:17:24 INFO  TC03_Comments:74 - Recieved user id for the corresponding username 3
+2020-02-02 22:17:24 INFO  TC03_Comments:75 - getting post ids for the corresponding user Id
+2020-02-02 22:17:25 INFO  TC03_Comments:81 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:21:18 INFO  TC03_Comments:35 - getting user id for the corresponding username
+2020-02-02 22:21:24 INFO  TC03_Comments:41 - Recieved user id for the corresponding username 3
+2020-02-02 22:21:24 INFO  TC03_Comments:42 - getting post ids for the corresponding user Id
+2020-02-02 22:21:25 INFO  TC03_Comments:48 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:21:27 INFO  TC03_Comments:53 - comments validation starts for the post id 21
+2020-02-02 22:21:27 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Lura@rod.tv, Lottie.Zieme@ruben.us, Winona_Price@jevon.me, Gabriel@oceane.biz, Adolph.Ondricka@mozell.co.uk]
+2020-02-02 22:21:27 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:29 INFO  TC03_Comments:53 - comments validation starts for the post id 22
+2020-02-02 22:21:29 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Allen@richard.biz, Nicholaus@mikayla.ca, Kayla@susanna.org, Gideon@amina.name, Cassidy@maribel.io]
+2020-02-02 22:21:29 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:33 INFO  TC03_Comments:53 - comments validation starts for the post id 23
+2020-02-02 22:21:33 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Stefan.Crist@duane.ca, Aniyah.Ortiz@monte.me, Laverna@rico.biz, Derek@hildegard.net, Tyrell@abdullah.ca]
+2020-02-02 22:21:33 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:36 INFO  TC03_Comments:53 - comments validation starts for the post id 24
+2020-02-02 22:21:36 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Reyes@hailey.name, Danika.Dicki@mekhi.biz, Alessandra.Nitzsche@stephania.us, Matteo@marquis.net, Joshua.Spinka@toby.io]
+2020-02-02 22:21:36 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:37 INFO  TC03_Comments:53 - comments validation starts for the post id 25
+2020-02-02 22:21:37 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Annabelle@cole.com, Kacey@jamal.info, Mina@mallie.name, Hudson.Blick@ruben.biz, Domenic.Durgan@joaquin.name]
+2020-02-02 22:21:37 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:41 INFO  TC03_Comments:53 - comments validation starts for the post id 26
+2020-02-02 22:21:41 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Alexie@alayna.org, Haven_Barrows@brant.org, Marianne@maximo.us, Fanny@danial.com, Trevion_Kuphal@bernice.name]
+2020-02-02 22:21:41 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:44 INFO  TC03_Comments:53 - comments validation starts for the post id 27
+2020-02-02 22:21:44 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Emmet@guy.biz, Megane.Fritsch@claude.name, Amya@durward.ca, Jasen_Rempel@willis.org, Harmony@reggie.com]
+2020-02-02 22:21:44 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:46 INFO  TC03_Comments:53 - comments validation starts for the post id 28
+2020-02-02 22:21:46 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Rosanna_Kunze@guy.net, Ressie.Boehm@flossie.com, Domenic.Wuckert@jazmyne.us, Rhett.OKon@brian.info, Mathias@richmond.info]
+2020-02-02 22:21:46 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:49 INFO  TC03_Comments:53 - comments validation starts for the post id 29
+2020-02-02 22:21:49 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Ottis@lourdes.org, Estel@newton.ca, Bertha@erik.co.uk, Joesph@matteo.info, Alva@cassandre.net]
+2020-02-02 22:21:49 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:55 INFO  TC03_Comments:53 - comments validation starts for the post id 30
+2020-02-02 22:21:55 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Vivienne@willis.org, Angelita@aliza.me, Timmothy_Okuneva@alyce.tv, Moriah_Welch@richmond.org, Ramiro_Kuhn@harmon.biz]
+2020-02-02 22:21:55 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:21:55 INFO  TC03_Comments:67 - getting user id for the corresponding username
+2020-02-02 22:21:56 INFO  TC03_Comments:73 - Recieved user id for the corresponding username 3
+2020-02-02 22:21:56 INFO  TC03_Comments:74 - getting post ids for the corresponding user Id
+2020-02-02 22:21:57 INFO  TC03_Comments:80 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:25:02 INFO  TC03_Comments:35 - getting user id for the corresponding username
+2020-02-02 22:25:10 INFO  TC03_Comments:41 - Recieved user id for the corresponding username 3
+2020-02-02 22:25:10 INFO  TC03_Comments:42 - getting post ids for the corresponding user Id
+2020-02-02 22:25:11 INFO  TC03_Comments:48 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:25:11 INFO  TC03_Comments:53 - comments validation starts for the post id 21
+2020-02-02 22:25:11 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Lura@rod.tv, Lottie.Zieme@ruben.us, Winona_Price@jevon.me, Gabriel@oceane.biz, Adolph.Ondricka@mozell.co.uk]
+2020-02-02 22:25:11 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:12 INFO  TC03_Comments:53 - comments validation starts for the post id 22
+2020-02-02 22:25:12 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Allen@richard.biz, Nicholaus@mikayla.ca, Kayla@susanna.org, Gideon@amina.name, Cassidy@maribel.io]
+2020-02-02 22:25:12 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:13 INFO  TC03_Comments:53 - comments validation starts for the post id 23
+2020-02-02 22:25:13 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Stefan.Crist@duane.ca, Aniyah.Ortiz@monte.me, Laverna@rico.biz, Derek@hildegard.net, Tyrell@abdullah.ca]
+2020-02-02 22:25:13 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:14 INFO  TC03_Comments:53 - comments validation starts for the post id 24
+2020-02-02 22:25:14 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Reyes@hailey.name, Danika.Dicki@mekhi.biz, Alessandra.Nitzsche@stephania.us, Matteo@marquis.net, Joshua.Spinka@toby.io]
+2020-02-02 22:25:14 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:15 INFO  TC03_Comments:53 - comments validation starts for the post id 25
+2020-02-02 22:25:15 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Annabelle@cole.com, Kacey@jamal.info, Mina@mallie.name, Hudson.Blick@ruben.biz, Domenic.Durgan@joaquin.name]
+2020-02-02 22:25:15 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:16 INFO  TC03_Comments:53 - comments validation starts for the post id 26
+2020-02-02 22:25:16 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Alexie@alayna.org, Haven_Barrows@brant.org, Marianne@maximo.us, Fanny@danial.com, Trevion_Kuphal@bernice.name]
+2020-02-02 22:25:16 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:16 INFO  TC03_Comments:53 - comments validation starts for the post id 27
+2020-02-02 22:25:16 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Emmet@guy.biz, Megane.Fritsch@claude.name, Amya@durward.ca, Jasen_Rempel@willis.org, Harmony@reggie.com]
+2020-02-02 22:25:16 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:17 INFO  TC03_Comments:53 - comments validation starts for the post id 28
+2020-02-02 22:25:17 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Rosanna_Kunze@guy.net, Ressie.Boehm@flossie.com, Domenic.Wuckert@jazmyne.us, Rhett.OKon@brian.info, Mathias@richmond.info]
+2020-02-02 22:25:17 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:18 INFO  TC03_Comments:53 - comments validation starts for the post id 29
+2020-02-02 22:25:18 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Ottis@lourdes.org, Estel@newton.ca, Bertha@erik.co.uk, Joesph@matteo.info, Alva@cassandre.net]
+2020-02-02 22:25:18 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:19 INFO  TC03_Comments:53 - comments validation starts for the post id 30
+2020-02-02 22:25:19 INFO  CommonUtility:116 - Validating email Ids for commented users on particular comments, and the email Ids are [Vivienne@willis.org, Angelita@aliza.me, Timmothy_Okuneva@alyce.tv, Moriah_Welch@richmond.org, Ramiro_Kuhn@harmon.biz]
+2020-02-02 22:25:19 INFO  CommonUtility:118 - Validating done for email Ids
+2020-02-02 22:25:19 INFO  TC03_Comments:67 - getting user id for the corresponding username
+2020-02-02 22:25:20 INFO  TC03_Comments:73 - Recieved user id for the corresponding username 3
+2020-02-02 22:25:20 INFO  TC03_Comments:74 - getting post ids for the corresponding user Id
+2020-02-02 22:25:21 INFO  TC03_Comments:80 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-02 22:25:21 INFO  TC03_Comments:83 - Creating comment for the post 21
+2020-02-02 22:25:23 INFO  TC03_Comments:89 - made comment for the post 21 is successful
+2020-02-02 22:25:23 INFO  TC03_Comments:83 - Creating comment for the post 22
+2020-02-02 22:25:25 INFO  TC03_Comments:89 - made comment for the post 22 is successful
+2020-02-02 22:25:25 INFO  TC03_Comments:83 - Creating comment for the post 23
+2020-02-02 22:25:26 INFO  TC03_Comments:89 - made comment for the post 23 is successful
+2020-02-02 22:25:26 INFO  TC03_Comments:83 - Creating comment for the post 24
+2020-02-02 22:25:28 INFO  TC03_Comments:89 - made comment for the post 24 is successful
+2020-02-02 22:25:28 INFO  TC03_Comments:83 - Creating comment for the post 25
+2020-02-02 22:25:30 INFO  TC03_Comments:89 - made comment for the post 25 is successful
+2020-02-02 22:25:30 INFO  TC03_Comments:83 - Creating comment for the post 26
+2020-02-02 22:25:31 INFO  TC03_Comments:89 - made comment for the post 26 is successful
+2020-02-02 22:25:31 INFO  TC03_Comments:83 - Creating comment for the post 27
+2020-02-02 22:25:33 INFO  TC03_Comments:89 - made comment for the post 27 is successful
+2020-02-02 22:25:33 INFO  TC03_Comments:83 - Creating comment for the post 28
+2020-02-02 22:25:34 INFO  TC03_Comments:89 - made comment for the post 28 is successful
+2020-02-02 22:25:34 INFO  TC03_Comments:83 - Creating comment for the post 29
+2020-02-02 22:25:36 INFO  TC03_Comments:89 - made comment for the post 29 is successful
+2020-02-02 22:25:36 INFO  TC03_Comments:83 - Creating comment for the post 30
+2020-02-02 22:25:38 INFO  TC03_Comments:89 - made comment for the post 30 is successful
+2020-02-02 22:25:38 INFO  TC03_Comments:83 - Creating comment for the post 21
+2020-02-02 22:25:39 INFO  TC03_Comments:89 - made comment for the post 21 is successful
+2020-02-02 22:25:39 INFO  TC03_Comments:83 - Creating comment for the post 22
+2020-02-02 22:25:42 INFO  TC03_Comments:89 - made comment for the post 22 is successful
+2020-02-02 22:25:42 INFO  TC03_Comments:83 - Creating comment for the post 23
+2020-02-02 22:25:43 INFO  TC03_Comments:89 - made comment for the post 23 is successful
+2020-02-02 22:25:43 INFO  TC03_Comments:83 - Creating comment for the post 24
+2020-02-02 22:25:45 INFO  TC03_Comments:89 - made comment for the post 24 is successful
+2020-02-02 22:25:45 INFO  TC03_Comments:83 - Creating comment for the post 25
+2020-02-02 22:25:47 INFO  TC03_Comments:89 - made comment for the post 25 is successful
+2020-02-02 22:25:47 INFO  TC03_Comments:83 - Creating comment for the post 26
+2020-02-02 22:25:49 INFO  TC03_Comments:89 - made comment for the post 26 is successful
+2020-02-02 22:25:49 INFO  TC03_Comments:83 - Creating comment for the post 27
+2020-02-02 22:25:51 INFO  TC03_Comments:89 - made comment for the post 27 is successful
+2020-02-02 22:25:51 INFO  TC03_Comments:83 - Creating comment for the post 28
+2020-02-02 22:25:52 INFO  TC03_Comments:89 - made comment for the post 28 is successful
+2020-02-02 22:25:52 INFO  TC03_Comments:83 - Creating comment for the post 29
+2020-02-02 22:25:54 INFO  TC03_Comments:89 - made comment for the post 29 is successful
+2020-02-02 22:25:54 INFO  TC03_Comments:83 - Creating comment for the post 30
+2020-02-02 22:25:55 INFO  TC03_Comments:89 - made comment for the post 30 is successful

@@ -16,7 +16,7 @@ public class RestAssuredMethodsCall {
 		switch (requestType) {
 		case HttpMethods.GET:
 			RestAssured.baseURI = resource.getBaseURI();
-			response = RestAssured.given().when().get(request).then().extract().response();
+			response = RestAssured.given().log().all().when().get(request).then().extract().response();
 			break;
 
 		case HttpMethods.GET_WITH_QUERYPARAM:
@@ -30,7 +30,11 @@ public class RestAssuredMethodsCall {
 			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON)
 					.when().post(request).then().extract().response();
 			break;
-
+		case HttpMethods.POST_WITH_QUERYPARAM:
+			RestAssured.baseURI = resource.getBaseURI();
+			response = RestAssured.given().queryParam(queryParam, id).body(entityString).log().all().contentType(ContentType.JSON)
+					.when().post(request).then().extract().response();
+			break;
 		case HttpMethods.PUT:
 			// TO DO
 			break;
