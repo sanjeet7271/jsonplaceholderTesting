@@ -1,6 +1,6 @@
 package com.freenow.constants;
 
-public class httpStatusCodes {
+public class HttpStatusCodes {
 	
 	public static int RESPONSE_STATUS_CODE_200 = 200;
 	public static int RESPONSE_STATUS_CODE_201 = 201;

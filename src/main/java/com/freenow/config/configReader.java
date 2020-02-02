@@ -7,15 +7,15 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
-public class configReader {
+public class ConfigReader {
 	
 	public Properties prop;
 	public String baseURL;
 	String getbaseURI;
 	FileInputStream input = null;
 	
-	public static Logger logger = Logger.getLogger(configReader.class);
-	public configReader(){
+	public static Logger logger = Logger.getLogger(ConfigReader.class);
+	public ConfigReader(){
 		configurationReader();
 	}
 	

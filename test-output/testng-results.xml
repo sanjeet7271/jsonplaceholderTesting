@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4898" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:31:00Z">
+  <suite name="Default suite" duration-ms="7960" started-at="2020-02-02T04:39:41Z" finished-at="2020-02-02T04:39:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4898" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:31:00Z">
-      <class name="com.freenow.testcases.TC01_Posts">
-        <test-method status="PASS" signature="verifyToGetUserID()[pri:0, instance:com.freenow.testcases.TC01_Posts@a67c67e]" name="verifyToGetUserID" duration-ms="3560" started-at="2020-02-01T16:30:55Z" finished-at="2020-02-01T16:30:58Z">
+    <test name="Default test" duration-ms="7960" started-at="2020-02-02T04:39:41Z" finished-at="2020-02-02T04:39:49Z">
+      <class name="com.freenow.testcases.TC01_Users">
+        <test-method status="PASS" signature="verifyToGetUserID()[pri:1, instance:com.freenow.testcases.TC01_Users@a67c67e]" name="verifyToGetUserID" duration-ms="7257" started-at="2020-02-02T04:39:41Z" description="finding User ID id when username known" finished-at="2020-02-02T04:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyToGetUserID -->
-        <test-method status="PASS" signature="verifyToGetPostIds()[pri:0, instance:com.freenow.testcases.TC01_Posts@a67c67e]" name="verifyToGetPostIds" duration-ms="1313" started-at="2020-02-01T16:30:58Z" depends-on-methods="com.freenow.testcases.TC01_Posts.verifyToGetUserID" finished-at="2020-02-01T16:31:00Z">
+        <test-method status="PASS" signature="verifyToUserEmailAddress()[pri:2, instance:com.freenow.testcases.TC01_Users@a67c67e]" name="verifyToUserEmailAddress" duration-ms="645" started-at="2020-02-02T04:39:49Z" description="to verify email address is proper and Unique user Id" finished-at="2020-02-02T04:39:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyToGetPostIds -->
-      </class> <!-- com.freenow.testcases.TC01_Posts -->
+        </test-method> <!-- verifyToUserEmailAddress -->
+      </class> <!-- com.freenow.testcases.TC01_Users -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

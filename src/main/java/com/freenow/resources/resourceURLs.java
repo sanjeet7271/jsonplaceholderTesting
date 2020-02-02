@@ -1,15 +1,15 @@
 package com.freenow.resources;
 
-import com.freenow.config.configReader;
+import com.freenow.config.ConfigReader;
 
-public class resourceURLs extends configReader{
+public class ResourceURLs extends ConfigReader{
 
 	private String getbaseURI;
 	private String getUsers;
 	private String getPosts;
 	private String getComments;
 
-	public resourceURLs() {
+	public ResourceURLs() {
 		setConfig();
 	}
 

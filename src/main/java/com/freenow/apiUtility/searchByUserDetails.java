@@ -1,8 +1,8 @@
 package com.freenow.apiUtility;
 
-import com.freenow.config.configReader;
+import com.freenow.config.ConfigReader;
 
-public class searchByUserDetails extends configReader{
+public class SearchByUserDetails extends ConfigReader{
 	
 	/*@SuppressWarnings("deprecation")
 	private void searchByUniqueSignature() {

@@ -1,41 +1,45 @@
 package com.freenow.restassuredmethods;
 
-import com.freenow.constants.httpMethods;
-import com.freenow.resources.resourceURLs;
+import com.freenow.constants.HttpMethods;
+import com.freenow.resources.ResourceURLs;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class restAssuredMethodsCall {
-	resourceURLs resource = new resourceURLs();
+public class RestAssuredMethodsCall {
+	ResourceURLs resource = new ResourceURLs();
 	Response response = null;
-	
-	public Response restAssuredCalls(String requestType, String request, String id, String queryParam) {
-		
+
+	public Response restAssuredCalls(String requestType,String entityString, String request, String id, String queryParam) {
+
 		switch (requestType) {
-		case httpMethods.GET:
+		case HttpMethods.GET:
 			RestAssured.baseURI = resource.getBaseURI();
 			response = RestAssured.given().when().get(request).then().extract().response();
 			break;
-			
-		case httpMethods.GET_WITH_QUERYPARAM:
+
+		case HttpMethods.GET_WITH_QUERYPARAM:
 			RestAssured.baseURI = resource.getBaseURI();
-			response = RestAssured.given().queryParam(queryParam, id).log().all().when().get(request).then().extract().response();
+			response = RestAssured.given().queryParam(queryParam, id).log().all().when().get(request).then().extract()
+					.response();
 			break;
-			
-		case httpMethods.POST:
+
+		case HttpMethods.POST:
+			RestAssured.baseURI = resource.getBaseURI();
+			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON).log().all()
+					.when().post().then().extract().response();
+			break;
+
+		case HttpMethods.PUT:
 			// TO DO
 			break;
 
-		case httpMethods.PUT:
+		case HttpMethods.PATCH:
 			// TO DO
 			break;
 
-		case httpMethods.PATCH:
-			// TO DO
-			break;
-
-		case httpMethods.DEFAULT:
+		case HttpMethods.DEFAULT:
 			// TO DO
 			break;
 

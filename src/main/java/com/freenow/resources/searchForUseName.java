@@ -1,11 +1,11 @@
 package com.freenow.resources;
 
-import com.freenow.config.configReader;
+import com.freenow.config.ConfigReader;
 
-public class searchForUseName extends configReader{
+public class SearchForUseName extends ConfigReader{
 String userName, queryParamForUserId, queryParamForPostId;
 	
-	public searchForUseName() {
+	public SearchForUseName() {
 		setConfig();
 	}
 

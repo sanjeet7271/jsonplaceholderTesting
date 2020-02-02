@@ -1,6 +1,6 @@
 package com.freenow.constants;
 
-public class httpMethods {
+public class HttpMethods {
 
 	public static final String GET = "get";
 	public static final String GET_WITH_QUERYPARAM = "get with query parameters";
