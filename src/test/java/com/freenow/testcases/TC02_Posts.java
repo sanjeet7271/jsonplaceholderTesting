@@ -14,15 +14,15 @@ import com.freenow.restassuredmethods.RestAssuredMethodsCall;
 
 import io.restassured.response.Response;
 
-public class TC01_Posts {
+public class TC02_Posts {
 	ResourceURLs resources = new ResourceURLs();
-	public static Logger logger = Logger.getLogger(TC01_Posts.class);
+	public static Logger logger = Logger.getLogger(TC02_Posts.class);
 	Response response;
 	RestAssuredMethodsCall rest = new RestAssuredMethodsCall();
 	ParametersForUserAndPost queryParam = new ParametersForUserAndPost();
 	CommonUtility commonUtility = new CommonUtility();
 	PostJsonforCreation postData=new PostJsonforCreation();
-	@Test()
+	@Test(priority = 1, description = "verify all post IDs and its duplication")
 	public void verifyToGetPostIds() {
 		try {
 			response = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers(), "", " ");
@@ -46,7 +46,7 @@ public class TC01_Posts {
 		}
 	}
 	
-	@Test(priority = 3, description = "to create dummy post data")
+	@Test(priority = 2, description = "to create dummy post data")
 	public void createNewUser() {
 		try {
 			

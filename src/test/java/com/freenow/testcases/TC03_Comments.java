@@ -15,9 +15,9 @@ import com.freenow.resources.SearchForUseName;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
 import io.restassured.response.Response;
 
-public class TC01_Comments {
+public class TC03_Comments {
 	ResourceURLs resources = new ResourceURLs();
-	private static Logger logger = Logger.getLogger(TC01_Comments.class);
+	private static Logger logger = Logger.getLogger(TC03_Comments.class);
 	// Response response;
 	RestAssuredMethodsCall rest = new RestAssuredMethodsCall();
 	List<Integer> postIds = new ArrayList<>();

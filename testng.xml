@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test Cases for users">
+		<classes>
+			<class name="com.freenow.testcases.TC01_Users" />
+		</classes>
+	</test>
+	<test name="Test Cases Posts">
+		<classes>
+			<class name="com.freenow.testcases.TC02_Posts" />
+		</classes>
+	</test>
+	<test name="Test Cases">
+		<classes>
+			<class name="com.freenow.testcases.TC03_Comments" />
+		</classes>
+	</test>
+</suite>
