@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC01_Users" hash-for-method="getCreateNewUserDetails(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)">getCreateNewUserDetails(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC02_Posts" hash-for-method="getResponseFromCreatedNewUser(3, 0, dummy api data, dummy api data)">getResponseFromCreatedNewUser(3, 0, dummy api data, dummy api data)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC02_Posts" hash-for-method="getResponseFromCreatedNewUser(3, 1, dummy api data, dummy api data)">getResponseFromCreatedNewUser(3, 1, dummy api data, dummy api data)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +126,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC01_Users" hash-for-method="createNewUser">createNewUser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC03_Comments" hash-for-method="createNewComment">createNewComment</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC02_Posts" hash-for-method="createNewUser">createNewUser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC01_Users" hash-for-method="createNewUser(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)">createNewUser(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC02_Posts" hash-for-method="createNewUser(3, 1, dummy api data, dummy api data)">createNewUser(3, 1, dummy api data, dummy api data)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.freenow.testcases.TC02_Posts" hash-for-method="createNewUser(3, 0, dummy api data, dummy api data)">createNewUser(3, 0, dummy api data, dummy api data)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +176,70 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.freenow.testcases.TC02_Posts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseFromCreatedNewUser(3, 0, dummy api data, dummy api data)">
+                  </a> <!-- getResponseFromCreatedNewUser(3, 0, dummy api data, dummy api data) -->
+                  <span class="method-name">getResponseFromCreatedNewUser</span>
+                  <span class="parameters">(3, 0, dummy api data, dummy api data)</span>
+                  <div class="stack-trace">java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(get response from newly created post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseFromCreatedNewUser(3, 1, dummy api data, dummy api data)">
+                  </a> <!-- getResponseFromCreatedNewUser(3, 1, dummy api data, dummy api data) -->
+                  <span class="method-name">getResponseFromCreatedNewUser</span>
+                  <span class="parameters">(3, 1, dummy api data, dummy api data)</span>
+                  <div class="stack-trace">java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(get response from newly created post)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.freenow.testcases.TC01_Users</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCreateNewUserDetails(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)">
+                  </a> <!-- getCreateNewUserDetails(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...) -->
+                  <span class="method-name">getCreateNewUserDetails</span>
+                  <span class="parameters">(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647, abc.com, free now, asd, jsdk)</span>
+                  <div class="stack-trace">java.lang.AssertionError: response is not 200 expected [404] but found [200]
+	at com.freenow.testcases.TC01_Users.getCreateNewUserDetails(TC01_Users.java:159)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(to verify email address is proper and Unique user Id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -150,9 +248,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createNewUser">
-                  </a> <!-- createNewUser -->
+                  <a name="createNewUser(3, 1, dummy api data, dummy api data)">
+                  </a> <!-- createNewUser(3, 1, dummy api data, dummy api data) -->
                   <span class="method-name">createNewUser</span>
+                  <span class="parameters">(3, 1, dummy api data, dummy api data)</span>
+                  <em>
+(to create dummy post data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUser(3, 0, dummy api data, dummy api data)">
+                  </a> <!-- createNewUser(3, 0, dummy api data, dummy api data) -->
+                  <span class="method-name">createNewUser</span>
+                  <span class="parameters">(3, 0, dummy api data, dummy api data)</span>
                   <em>
 (to create dummy post data)                  </em>
                 </div> <!-- method-content -->
@@ -171,29 +280,15 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.freenow.testcases.TC03_Comments</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyToGetCommentsOnUserEachPost">
-                  </a> <!-- verifyToGetCommentsOnUserEachPost -->
-                  <span class="method-name">verifyToGetCommentsOnUserEachPost</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.freenow.testcases.TC01_Users</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createNewUser">
-                  </a> <!-- createNewUser -->
+                  <a name="createNewUser(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)">
+                  </a> <!-- createNewUser(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...) -->
                   <span class="method-name">createNewUser</span>
+                  <span class="parameters">(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647, abc.com, free now, asd, jsdk)</span>
                   <em>
 (to verify email address is proper and Unique user Id)                  </em>
                 </div> <!-- method-content -->
@@ -214,6 +309,32 @@
                   <span class="method-name">verifyToUserEmailAddress</span>
                   <em>
 (to verify email address is proper and Unique user Id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freenow.testcases.TC03_Comments</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewComment">
+                  </a> <!-- createNewComment -->
+                  <span class="method-name">createNewComment</span>
+                  <em>
+(make comment on each post of the user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToGetCommentsOnUserEachPost">
+                  </a> <!-- verifyToGetCommentsOnUserEachPost -->
+                  <span class="method-name">verifyToGetCommentsOnUserEachPost</span>
+                  <em>
+(validating all emails which is comments by people for each post)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -286,36 +407,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyToGetCommentsOnUserEachPost')
+data.setCell(0, 1, 'createNewComment')
 data.setCell(0, 2, 'com.freenow.testcases.TC03_Comments')
-data.setCell(0, 3, 7412);
+data.setCell(0, 3, 36021);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyToGetUserID')
+data.setCell(1, 1, 'createNewUser')
 data.setCell(1, 2, 'com.freenow.testcases.TC01_Users')
-data.setCell(1, 3, 5660);
+data.setCell(1, 3, 7922);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createNewUser')
-data.setCell(2, 2, 'com.freenow.testcases.TC01_Users')
-data.setCell(2, 3, 1844);
+data.setCell(2, 1, 'verifyToGetCommentsOnUserEachPost')
+data.setCell(2, 2, 'com.freenow.testcases.TC03_Comments')
+data.setCell(2, 3, 7854);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createNewUser')
-data.setCell(3, 2, 'com.freenow.testcases.TC02_Posts')
-data.setCell(3, 3, 1439);
+data.setCell(3, 1, 'getCreateNewUserDetails')
+data.setCell(3, 2, 'com.freenow.testcases.TC01_Users')
+data.setCell(3, 3, 5633);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyToGetPostIds')
-data.setCell(4, 2, 'com.freenow.testcases.TC02_Posts')
-data.setCell(4, 3, 1352);
+data.setCell(4, 1, 'verifyToGetUserID')
+data.setCell(4, 2, 'com.freenow.testcases.TC01_Users')
+data.setCell(4, 3, 4762);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyToUserEmailAddress')
-data.setCell(5, 2, 'com.freenow.testcases.TC01_Users')
-data.setCell(5, 3, 631);
+data.setCell(5, 1, 'getResponseFromCreatedNewUser')
+data.setCell(5, 2, 'com.freenow.testcases.TC02_Posts')
+data.setCell(5, 3, 4617);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createNewUser')
+data.setCell(6, 2, 'com.freenow.testcases.TC02_Posts')
+data.setCell(6, 3, 4156);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createNewUser')
+data.setCell(7, 2, 'com.freenow.testcases.TC02_Posts')
+data.setCell(7, 3, 3551);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getResponseFromCreatedNewUser')
+data.setCell(8, 2, 'com.freenow.testcases.TC02_Posts')
+data.setCell(8, 3, 1717);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyToGetPostIds')
+data.setCell(9, 2, 'com.freenow.testcases.TC02_Posts')
+data.setCell(9, 3, 1172);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyToUserEmailAddress')
+data.setCell(10, 2, 'com.freenow.testcases.TC01_Users')
+data.setCell(10, 3, 666);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -348,29 +489,55 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyToUserEmailAddress</span>
-                <span class="method-start">5672 ms</span>
+                <span class="method-start">4772 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">createNewUser</span>
-                <span class="method-start">6304 ms</span>
+                <span class="method-name">createNewUser(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)</span>
+                <span class="method-start">6111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCreateNewUserDetails(12, Jesaa, Jessa123, jessa@freenow.com, lone Villa, come 123, Hamburg, 1234423, 123, 754, 2147483647...)</span>
+                <span class="method-start">14078 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.freenow.testcases.TC02_Posts</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyToGetPostIds</span>
-                <span class="method-start">8182 ms</span>
+                <span class="method-start">19756 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">createNewUser</span>
-                <span class="method-start">9534 ms</span>
+                <span class="method-name">createNewUser(3, 1, dummy api data, dummy api data)</span>
+                <span class="method-start">20965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewUser(3, 0, dummy api data, dummy api data)</span>
+                <span class="method-start">25122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResponseFromCreatedNewUser(3, 1, dummy api data, dummy api data)</span>
+                <span class="method-start">28699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getResponseFromCreatedNewUser(3, 0, dummy api data, dummy api data)</span>
+                <span class="method-start">33317 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.freenow.testcases.TC03_Comments</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyToGetCommentsOnUserEachPost</span>
-                <span class="method-start">10983 ms</span>
+                <span class="method-start">35051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewComment</span>
+                <span class="method-start">42905 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

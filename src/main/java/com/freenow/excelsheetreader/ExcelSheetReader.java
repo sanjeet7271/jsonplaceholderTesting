@@ -1,6 +1,7 @@
 package com.freenow.excelsheetreader;
 
 import java.io.IOException;
+
 /**
  * 
  * @author sanjeetpandit
@@ -8,6 +9,7 @@ import java.io.IOException;
  */
 public class ExcelSheetReader {
 	ExcelDataReader excel = null;
+
 	/**
 	 * 
 	 * @param xlFilePath
@@ -15,7 +17,7 @@ public class ExcelSheetReader {
 	 * @return
 	 * @throws IOException
 	 */
-	
+
 	public Object[][] testData(String xlFilePath, String sheetName) throws IOException {
 		Object[][] excelData = null;
 		excel = new ExcelDataReader(xlFilePath);

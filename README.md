@@ -11,19 +11,23 @@
 8. Property Reader to read Test data from properties files.
 9. Custom assertion to print custom message when assertion fails.
 10. Maven is configured in such a way that will run different testNG.xml provided at run time.
+11. Used dataProvider to create multiple user, post and comments, reading test data from excel sheet
+12. Code tested on CI/CD Jenkins
 
 ## Pre-requisite
-1. Java above 1.8.
+1. Java version above 1.8.
 2. Maven version above 3.0.
 3. TestNG 6.14.3
 4. RestAssured 4.0.0 and above
 5. google gson-simple 2.8.5
 6. Jacoco 0.8.2
 7. Jackson
+8. APache POI
+
 ## How to install & Run using command prompt
 1. Please extract the project at your desired path.
-2. Go to `/src/main/resources/config/config.properties` file and update username configurations.
-	for e.g.	if you want to run test cases for "Samantha", then just update name into username
+2. Go to `/src/main/resources/config/config.properties` file and update user name in configurations.
+	for e.g.	if you want to run test cases for "Samantha", then just update name into username field
 				like : username=Samantha
 				
 3. Open the command prompt and go to the project path.

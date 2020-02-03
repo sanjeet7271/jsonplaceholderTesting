@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.freenow.apiUtility.CommonUtility;
 import com.freenow.apiUtility.EmailValidator;
-import com.freenow.commonPojoForPost.CommentsJsonforCreation;
+import com.freenow.commonPojo.CommentsJsonforCreation;
 import com.freenow.constants.HttpMethods;
 import com.freenow.constants.HttpStatusCodes;
 import com.freenow.resources.ParametersForUserAndPost;

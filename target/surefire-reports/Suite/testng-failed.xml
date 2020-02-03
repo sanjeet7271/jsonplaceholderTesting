@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test Cases for users(failed)">
+    <classes>
+      <class name="com.freenow.testcases.TC01_Users">
+        <methods>
+          <include name="getCreateNewUserDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.freenow.testcases.TC01_Users -->
+    </classes>
+  </test> <!-- Test Cases for users(failed) -->
+  <test thread-count="5" verbose="0" name="Test Cases Posts(failed)">
+    <classes>
+      <class name="com.freenow.testcases.TC02_Posts">
+        <methods>
+          <include name="getResponseFromCreatedNewUser" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.freenow.testcases.TC02_Posts -->
+    </classes>
+  </test> <!-- Test Cases Posts(failed) -->
+</suite> <!-- Failed suite [Suite] -->

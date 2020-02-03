@@ -1,4 +1,4 @@
-package com.freenow.usersPojoForResponse;
+package com.freenow.userspojoforresponse;
 
 /**
  * 

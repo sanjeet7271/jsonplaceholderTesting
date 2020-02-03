@@ -1,12 +1,13 @@
 package com.freenow.resources;
 
 import com.freenow.config.ConfigReader;
+
 /**
  * 
  * @author sanjeetpandit
  *
  */
-public class ResourceURLs extends ConfigReader{
+public class ResourceURLs extends ConfigReader {
 
 	private String getbaseURI;
 	private String getUsers;
@@ -16,11 +17,11 @@ public class ResourceURLs extends ConfigReader{
 	public ResourceURLs() {
 		setConfig();
 	}
-	
+
 	/**
 	 * @utility to read configuration property
 	 */
-	
+
 	public void setConfig() {
 
 		this.getbaseURI = prop.getProperty("URL");
@@ -29,6 +30,7 @@ public class ResourceURLs extends ConfigReader{
 		this.getComments = prop.getProperty("comments");
 
 	}
+
 	/**
 	 * 
 	 * @return Base URI
@@ -38,6 +40,7 @@ public class ResourceURLs extends ConfigReader{
 		String baseURI = this.getbaseURI;
 		return baseURI;
 	}
+
 	/**
 	 * 
 	 * @return resource URL for users
@@ -48,16 +51,18 @@ public class ResourceURLs extends ConfigReader{
 		String users = this.getUsers;
 		return users;
 	}
+
 	/**
 	 * 
 	 * @return resource URL for post
 	 * 
 	 */
-	
+
 	public String getResourceforPosts() {
 		String posts = this.getPosts;
 		return posts;
 	}
+
 	/**
 	 * 
 	 * @return resource URL for comments

@@ -16,8 +16,8 @@ import com.freenow.excelsheetreader.ExcelSheetReader;
 import com.freenow.resources.ParametersForUserAndPost;
 import com.freenow.resources.ResourceURLs;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
-import com.freenow.usersPojoForPost.UserJsonforCreation;
-import com.freenow.usersPojoForResponse.UsersJson;
+import com.freenow.userspojoforpost.UserJsonforCreation;
+import com.freenow.userspojoforresponse.UsersJson;
 
 import io.restassured.response.Response;
 

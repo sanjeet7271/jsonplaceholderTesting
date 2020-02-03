@@ -11,6 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 /**
  * 
  * @author sanjeetpandit
@@ -23,6 +24,7 @@ public class ExcelDataReader {
 	public XSSFRow row = null;
 	public XSSFCell cell = null;
 	String xlFilePath;
+
 	/**
 	 * 
 	 * @param xlFilePath
@@ -34,6 +36,7 @@ public class ExcelDataReader {
 		workbook = new XSSFWorkbook(fis);
 		fis.close();
 	}
+
 	/**
 	 * 
 	 * @param sheetName
@@ -45,6 +48,7 @@ public class ExcelDataReader {
 		int rowNum = sheet.getLastRowNum() + 1;
 		return rowNum;
 	}
+
 	/**
 	 * 
 	 * @param sheetName
@@ -57,6 +61,7 @@ public class ExcelDataReader {
 		int colCount = row.getLastCellNum();
 		return colCount;
 	}
+
 	/**
 	 * 
 	 * @param sheetName
@@ -64,7 +69,7 @@ public class ExcelDataReader {
 	 * @param rowNum
 	 * @return data
 	 */
-	public String getCellData(String sheetName,int colNum, int rowNum) {
+	public String getCellData(String sheetName, int colNum, int rowNum) {
 		try {
 			sheet = workbook.getSheet(sheetName);
 			row = sheet.getRow(rowNum);

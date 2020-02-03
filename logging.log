@@ -989,3 +989,545 @@ quos veniam quod sed accusamus veritatis error and post Id id :10
 2020-02-03 13:40:31 INFO  TC03_Comments:108 - made comment for the post 9 is successful
 2020-02-03 13:40:31 INFO  TC03_Comments:100 - Creating comment for the post 10
 2020-02-03 13:40:32 INFO  TC03_Comments:108 - made comment for the post 10 is successful
+2020-02-03 15:13:09 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 15:13:09 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 15:13:09 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 15:13:09 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 15:13:09 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 15:13:10 INFO  TC01_Users:77 - Storing email address to list
+2020-02-03 15:13:10 INFO  TC01_Users:83 - checking user id is duplicate or not.
+2020-02-03 15:13:10 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 15:13:10 INFO  TC01_Users:86 - email validation for users is started.
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Sincere@april.biz , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Shanna@melissa.tv , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Nathan@yesenia.net , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Julianne.OConner@kory.org , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Lucio_Hettinger@annie.ca , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Karley_Dach@jasper.info , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Telly.Hoeger@billy.biz , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Sherwood@rosamond.me , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Chaim_McDermott@dana.io , true
+2020-02-03 15:13:10 INFO  EmailValidator:39 - Email is valid : Rey.Padberg@karina.biz , true
+2020-02-03 15:13:10 INFO  TC01_Users:88 - email validation for users is successfully done
+2020-02-03 15:13:25 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 15:13:25 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 15:13:25 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 15:13:25 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 15:13:25 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :74
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :sunt aut facere repellat provident occaecati excepturi optio reprehenderit and post Id id  :1
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :74
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto and post Id id :1
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :12
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :qui est esse and post Id id  :2
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :12
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla and post Id id :2
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :59
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :ea molestias quasi exercitationem repellat qui ipsa sit aut and post Id id  :3
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :59
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut and post Id id :3
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :eum et est occaecati and post Id id  :4
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit and post Id id :4
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :18
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :nesciunt quas odio and post Id id  :5
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :18
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque and post Id id :5
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :34
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :dolorem eum magni eos aperiam quia and post Id id  :6
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :34
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciatis et ea nemo ab reprehenderit accusantium quas
+voluptate dolores velit et doloremque molestiae and post Id id :6
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :magnam facilis autem and post Id id  :7
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat excepturi ut quia
+sunt ut sequi eos ea sed quas and post Id id :7
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :dolorem dolore est ipsam and post Id id  :8
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quaerat magni maiores excepturi
+ipsam ut commodi dolor voluptatum modi aut vitae and post Id id :8
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :50
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :nesciunt iure omnis dolorem tempora et accusantium and post Id id  :9
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :50
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :consectetur animi nesciunt iure dolore
+enim quia ad
+veniam autem ut quam aut nobis
+et est aut quod aut provident voluptas autem voluptas and post Id id :9
+2020-02-03 15:13:25 INFO  CommonUtility:123 - length of the title is :27
+2020-02-03 15:13:25 INFO  CommonUtility:124 - Title of the post is :optio molestias id quia eum and post Id id  :10
+2020-02-03 15:13:25 INFO  CommonUtility:129 - length of the body is :27
+2020-02-03 15:13:25 INFO  CommonUtility:130 - Body of the post is :quo et expedita modi cum officia vel magni
+doloribus qui repudiandae
+vero nisi sit
+quos veniam quod sed accusamus veritatis error and post Id id :10
+2020-02-03 15:13:25 ERROR TC02_Posts:59 - Post IDs are :[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 15:13:25 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 15:13:25 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 15:13:40 INFO  TC03_Comments:46 - getting user id for the corresponding username
+2020-02-03 15:13:40 INFO  CommonUtility:70 - Test case starts for :Bret
+2020-02-03 15:13:40 INFO  CommonUtility:72 - User id for username Bret is 1
+2020-02-03 15:13:40 INFO  TC03_Comments:52 - Recieved user id for the corresponding username 1
+2020-02-03 15:13:40 INFO  TC03_Comments:53 - getting post ids for the corresponding user Id
+2020-02-03 15:13:41 INFO  TC03_Comments:59 - Recieved post ids for the corresponding user Id [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 15:13:42 INFO  TC03_Comments:64 - comments validation starts for the post id 1
+2020-02-03 15:13:42 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Eliseo@gardner.biz, Jayne_Kuhic@sydney.com, Nikita@garfield.biz, Lew@alysha.tv, Hayden@althea.biz]
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Eliseo@gardner.biz , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Jayne_Kuhic@sydney.com , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Nikita@garfield.biz , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Lew@alysha.tv , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Hayden@althea.biz , true
+2020-02-03 15:13:42 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:42 INFO  TC03_Comments:64 - comments validation starts for the post id 2
+2020-02-03 15:13:42 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Presley.Mueller@myrl.com, Dallas@ole.me, Mallory_Kunze@marie.org, Meghan_Littel@rene.us, Carmen_Keeling@caroline.name]
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Presley.Mueller@myrl.com , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Dallas@ole.me , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Mallory_Kunze@marie.org , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Meghan_Littel@rene.us , true
+2020-02-03 15:13:42 INFO  EmailValidator:39 - Email is valid : Carmen_Keeling@caroline.name , true
+2020-02-03 15:13:42 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:43 INFO  TC03_Comments:64 - comments validation starts for the post id 3
+2020-02-03 15:13:43 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Veronica_Goodwin@timmothy.net, Oswald.Vandervort@leanne.org, Kariane@jadyn.tv, Nathan@solon.io, Maynard.Hodkiewicz@roberta.com]
+2020-02-03 15:13:43 INFO  EmailValidator:39 - Email is valid : Veronica_Goodwin@timmothy.net , true
+2020-02-03 15:13:43 INFO  EmailValidator:39 - Email is valid : Oswald.Vandervort@leanne.org , true
+2020-02-03 15:13:43 INFO  EmailValidator:39 - Email is valid : Kariane@jadyn.tv , true
+2020-02-03 15:13:43 INFO  EmailValidator:39 - Email is valid : Nathan@solon.io , true
+2020-02-03 15:13:43 INFO  EmailValidator:39 - Email is valid : Maynard.Hodkiewicz@roberta.com , true
+2020-02-03 15:13:43 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:44 INFO  TC03_Comments:64 - comments validation starts for the post id 4
+2020-02-03 15:13:44 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Christine@ayana.info, Preston_Hudson@blaise.tv, Vincenza_Klocko@albertha.name, Madelynn.Gorczany@darion.biz, Mariana_Orn@preston.org]
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Christine@ayana.info , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Preston_Hudson@blaise.tv , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Vincenza_Klocko@albertha.name , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Madelynn.Gorczany@darion.biz , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Mariana_Orn@preston.org , true
+2020-02-03 15:13:44 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:44 INFO  TC03_Comments:64 - comments validation starts for the post id 5
+2020-02-03 15:13:44 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Noemie@marques.me, Khalil@emile.co.uk, Sophia@arianna.co.uk, Jeffery@juwan.us, Isaias_Kuhic@jarrett.net]
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Noemie@marques.me , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Khalil@emile.co.uk , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Sophia@arianna.co.uk , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Jeffery@juwan.us , true
+2020-02-03 15:13:44 INFO  EmailValidator:39 - Email is valid : Isaias_Kuhic@jarrett.net , true
+2020-02-03 15:13:44 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:45 INFO  TC03_Comments:64 - comments validation starts for the post id 6
+2020-02-03 15:13:45 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Russel.Parker@kameron.io, Francesco.Gleason@nella.us, Ronny@rosina.org, Jennings_Pouros@erica.biz, Lurline@marvin.biz]
+2020-02-03 15:13:45 INFO  EmailValidator:39 - Email is valid : Russel.Parker@kameron.io , true
+2020-02-03 15:13:45 INFO  EmailValidator:39 - Email is valid : Francesco.Gleason@nella.us , true
+2020-02-03 15:13:45 INFO  EmailValidator:39 - Email is valid : Ronny@rosina.org , true
+2020-02-03 15:13:45 INFO  EmailValidator:39 - Email is valid : Jennings_Pouros@erica.biz , true
+2020-02-03 15:13:45 INFO  EmailValidator:39 - Email is valid : Lurline@marvin.biz , true
+2020-02-03 15:13:45 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:46 INFO  TC03_Comments:64 - comments validation starts for the post id 7
+2020-02-03 15:13:46 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Buford@shaylee.biz, Maria@laurel.name, Jaeden.Towne@arlene.tv, Ethelyn.Schneider@emelia.co.uk, Georgianna@florence.io]
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Buford@shaylee.biz , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Maria@laurel.name , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Jaeden.Towne@arlene.tv , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Ethelyn.Schneider@emelia.co.uk , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Georgianna@florence.io , true
+2020-02-03 15:13:46 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:46 INFO  TC03_Comments:64 - comments validation starts for the post id 8
+2020-02-03 15:13:46 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Raheem_Heaney@gretchen.biz, Jacky@victoria.net, Piper@linwood.us, Gaylord@russell.net, Clare.Aufderhar@nicole.ca]
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Raheem_Heaney@gretchen.biz , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Jacky@victoria.net , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Piper@linwood.us , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Gaylord@russell.net , true
+2020-02-03 15:13:46 INFO  EmailValidator:39 - Email is valid : Clare.Aufderhar@nicole.ca , true
+2020-02-03 15:13:46 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:47 INFO  TC03_Comments:64 - comments validation starts for the post id 9
+2020-02-03 15:13:47 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Lucio@gladys.tv, Shemar@ewell.name, Jackeline@eva.tv, Marianna_Wilkinson@rupert.io, Marcia@name.biz]
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Lucio@gladys.tv , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Shemar@ewell.name , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Jackeline@eva.tv , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Marianna_Wilkinson@rupert.io , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Marcia@name.biz , true
+2020-02-03 15:13:47 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:47 INFO  TC03_Comments:64 - comments validation starts for the post id 10
+2020-02-03 15:13:47 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Jeremy.Harann@waino.me, Pearlie.Kling@sandy.com, Manuela_Stehr@chelsie.tv, Camryn.Weimann@doris.io, Kiana_Predovic@yasmin.io]
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Jeremy.Harann@waino.me , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Pearlie.Kling@sandy.com , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Manuela_Stehr@chelsie.tv , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Camryn.Weimann@doris.io , true
+2020-02-03 15:13:47 INFO  EmailValidator:39 - Email is valid : Kiana_Predovic@yasmin.io , true
+2020-02-03 15:13:47 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 15:13:47 INFO  TC03_Comments:84 - getting user id for the corresponding username
+2020-02-03 15:13:48 INFO  CommonUtility:70 - Test case starts for :Bret
+2020-02-03 15:13:48 INFO  CommonUtility:72 - User id for username Bret is 1
+2020-02-03 15:13:48 INFO  TC03_Comments:90 - Recieved user id for the corresponding username 1
+2020-02-03 15:13:48 INFO  TC03_Comments:91 - getting post ids for the corresponding user Id
+2020-02-03 15:13:49 INFO  TC03_Comments:97 - Recieved post ids for the corresponding user Id [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 15:13:49 INFO  TC03_Comments:100 - Creating comment for the post 1
+2020-02-03 15:13:51 INFO  TC03_Comments:108 - made comment for the post 1 is successful
+2020-02-03 15:13:51 INFO  TC03_Comments:100 - Creating comment for the post 2
+2020-02-03 15:13:54 INFO  TC03_Comments:108 - made comment for the post 2 is successful
+2020-02-03 15:13:54 INFO  TC03_Comments:100 - Creating comment for the post 3
+2020-02-03 15:13:56 INFO  TC03_Comments:108 - made comment for the post 3 is successful
+2020-02-03 15:13:56 INFO  TC03_Comments:100 - Creating comment for the post 4
+2020-02-03 15:13:58 INFO  TC03_Comments:108 - made comment for the post 4 is successful
+2020-02-03 15:13:58 INFO  TC03_Comments:100 - Creating comment for the post 5
+2020-02-03 15:14:00 INFO  TC03_Comments:108 - made comment for the post 5 is successful
+2020-02-03 15:14:00 INFO  TC03_Comments:100 - Creating comment for the post 6
+2020-02-03 15:14:01 INFO  TC03_Comments:108 - made comment for the post 6 is successful
+2020-02-03 15:14:01 INFO  TC03_Comments:100 - Creating comment for the post 7
+2020-02-03 15:14:03 INFO  TC03_Comments:108 - made comment for the post 7 is successful
+2020-02-03 15:14:03 INFO  TC03_Comments:100 - Creating comment for the post 8
+2020-02-03 15:14:04 INFO  TC03_Comments:108 - made comment for the post 8 is successful
+2020-02-03 15:14:04 INFO  TC03_Comments:100 - Creating comment for the post 9
+2020-02-03 15:14:06 INFO  TC03_Comments:108 - made comment for the post 9 is successful
+2020-02-03 15:14:06 INFO  TC03_Comments:100 - Creating comment for the post 10
+2020-02-03 15:14:07 INFO  TC03_Comments:108 - made comment for the post 10 is successful
+2020-02-03 15:14:07 INFO  TC03_Comments:100 - Creating comment for the post 1
+2020-02-03 15:14:08 INFO  TC03_Comments:108 - made comment for the post 1 is successful
+2020-02-03 15:14:08 INFO  TC03_Comments:100 - Creating comment for the post 2
+2020-02-03 15:14:09 INFO  TC03_Comments:108 - made comment for the post 2 is successful
+2020-02-03 15:14:09 INFO  TC03_Comments:100 - Creating comment for the post 3
+2020-02-03 15:14:11 INFO  TC03_Comments:108 - made comment for the post 3 is successful
+2020-02-03 15:14:11 INFO  TC03_Comments:100 - Creating comment for the post 4
+2020-02-03 15:14:13 INFO  TC03_Comments:108 - made comment for the post 4 is successful
+2020-02-03 15:14:13 INFO  TC03_Comments:100 - Creating comment for the post 5
+2020-02-03 15:14:15 INFO  TC03_Comments:108 - made comment for the post 5 is successful
+2020-02-03 15:14:15 INFO  TC03_Comments:100 - Creating comment for the post 6
+2020-02-03 15:14:17 INFO  TC03_Comments:108 - made comment for the post 6 is successful
+2020-02-03 15:14:17 INFO  TC03_Comments:100 - Creating comment for the post 7
+2020-02-03 15:14:19 INFO  TC03_Comments:108 - made comment for the post 7 is successful
+2020-02-03 15:14:19 INFO  TC03_Comments:100 - Creating comment for the post 8
+2020-02-03 15:14:21 INFO  TC03_Comments:108 - made comment for the post 8 is successful
+2020-02-03 15:14:21 INFO  TC03_Comments:100 - Creating comment for the post 9
+2020-02-03 15:14:22 INFO  TC03_Comments:108 - made comment for the post 9 is successful
+2020-02-03 15:14:22 INFO  TC03_Comments:100 - Creating comment for the post 10
+2020-02-03 15:14:23 INFO  TC03_Comments:108 - made comment for the post 10 is successful
+2020-02-03 16:32:57 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 16:32:57 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 16:32:57 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 16:32:57 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 16:32:57 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :74
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :sunt aut facere repellat provident occaecati excepturi optio reprehenderit and post Id id  :1
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :74
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto and post Id id :1
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :12
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :qui est esse and post Id id  :2
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :12
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla and post Id id :2
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :59
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :ea molestias quasi exercitationem repellat qui ipsa sit aut and post Id id  :3
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :59
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut and post Id id :3
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :eum et est occaecati and post Id id  :4
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit and post Id id :4
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :18
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :nesciunt quas odio and post Id id  :5
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :18
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque and post Id id :5
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :34
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :dolorem eum magni eos aperiam quia and post Id id  :6
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :34
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciatis et ea nemo ab reprehenderit accusantium quas
+voluptate dolores velit et doloremque molestiae and post Id id :6
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :magnam facilis autem and post Id id  :7
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat excepturi ut quia
+sunt ut sequi eos ea sed quas and post Id id :7
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :dolorem dolore est ipsam and post Id id  :8
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quaerat magni maiores excepturi
+ipsam ut commodi dolor voluptatum modi aut vitae and post Id id :8
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :50
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :nesciunt iure omnis dolorem tempora et accusantium and post Id id  :9
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :50
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :consectetur animi nesciunt iure dolore
+enim quia ad
+veniam autem ut quam aut nobis
+et est aut quod aut provident voluptas autem voluptas and post Id id :9
+2020-02-03 16:32:58 INFO  CommonUtility:123 - length of the title is :27
+2020-02-03 16:32:58 INFO  CommonUtility:124 - Title of the post is :optio molestias id quia eum and post Id id  :10
+2020-02-03 16:32:58 INFO  CommonUtility:129 - length of the body is :27
+2020-02-03 16:32:58 INFO  CommonUtility:130 - Body of the post is :quo et expedita modi cum officia vel magni
+doloribus qui repudiandae
+vero nisi sit
+quos veniam quod sed accusamus veritatis error and post Id id :10
+2020-02-03 16:32:58 ERROR TC02_Posts:59 - Post IDs are :[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 16:32:58 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 16:32:58 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 16:35:13 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 16:35:14 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 16:35:14 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 16:35:14 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 16:35:14 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :74
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :sunt aut facere repellat provident occaecati excepturi optio reprehenderit and post Id id  :1
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :74
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto and post Id id :1
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :12
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :qui est esse and post Id id  :2
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :12
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla and post Id id :2
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :59
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :ea molestias quasi exercitationem repellat qui ipsa sit aut and post Id id  :3
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :59
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut and post Id id :3
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :eum et est occaecati and post Id id  :4
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit and post Id id :4
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :18
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :nesciunt quas odio and post Id id  :5
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :18
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque and post Id id :5
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :34
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :dolorem eum magni eos aperiam quia and post Id id  :6
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :34
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciatis et ea nemo ab reprehenderit accusantium quas
+voluptate dolores velit et doloremque molestiae and post Id id :6
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :magnam facilis autem and post Id id  :7
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat excepturi ut quia
+sunt ut sequi eos ea sed quas and post Id id :7
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :dolorem dolore est ipsam and post Id id  :8
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quaerat magni maiores excepturi
+ipsam ut commodi dolor voluptatum modi aut vitae and post Id id :8
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :50
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :nesciunt iure omnis dolorem tempora et accusantium and post Id id  :9
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :50
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :consectetur animi nesciunt iure dolore
+enim quia ad
+veniam autem ut quam aut nobis
+et est aut quod aut provident voluptas autem voluptas and post Id id :9
+2020-02-03 16:35:14 INFO  CommonUtility:123 - length of the title is :27
+2020-02-03 16:35:14 INFO  CommonUtility:124 - Title of the post is :optio molestias id quia eum and post Id id  :10
+2020-02-03 16:35:14 INFO  CommonUtility:129 - length of the body is :27
+2020-02-03 16:35:14 INFO  CommonUtility:130 - Body of the post is :quo et expedita modi cum officia vel magni
+doloribus qui repudiandae
+vero nisi sit
+quos veniam quod sed accusamus veritatis error and post Id id :10
+2020-02-03 16:35:14 ERROR TC02_Posts:59 - Post IDs are :[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 16:35:14 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 16:35:14 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 16:53:04 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 16:53:05 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 16:53:05 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 16:53:05 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 16:53:05 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :74
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :sunt aut facere repellat provident occaecati excepturi optio reprehenderit and post Id id  :1
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :74
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto and post Id id :1
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :12
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :qui est esse and post Id id  :2
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :12
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla and post Id id :2
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :59
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :ea molestias quasi exercitationem repellat qui ipsa sit aut and post Id id  :3
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :59
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut and post Id id :3
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :eum et est occaecati and post Id id  :4
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit and post Id id :4
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :18
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :nesciunt quas odio and post Id id  :5
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :18
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque and post Id id :5
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :34
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :dolorem eum magni eos aperiam quia and post Id id  :6
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :34
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciatis et ea nemo ab reprehenderit accusantium quas
+voluptate dolores velit et doloremque molestiae and post Id id :6
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :magnam facilis autem and post Id id  :7
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat excepturi ut quia
+sunt ut sequi eos ea sed quas and post Id id :7
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :dolorem dolore est ipsam and post Id id  :8
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quaerat magni maiores excepturi
+ipsam ut commodi dolor voluptatum modi aut vitae and post Id id :8
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :50
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :nesciunt iure omnis dolorem tempora et accusantium and post Id id  :9
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :50
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :consectetur animi nesciunt iure dolore
+enim quia ad
+veniam autem ut quam aut nobis
+et est aut quod aut provident voluptas autem voluptas and post Id id :9
+2020-02-03 16:53:06 INFO  CommonUtility:123 - length of the title is :27
+2020-02-03 16:53:06 INFO  CommonUtility:124 - Title of the post is :optio molestias id quia eum and post Id id  :10
+2020-02-03 16:53:06 INFO  CommonUtility:129 - length of the body is :27
+2020-02-03 16:53:06 INFO  CommonUtility:130 - Body of the post is :quo et expedita modi cum officia vel magni
+doloribus qui repudiandae
+vero nisi sit
+quos veniam quod sed accusamus veritatis error and post Id id :10
+2020-02-03 16:53:06 ERROR TC02_Posts:59 - Post IDs are :[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 16:53:06 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 16:53:06 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 16:53:45 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 16:53:46 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 16:53:46 INFO  CommonUtility:50 - Test case starts for :Bret
+2020-02-03 16:53:46 INFO  CommonUtility:52 - User id for username Bret is 1
+2020-02-03 16:53:46 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :74
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :sunt aut facere repellat provident occaecati excepturi optio reprehenderit and post Id id  :1
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :74
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto and post Id id :1
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :12
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :qui est esse and post Id id  :2
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :12
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis
+qui aperiam non debitis possimus qui neque nisi nulla and post Id id :2
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :59
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :ea molestias quasi exercitationem repellat qui ipsa sit aut and post Id id  :3
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :59
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantium quis pariatur
+molestiae porro eius odio et labore et velit aut and post Id id :3
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :eum et est occaecati and post Id id  :4
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit and post Id id :4
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :18
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :nesciunt quas odio and post Id id  :5
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :18
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus esse voluptatibus quis
+est aut tenetur dolor neque and post Id id :5
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :34
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :dolorem eum magni eos aperiam quia and post Id id  :6
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :34
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciatis et ea nemo ab reprehenderit accusantium quas
+voluptate dolores velit et doloremque molestiae and post Id id :6
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :20
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :magnam facilis autem and post Id id  :7
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :20
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat excepturi ut quia
+sunt ut sequi eos ea sed quas and post Id id :7
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :dolorem dolore est ipsam and post Id id  :8
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quaerat magni maiores excepturi
+ipsam ut commodi dolor voluptatum modi aut vitae and post Id id :8
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :50
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :nesciunt iure omnis dolorem tempora et accusantium and post Id id  :9
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :50
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :consectetur animi nesciunt iure dolore
+enim quia ad
+veniam autem ut quam aut nobis
+et est aut quod aut provident voluptas autem voluptas and post Id id :9
+2020-02-03 16:53:47 INFO  CommonUtility:123 - length of the title is :27
+2020-02-03 16:53:47 INFO  CommonUtility:124 - Title of the post is :optio molestias id quia eum and post Id id  :10
+2020-02-03 16:53:47 INFO  CommonUtility:129 - length of the body is :27
+2020-02-03 16:53:47 INFO  CommonUtility:130 - Body of the post is :quo et expedita modi cum officia vel magni
+doloribus qui repudiandae
+vero nisi sit
+quos veniam quod sed accusamus veritatis error and post Id id :10
+2020-02-03 16:53:47 ERROR TC02_Posts:59 - Post IDs are :[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2020-02-03 16:53:47 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 16:53:47 INFO  CommonUtility:103 - duplicate id is not found

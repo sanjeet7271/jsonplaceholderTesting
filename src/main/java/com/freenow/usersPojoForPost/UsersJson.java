@@ -1,4 +1,4 @@
-package com.freenow.usersPojoForPost;
+package com.freenow.userspojoforpost;
 
 /**
  * 

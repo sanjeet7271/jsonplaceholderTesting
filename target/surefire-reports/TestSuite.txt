@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.653 sec
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 81.427 sec <<< FAILURE!
+getCreateNewUserDetails(com.freenow.testcases.TC01_Users)  Time elapsed: 5.636 sec  <<< FAILURE!
+java.lang.AssertionError: response is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC01_Users.getCreateNewUserDetails(TC01_Users.java:159)
+
+getResponseFromCreatedNewUser(com.freenow.testcases.TC02_Posts)  Time elapsed: 4.617 sec  <<< FAILURE!
+java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+
+getResponseFromCreatedNewUser(com.freenow.testcases.TC02_Posts)  Time elapsed: 1.718 sec  <<< FAILURE!
+java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+

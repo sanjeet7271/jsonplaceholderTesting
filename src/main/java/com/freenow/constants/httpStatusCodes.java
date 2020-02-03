@@ -1,4 +1,5 @@
 package com.freenow.constants;
+
 /**
  * 
  * @author sanjeetpandit
@@ -7,7 +8,7 @@ package com.freenow.constants;
  *
  */
 public class HttpStatusCodes {
-	
+
 	public static int RESPONSE_STATUS_CODE_200 = 200;
 	public static int RESPONSE_STATUS_CODE_201 = 201;
 	public static int RESPONSE_STATUS_CODE_400 = 400;

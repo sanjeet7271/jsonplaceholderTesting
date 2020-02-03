@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+
 /*
  * @Sanjeet.Pandit
  * @Utility to Validate email address with regex
@@ -28,9 +29,11 @@ public class EmailValidator {
 		return matcher.matches();
 
 	}
-	/*
-	 * @Sanjeet.Pandit
-	 * utility to Email validation
+
+	/**
+	 * 
+	 * @param email
+	 * @utility to Email validation
 	 */
 	public static void validEmailTest(List<String> email) {
 

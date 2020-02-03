@@ -11,7 +11,6 @@ D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\usersPojoForResponse\C
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\usersPojoForResponse\UsersJson.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\commonPojoForPost\PostJsonforCreation.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\constants\HttpMethods.java
-D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\apiUtility\SearchByUserDetails.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\config\ConfigReader.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\usersPojoForPost\Company.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\restassuredmethods\RestAssuredMethodsCall.java
@@ -23,3 +22,5 @@ D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\commonPojoForPost\Comm
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\commonPojoForPost\Posts.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\constants\HttpStatusCodes.java
 D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\usersPojoForPost\UserJsonforCreation.java
+D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\excelsheetreader\ExcelDataReader.java
+D:\FreeNow\BackendTestChallenge\src\main\java\com\freenow\excelsheetreader\ExcelSheetReader.java

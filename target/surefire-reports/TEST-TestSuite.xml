@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="TestSuite" time="20.653" errors="0" skipped="0">
+<testsuite tests="11" failures="3" name="TestSuite" time="81.424" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -20,31 +20,31 @@
     <property name="basedir" value="D:\FreeNow\BackendTestChallenge"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter3545993341130920597.jar;C:\\Users\\sanjeetpandit\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
-    <property name="java.io.tmpdir" value="C:\Users\SANJEE~1\AppData\Local\Temp\"/>
+    <property name="surefire.real.class.path" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter5810530562508601772.jar;C:\\Windows\\system32\\config\\systemprofile\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Users\sanjeetpandit\Scripts\;C:\Users\sanjeetpandit\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;D:\Software\apache-maven-3.0.5\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\sanjeetpandit\AppData\Local\Android\Sdk\tools;C:\Users\sanjeetpandit\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Users\sanjeetpandit\AppData\Local\Microsoft\WindowsApps;C:\Users\sanjeetpandit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\nodejs\node_modules\npm\bin;;C:\Users\sanjeetpandit\PyCharm Community Edition 2019.1.3\bin;;C:\Windows\System32;;."/>
-    <property name="surefire.test.class.path" value="D:\FreeNow\BackendTestChallenge\target\test-classes;D:\FreeNow\BackendTestChallenge\target\classes;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sanjeetpandit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sanjeetpandit\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sanjeetpandit\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\sanjeetpandit\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\sanjeetpandit\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\sanjeetpandit\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\sanjeetpandit\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\sanjeetpandit\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sanjeetpandit\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\sanjeetpandit\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\sanjeetpandit\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\sanjeetpandit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\Users\sanjeetpandit\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\sanjeetpandit\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\jacoco\org.jacoco.agent\0.8.2\org.jacoco.agent-0.8.2.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8\surefire-testng-utils-2.8.jar;"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Java\jdk1.8.0_191/bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Users\sanjeetpandit\Scripts\;C:\Users\sanjeetpandit\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;D:\Software\apache-maven-3.0.5\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\sanjeetpandit\AppData\Local\Android\Sdk\tools;C:\Users\sanjeetpandit\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="surefire.test.class.path" value="D:\FreeNow\BackendTestChallenge\target\test-classes;D:\FreeNow\BackendTestChallenge\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jacoco\org.jacoco.agent\0.8.2\org.jacoco.agent-0.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact\2.0.11\maven-artifact-2.0.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8\surefire-testng-utils-2.8.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\sanjeetpandit"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="sanjeetpandit"/>
-    <property name="java.class.path" value="D:\FreeNow\BackendTestChallenge\target\test-classes;D:\FreeNow\BackendTestChallenge\target\classes;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\sanjeetpandit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sanjeetpandit\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\sanjeetpandit\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\sanjeetpandit\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\sanjeetpandit\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\sanjeetpandit\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\sanjeetpandit\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\sanjeetpandit\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sanjeetpandit\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\sanjeetpandit\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\sanjeetpandit\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\sanjeetpandit\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\sanjeetpandit\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\sanjeetpandit\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\Users\sanjeetpandit\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\sanjeetpandit\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sanjeetpandit\.m2\repository\org\jacoco\org.jacoco.agent\0.8.2\org.jacoco.agent-0.8.2.jar;C:\Users\sanjeetpandit\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8\surefire-testng-utils-2.8.jar;"/>
+    <property name="user.name" value="SAN3149591$"/>
+    <property name="java.class.path" value="D:\FreeNow\BackendTestChallenge\target\test-classes;D:\FreeNow\BackendTestChallenge\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.1.1\rest-assured-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.1.1\json-path-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.1.1\rest-assured-common-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.1.1\xml-path-4.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jacoco\org.jacoco.agent\0.8.2\org.jacoco.agent-0.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact\2.0.11\maven-artifact-2.0.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.8\surefire-testng-utils-2.8.jar;"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter3545993341130920597.jar D:\FreeNow\BackendTestChallenge\target\surefire\surefire2980901213304875088tmp D:\FreeNow\BackendTestChallenge\target\surefire\surefire2498464996302803688tmp"/>
+    <property name="sun.java.command" value="D:\FreeNow\BackendTestChallenge\target\surefire\surefirebooter5810530562508601772.jar D:\FreeNow\BackendTestChallenge\target\surefire\surefire36333918710431490tmp D:\FreeNow\BackendTestChallenge\target\surefire\surefire3176306762512568559tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="localRepository" value="C:\Users\sanjeetpandit\.m2\repository"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,10 +61,169 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToGetUserID" time="5.659"/>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToUserEmailAddress" time="0.631"/>
-  <testcase classname="com.freenow.testcases.TC01_Users" name="createNewUser" time="1.844"/>
-  <testcase classname="com.freenow.testcases.TC02_Posts" name="verifyToGetPostIds" time="1.352"/>
-  <testcase classname="com.freenow.testcases.TC02_Posts" name="createNewUser" time="1.439"/>
-  <testcase classname="com.freenow.testcases.TC03_Comments" name="verifyToGetCommentsOnUserEachPost" time="7.412"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToGetUserID" time="4.761"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="verifyToUserEmailAddress" time="0.666"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="createNewUser" time="7.922"/>
+  <testcase classname="com.freenow.testcases.TC01_Users" name="getCreateNewUserDetails" time="5.636">
+    <failure message="response is not 200 expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: response is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC01_Users.getCreateNewUserDetails(TC01_Users.java:159)
+</failure>
+    <system-out>{
+  &quot;id&quot; : 12,
+  &quot;name&quot; : &quot;Jesaa&quot;,
+  &quot;username&quot; : &quot;Jessa123&quot;,
+  &quot;email&quot; : &quot;jessa@freenow.com&quot;,
+  &quot;address&quot; : {
+    &quot;street&quot; : &quot;lone Villa&quot;,
+    &quot;suite&quot; : &quot;come 123&quot;,
+    &quot;city&quot; : &quot;Hamburg&quot;,
+    &quot;zipcode&quot; : &quot;1234423&quot;,
+    &quot;geo&quot; : {
+      &quot;lat&quot; : &quot;123&quot;,
+      &quot;lng&quot; : &quot;754&quot;
+    }
+  },
+  &quot;phone&quot; : &quot;2147483647&quot;,
+  &quot;website&quot; : &quot;abc.com&quot;,
+  &quot;company&quot; : {
+    &quot;name&quot; : &quot;free now&quot;,
+    &quot;catchPhrase&quot; : &quot;asd&quot;,
+    &quot;bs&quot; : &quot;jsdk&quot;
+  }
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;id&quot;: 12,
+    &quot;name&quot;: &quot;Jesaa&quot;,
+    &quot;username&quot;: &quot;Jessa123&quot;,
+    &quot;email&quot;: &quot;jessa@freenow.com&quot;,
+    &quot;address&quot;: {
+        &quot;street&quot;: &quot;lone Villa&quot;,
+        &quot;suite&quot;: &quot;come 123&quot;,
+        &quot;city&quot;: &quot;Hamburg&quot;,
+        &quot;zipcode&quot;: &quot;1234423&quot;,
+        &quot;geo&quot;: {
+            &quot;lat&quot;: &quot;123&quot;,
+            &quot;lng&quot;: &quot;754&quot;
+        }
+    },
+    &quot;phone&quot;: &quot;2147483647&quot;,
+    &quot;website&quot;: &quot;abc.com&quot;,
+    &quot;company&quot;: {
+        &quot;name&quot;: &quot;free now&quot;,
+        &quot;catchPhrase&quot;: &quot;asd&quot;,
+        &quot;bs&quot;: &quot;jsdk&quot;
+    }
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/11
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</system-out>
+  </testcase>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="verifyToGetPostIds" time="1.172"/>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="createNewUser" time="4.157"/>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="createNewUser" time="3.551"/>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="getResponseFromCreatedNewUser" time="4.618">
+    <failure message=" Status code is not 200 expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+</failure>
+    <system-out>Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts/
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;userId&quot;: 3,
+    &quot;id&quot;: 1,
+    &quot;title&quot;: &quot;dummy api data&quot;,
+    &quot;body&quot;: &quot;dummy api data&quot;
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/101
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</system-out>
+  </testcase>
+  <testcase classname="com.freenow.testcases.TC02_Posts" name="getResponseFromCreatedNewUser" time="1.718">
+    <failure message=" Status code is not 200 expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError:  Status code is not 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at com.freenow.testcases.TC02_Posts.getResponseFromCreatedNewUser(TC02_Posts.java:126)
+</failure>
+    <system-out>Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts/
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;userId&quot;: 3,
+    &quot;id&quot;: 0,
+    &quot;title&quot;: &quot;dummy api data&quot;,
+    &quot;body&quot;: &quot;dummy api data&quot;
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/posts/101
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+</system-out>
+  </testcase>
+  <testcase classname="com.freenow.testcases.TC03_Comments" name="verifyToGetCommentsOnUserEachPost" time="7.854"/>
+  <testcase classname="com.freenow.testcases.TC03_Comments" name="createNewComment" time="36.021"/>
 </testsuite>
