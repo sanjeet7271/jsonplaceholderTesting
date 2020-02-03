@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.freenow.testcases.TC01_Users">
+      <class name="com.freenow.testcases.TC02_Posts">
         <methods>
-          <include name="getCreateNewUserDetails" invocation-numbers="0"/>
+          <include name="getResponseFromCreatedNewUser" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- com.freenow.testcases.TC01_Users -->
+      </class> <!-- com.freenow.testcases.TC02_Posts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
