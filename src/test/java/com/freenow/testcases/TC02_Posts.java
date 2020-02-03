@@ -19,11 +19,17 @@ import com.freenow.restassuredmethods.RestAssuredMethodsCall;
 
 import io.restassured.response.Response;
 
+/**
+ * 
+ * @author sanjeetpandit
+ *
+ */
+
 public class TC02_Posts {
-	String xlFilePath="./src/main/resources/testdata/TestDataForPosts.xlsx";
-	String sheetName="posts";
-	ExcelSheetReader provideData=new ExcelSheetReader();
-	Object[][] data=null;
+	String xlFilePath = "./src/main/resources/testdata/TestData.xlsx";
+	String sheetName = "Posts";
+	ExcelSheetReader provideData = new ExcelSheetReader();
+	Object[][] data = null;
 	ResourceURLs resources = new ResourceURLs();
 	public static Logger logger = Logger.getLogger(TC02_Posts.class);
 	Response response;
@@ -31,6 +37,11 @@ public class TC02_Posts {
 	ParametersForUserAndPost queryParam = new ParametersForUserAndPost();
 	CommonUtility commonUtility = new CommonUtility();
 	PostJsonforCreation postData = new PostJsonforCreation();
+
+	/**
+	 * @get all post ID
+	 * 
+	 */
 
 	@Test(priority = 1, description = "verify all post IDs and its duplication")
 	public void verifyToGetPostIds() {
@@ -55,17 +66,26 @@ public class TC02_Posts {
 			Assert.fail("Properties file not found.");
 		}
 	}
-	@DataProvider(name="post")
-	public Object[][] testData() throws IOException{
-		data=provideData.testData(xlFilePath, sheetName);
+
+	@DataProvider(name = "post")
+	public Object[][] testData() throws IOException {
+		data = provideData.testData(xlFilePath, sheetName);
 		return data;
 	}
-	@Test(priority = 2,dataProvider="post", description = "to create dummy post data")
+
+	/**
+	 * 
+	 * @param userId
+	 * @param id
+	 * @param title
+	 * @param body
+	 * @Create post to particular users
+	 */
+	@Test(priority = 2, dataProvider = "post", description = "to create dummy post data")
 	public void createNewUser(String userId, String id, String title, String body) {
 		try {
 
-			String dummyTestData = postData.postJsonData(Integer.parseInt(userId),Integer.parseInt(id),title,body);
-			//System.out.println(dummyTestData);
+			String dummyTestData = postData.postJsonData(Integer.parseInt(userId), Integer.parseInt(id), title, body);
 			response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(), "", "");
 			int statusCode = response.getStatusCode();
 			System.out.println(response.asString());
@@ -78,23 +98,32 @@ public class TC02_Posts {
 		}
 	}
 
-	 @Test(priority = 3, dataProvider="post",description = "get response from newly created post")
+	/**
+	 * 
+	 * @param userId
+	 * @param id
+	 * @param title
+	 * @param body
+	 * @To retrieve post data created by users, Failed because it is not able to retrieve created data
+	 */
+	@Test(priority = 3, dataProvider = "post", description = "get response from newly created post")
 	public void getResponseFromCreatedNewUser(String userId, String id, String title, String body) {
 		try {
-			
-			String dummyTestData=postData.postJsonData(Integer.parseInt(userId),Integer.parseInt(id),title,body);;
-			System.out.println(dummyTestData);
-			Response response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(), "", "");
+
+			String dummyTestData = postData.postJsonData(Integer.parseInt(userId), Integer.parseInt(id), title, body);
+
+			Response response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(),
+					"", "");
 			int statusCode = response.getStatusCode();
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode);
 			List<Posts> postJson = Arrays.asList(response.getBody().as(Posts.class));
-			for(int i = 0; i < postJson.size(); i++) {
-			int newPostid=postJson.get(i).getId();
-			Response getresponse = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforPosts()+newPostid,
-					"", "");
-			
-			int statusCode1 = getresponse.getStatusCode();
-			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1," Status code is not 200");
+			for (int i = 0; i < postJson.size(); i++) {
+				int newPostid = postJson.get(i).getId();
+				Response getresponse = rest.restAssuredCalls(HttpMethods.GET, "",
+						resources.getResourceforPosts() + newPostid, "", "");
+
+				int statusCode1 = getresponse.getStatusCode();
+				Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1, " Status code is not 200");
 			}
 
 		} catch (Exception e) {

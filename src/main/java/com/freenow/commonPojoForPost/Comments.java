@@ -1,5 +1,9 @@
 package com.freenow.commonPojoForPost;
-
+/*
+ * @Sanjeet.Pandit
+ * @Pojo class for comment section,
+ * @user constructor to initialize value to post data 
+ */
 public class Comments {
 
 	private Integer postId;

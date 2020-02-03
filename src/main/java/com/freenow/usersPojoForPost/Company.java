@@ -1,11 +1,23 @@
 package com.freenow.usersPojoForPost;
-	
+
+/**
+ * 
+ * @author sanjeetpandit
+ *
+ */
 public class Company {
 
 	private String name;
 	private String catchPhrase;
 	private String bs;
 
+	/**
+	 * 
+	 * @param name
+	 * @param catchPhrase
+	 * @param bs
+	 * @Constructor to initilaize default value
+	 */
 	public Company(String name, String catchPhrase, String bs) {
 		this.name = name;
 		this.catchPhrase = catchPhrase;

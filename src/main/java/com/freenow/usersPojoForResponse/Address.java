@@ -1,6 +1,10 @@
 package com.freenow.usersPojoForResponse;
 
-
+/**
+ * 
+ * @author sanjeetpandit
+ * @utility to De-Serialize response recieved from get Request
+ */
 class Address {
 
 	private String street;

@@ -1,5 +1,10 @@
 package com.freenow.commonPojoForResponse;
 
+/**
+ * @Sanjeet.Pandit
+ * @method to De-Serialize response from Post request
+ * 
+ */
 
 public class Posts {
 
@@ -7,8 +12,7 @@ public class Posts {
 	private Integer id;
 	private String title;
 	private String body;
-	
-	
+
 	public Integer getUserId() {
 		return userId;
 	}

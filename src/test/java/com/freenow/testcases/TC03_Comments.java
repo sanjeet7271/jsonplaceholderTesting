@@ -16,6 +16,11 @@ import com.freenow.resources.SearchForUseName;
 import com.freenow.restassuredmethods.RestAssuredMethodsCall;
 import io.restassured.response.Response;
 
+/**
+ * 
+ * @author sanjeetpandit
+ *
+ */
 public class TC03_Comments {
 	ResourceURLs resources = new ResourceURLs();
 	private static Logger logger = Logger.getLogger(TC03_Comments.class);
@@ -28,8 +33,14 @@ public class TC03_Comments {
 	CommonUtility commonUtility = new CommonUtility();
 	CommentsJsonforCreation CommentsJson = new CommentsJsonforCreation();
 
+	/**
+	 * 
+	 * @validate all email's commented by users to particular user ID
+	 * 
+	 */
+
 	@SuppressWarnings("static-access")
-	@Test(description="validating all emails which is comments by people for each post")
+	@Test(description = "validating all emails which is comments by people for each post")
 	public void verifyToGetCommentsOnUserEachPost() {
 		try {
 			logger.info("getting user id for the corresponding username");
@@ -61,6 +72,12 @@ public class TC03_Comments {
 		}
 	}
 
+	/**
+	 * 
+	 * @Made comment on each post, Which is created by the particular user
+	 * 
+	 */
+
 	@Test(priority = 2, description = "make comment on each post of the user")
 	public void createNewComment() {
 		try {
@@ -78,15 +95,17 @@ public class TC03_Comments {
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1);
 			List<Integer> postIds = commonUtility.getAllPostIds(postResponse);
 			logger.info("Recieved post ids for the corresponding user Id " + postIds);
-			
+
 			for (int postId : postIds) {
 				logger.info("Creating comment for the post " + postId);
 				String dummyTestData = CommentsJson.postJsonData();
-				Response commentresponse = rest.restAssuredCalls(HttpMethods.POST_WITH_QUERYPARAM, dummyTestData, resources.getResourceforComments(), Integer.toString(postId), queryParam.getQueryParamForPostId());
-				int statusCode2= commentresponse.getStatusCode();
+				Response commentresponse = rest.restAssuredCalls(HttpMethods.POST_WITH_QUERYPARAM, dummyTestData,
+						resources.getResourceforComments(), Integer.toString(postId),
+						queryParam.getQueryParamForPostId());
+				int statusCode2 = commentresponse.getStatusCode();
 				System.out.println(commentresponse.asString());
 				Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode2);
-				logger.info("made comment for the post " + postId+ " is successful");
+				logger.info("made comment for the post " + postId + " is successful");
 			}
 
 		} catch (Exception e) {

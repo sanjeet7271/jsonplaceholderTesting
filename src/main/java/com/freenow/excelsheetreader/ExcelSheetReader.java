@@ -1,10 +1,21 @@
 package com.freenow.excelsheetreader;
 
 import java.io.IOException;
-
+/**
+ * 
+ * @author sanjeetpandit
+ *
+ */
 public class ExcelSheetReader {
 	ExcelDataReader excel = null;
-
+	/**
+	 * 
+	 * @param xlFilePath
+	 * @param sheetName
+	 * @return
+	 * @throws IOException
+	 */
+	
 	public Object[][] testData(String xlFilePath, String sheetName) throws IOException {
 		Object[][] excelData = null;
 		excel = new ExcelDataReader(xlFilePath);

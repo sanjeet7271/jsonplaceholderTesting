@@ -1,6 +1,11 @@
 package com.freenow.usersPojoForResponse;
 
-
+/**
+ * 
+ * @author sanjeetpandit
+ * @utility to De-Serialize response received from get Request
+ *
+ */
 public class UsersJson {
 
 	private Integer id;

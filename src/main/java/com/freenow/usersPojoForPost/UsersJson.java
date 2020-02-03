@@ -1,6 +1,10 @@
 package com.freenow.usersPojoForPost;
 
-
+/**
+ * 
+ * @author sanjeetpandit
+ *
+ */
 public class UsersJson {
 
 	private Integer id;
@@ -11,7 +15,18 @@ public class UsersJson {
 	private String phone;
 	private String website;
 	private Company company;
-	
+	/**
+	 * 
+	 * @param id
+	 * @param name
+	 * @param username
+	 * @param email
+	 * @param address
+	 * @param phone
+	 * @param website
+	 * @param company
+	 * @Constructor to initilaize default value
+	 */
 	public UsersJson(int id,String name,String username,String email,Address address,String phone,String website,Company company) {
 		this.id=id;
 		this.name=name;

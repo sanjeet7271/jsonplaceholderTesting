@@ -1,5 +1,10 @@
 package com.freenow.commonPojoForResponse;
 
+/*
+ * @Sanjeet.Pandit
+ * @method to De-Serialize response from comment request
+ * 
+ */
 public class Comments {
 
 	private Integer postId;

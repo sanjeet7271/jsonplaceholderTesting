@@ -6,11 +6,25 @@ import com.freenow.resources.ResourceURLs;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
+/**
+ * 
+ * @author sanjeetpandit
+ * @ Different RestAssured methods
+ *
+ */
 public class RestAssuredMethodsCall {
 	ResourceURLs resource = new ResourceURLs();
 	Response response = null;
-
+	/**
+	 * 
+	 * @param requestType
+	 * @param entityString
+	 * @param request
+	 * @param id
+	 * @param queryParam
+	 * @return
+	 * 
+	 */
 	public Response restAssuredCalls(String requestType,String entityString, String request, String id, String queryParam) {
 
 		switch (requestType) {

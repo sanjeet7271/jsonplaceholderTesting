@@ -1,6 +1,11 @@
 package com.freenow.usersPojoForResponse;
 
-
+/**
+ * 
+ * @author sanjeetpandit
+ *@utility to De-Serialize response recieved from get Request
+ *
+ */
 public class Geo {
 
 	private String lat;

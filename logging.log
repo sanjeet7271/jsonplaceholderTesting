@@ -244,3 +244,538 @@ a provident perspiciatis quia and post Id id :30
 2020-02-02 23:34:35 ERROR TC02_Posts:48 - Post IDs are :[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 2020-02-02 23:34:35 ERROR TC02_Posts:49 - Validating duplicate Post ID
 2020-02-02 23:34:35 INFO  CommonUtility:73 - duplicate id is not found
+2020-02-03 12:01:59 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 12:01:59 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 12:01:59 INFO  CommonUtility:50 - Test case starts for :Samantha
+2020-02-03 12:01:59 INFO  CommonUtility:52 - User id for username Samantha is 3
+2020-02-03 12:01:59 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :54
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :asperiores ea ipsam voluptatibus modi minima quia sint and post Id id  :21
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :54
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :repellat aliquid praesentium dolorem quo
+sed totam minus non itaque
+nihil labore molestiae sunt dolor eveniet hic recusandae veniam
+tempora et tenetur expedita sunt and post Id id :21
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :41
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :dolor sint quo a velit explicabo quia nam and post Id id  :22
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :41
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :eos qui et ipsum ipsam suscipit aut
+sed omnis non odio
+expedita earum mollitia molestiae aut atque rem suscipit
+nam impedit esse and post Id id :22
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :maxime id vitae nihil numquam and post Id id  :23
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :veritatis unde neque eligendi
+quae quod architecto quo neque vitae
+est illo sit tempora doloremque fugit quod
+et et vel beatae sequi ullam sed tenetur perspiciatis and post Id id :23
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :38
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :autem hic labore sunt dolores incidunt and post Id id  :24
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :38
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :enim et ex nulla
+omnis voluptas quia qui
+voluptatem consequatur numquam aliquam sunt
+totam recusandae id dignissimos aut sed asperiores deserunt and post Id id :24
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :rem alias distinctio quo quis and post Id id  :25
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :ullam consequatur ut
+omnis quis sit vel consequuntur
+ipsa eligendi ipsum molestiae et omnis error nostrum
+molestiae illo tempore quia et distinctio and post Id id :25
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :est et quae odit qui non and post Id id  :26
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :similique esse doloribus nihil accusamus
+omnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus
+perspiciatis cum ut laudantium
+omnis aut molestiae vel vero and post Id id :26
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :37
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :quasi id et eos tenetur aut quo autem and post Id id  :27
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :37
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :eum sed dolores ipsam sint possimus debitis occaecati
+debitis qui qui et
+ut placeat enim earum aut odit facilis
+consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur and post Id id :27
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :47
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :delectus ullam et corporis nulla voluptas sequi and post Id id  :28
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :47
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :non et quaerat ex quae ad maiores
+maiores recusandae totam aut blanditiis mollitia quas illo
+ut voluptatibus voluptatem
+similique nostrum eum and post Id id :28
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :39
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :iusto eius quod necessitatibus culpa ea and post Id id  :29
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :39
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :odit magnam ut saepe sed non qui
+tempora atque nihil
+accusamus illum doloribus illo dolor
+eligendi repudiandae odit magni similique sed cum maiores and post Id id :29
+2020-02-03 12:02:00 INFO  CommonUtility:123 - length of the title is :33
+2020-02-03 12:02:00 INFO  CommonUtility:124 - Title of the post is :a quo magni similique perferendis and post Id id  :30
+2020-02-03 12:02:00 INFO  CommonUtility:129 - length of the body is :33
+2020-02-03 12:02:00 INFO  CommonUtility:130 - Body of the post is :alias dolor cumque
+impedit blanditiis non eveniet odio maxime
+blanditiis amet eius quis tempora quia autem rem
+a provident perspiciatis quia and post Id id :30
+2020-02-03 12:02:00 ERROR TC02_Posts:59 - Post IDs are :[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:02:00 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 12:02:00 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 12:03:29 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 12:03:30 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 12:03:30 INFO  CommonUtility:50 - Test case starts for :Samantha
+2020-02-03 12:03:30 INFO  CommonUtility:52 - User id for username Samantha is 3
+2020-02-03 12:03:30 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :54
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :asperiores ea ipsam voluptatibus modi minima quia sint and post Id id  :21
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :54
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :repellat aliquid praesentium dolorem quo
+sed totam minus non itaque
+nihil labore molestiae sunt dolor eveniet hic recusandae veniam
+tempora et tenetur expedita sunt and post Id id :21
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :41
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :dolor sint quo a velit explicabo quia nam and post Id id  :22
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :41
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :eos qui et ipsum ipsam suscipit aut
+sed omnis non odio
+expedita earum mollitia molestiae aut atque rem suscipit
+nam impedit esse and post Id id :22
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :maxime id vitae nihil numquam and post Id id  :23
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :veritatis unde neque eligendi
+quae quod architecto quo neque vitae
+est illo sit tempora doloremque fugit quod
+et et vel beatae sequi ullam sed tenetur perspiciatis and post Id id :23
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :38
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :autem hic labore sunt dolores incidunt and post Id id  :24
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :38
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :enim et ex nulla
+omnis voluptas quia qui
+voluptatem consequatur numquam aliquam sunt
+totam recusandae id dignissimos aut sed asperiores deserunt and post Id id :24
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :rem alias distinctio quo quis and post Id id  :25
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :ullam consequatur ut
+omnis quis sit vel consequuntur
+ipsa eligendi ipsum molestiae et omnis error nostrum
+molestiae illo tempore quia et distinctio and post Id id :25
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :est et quae odit qui non and post Id id  :26
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :similique esse doloribus nihil accusamus
+omnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus
+perspiciatis cum ut laudantium
+omnis aut molestiae vel vero and post Id id :26
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :37
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :quasi id et eos tenetur aut quo autem and post Id id  :27
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :37
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :eum sed dolores ipsam sint possimus debitis occaecati
+debitis qui qui et
+ut placeat enim earum aut odit facilis
+consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur and post Id id :27
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :47
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :delectus ullam et corporis nulla voluptas sequi and post Id id  :28
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :47
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :non et quaerat ex quae ad maiores
+maiores recusandae totam aut blanditiis mollitia quas illo
+ut voluptatibus voluptatem
+similique nostrum eum and post Id id :28
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :39
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :iusto eius quod necessitatibus culpa ea and post Id id  :29
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :39
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :odit magnam ut saepe sed non qui
+tempora atque nihil
+accusamus illum doloribus illo dolor
+eligendi repudiandae odit magni similique sed cum maiores and post Id id :29
+2020-02-03 12:03:30 INFO  CommonUtility:123 - length of the title is :33
+2020-02-03 12:03:30 INFO  CommonUtility:124 - Title of the post is :a quo magni similique perferendis and post Id id  :30
+2020-02-03 12:03:30 INFO  CommonUtility:129 - length of the body is :33
+2020-02-03 12:03:30 INFO  CommonUtility:130 - Body of the post is :alias dolor cumque
+impedit blanditiis non eveniet odio maxime
+blanditiis amet eius quis tempora quia autem rem
+a provident perspiciatis quia and post Id id :30
+2020-02-03 12:03:30 ERROR TC02_Posts:59 - Post IDs are :[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:03:30 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 12:03:30 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 12:08:19 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 12:08:19 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 12:08:19 INFO  CommonUtility:50 - Test case starts for :Samantha
+2020-02-03 12:08:19 INFO  CommonUtility:52 - User id for username Samantha is 3
+2020-02-03 12:08:19 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :54
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :asperiores ea ipsam voluptatibus modi minima quia sint and post Id id  :21
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :54
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :repellat aliquid praesentium dolorem quo
+sed totam minus non itaque
+nihil labore molestiae sunt dolor eveniet hic recusandae veniam
+tempora et tenetur expedita sunt and post Id id :21
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :41
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :dolor sint quo a velit explicabo quia nam and post Id id  :22
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :41
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :eos qui et ipsum ipsam suscipit aut
+sed omnis non odio
+expedita earum mollitia molestiae aut atque rem suscipit
+nam impedit esse and post Id id :22
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :maxime id vitae nihil numquam and post Id id  :23
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :veritatis unde neque eligendi
+quae quod architecto quo neque vitae
+est illo sit tempora doloremque fugit quod
+et et vel beatae sequi ullam sed tenetur perspiciatis and post Id id :23
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :38
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :autem hic labore sunt dolores incidunt and post Id id  :24
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :38
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :enim et ex nulla
+omnis voluptas quia qui
+voluptatem consequatur numquam aliquam sunt
+totam recusandae id dignissimos aut sed asperiores deserunt and post Id id :24
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :29
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :rem alias distinctio quo quis and post Id id  :25
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :29
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :ullam consequatur ut
+omnis quis sit vel consequuntur
+ipsa eligendi ipsum molestiae et omnis error nostrum
+molestiae illo tempore quia et distinctio and post Id id :25
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :24
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :est et quae odit qui non and post Id id  :26
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :24
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :similique esse doloribus nihil accusamus
+omnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus
+perspiciatis cum ut laudantium
+omnis aut molestiae vel vero and post Id id :26
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :37
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :quasi id et eos tenetur aut quo autem and post Id id  :27
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :37
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :eum sed dolores ipsam sint possimus debitis occaecati
+debitis qui qui et
+ut placeat enim earum aut odit facilis
+consequatur suscipit necessitatibus rerum sed inventore temporibus consequatur and post Id id :27
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :47
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :delectus ullam et corporis nulla voluptas sequi and post Id id  :28
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :47
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :non et quaerat ex quae ad maiores
+maiores recusandae totam aut blanditiis mollitia quas illo
+ut voluptatibus voluptatem
+similique nostrum eum and post Id id :28
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :39
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :iusto eius quod necessitatibus culpa ea and post Id id  :29
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :39
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :odit magnam ut saepe sed non qui
+tempora atque nihil
+accusamus illum doloribus illo dolor
+eligendi repudiandae odit magni similique sed cum maiores and post Id id :29
+2020-02-03 12:08:20 INFO  CommonUtility:123 - length of the title is :33
+2020-02-03 12:08:20 INFO  CommonUtility:124 - Title of the post is :a quo magni similique perferendis and post Id id  :30
+2020-02-03 12:08:20 INFO  CommonUtility:129 - length of the body is :33
+2020-02-03 12:08:20 INFO  CommonUtility:130 - Body of the post is :alias dolor cumque
+impedit blanditiis non eveniet odio maxime
+blanditiis amet eius quis tempora quia autem rem
+a provident perspiciatis quia and post Id id :30
+2020-02-03 12:08:20 ERROR TC02_Posts:59 - Post IDs are :[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:08:20 ERROR TC02_Posts:60 - Validating duplicate Post ID
+2020-02-03 12:08:20 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 12:17:22 INFO  TC03_Comments:46 - getting user id for the corresponding username
+2020-02-03 12:17:30 INFO  CommonUtility:70 - Test case starts for :Samantha
+2020-02-03 12:17:30 INFO  CommonUtility:72 - User id for username Samantha is 3
+2020-02-03 12:17:30 INFO  TC03_Comments:52 - Recieved user id for the corresponding username 3
+2020-02-03 12:17:30 INFO  TC03_Comments:53 - getting post ids for the corresponding user Id
+2020-02-03 12:17:31 INFO  TC03_Comments:59 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:17:32 INFO  TC03_Comments:64 - comments validation starts for the post id 21
+2020-02-03 12:17:33 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Lura@rod.tv, Lottie.Zieme@ruben.us, Winona_Price@jevon.me, Gabriel@oceane.biz, Adolph.Ondricka@mozell.co.uk]
+2020-02-03 12:17:33 INFO  EmailValidator:39 - Email is valid : Lura@rod.tv , true
+2020-02-03 12:17:33 INFO  EmailValidator:39 - Email is valid : Lottie.Zieme@ruben.us , true
+2020-02-03 12:17:33 INFO  EmailValidator:39 - Email is valid : Winona_Price@jevon.me , true
+2020-02-03 12:17:33 INFO  EmailValidator:39 - Email is valid : Gabriel@oceane.biz , true
+2020-02-03 12:17:33 INFO  EmailValidator:39 - Email is valid : Adolph.Ondricka@mozell.co.uk , true
+2020-02-03 12:17:33 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:34 INFO  TC03_Comments:64 - comments validation starts for the post id 22
+2020-02-03 12:17:34 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Allen@richard.biz, Nicholaus@mikayla.ca, Kayla@susanna.org, Gideon@amina.name, Cassidy@maribel.io]
+2020-02-03 12:17:34 INFO  EmailValidator:39 - Email is valid : Allen@richard.biz , true
+2020-02-03 12:17:34 INFO  EmailValidator:39 - Email is valid : Nicholaus@mikayla.ca , true
+2020-02-03 12:17:34 INFO  EmailValidator:39 - Email is valid : Kayla@susanna.org , true
+2020-02-03 12:17:34 INFO  EmailValidator:39 - Email is valid : Gideon@amina.name , true
+2020-02-03 12:17:34 INFO  EmailValidator:39 - Email is valid : Cassidy@maribel.io , true
+2020-02-03 12:17:34 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:36 INFO  TC03_Comments:64 - comments validation starts for the post id 23
+2020-02-03 12:17:36 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Stefan.Crist@duane.ca, Aniyah.Ortiz@monte.me, Laverna@rico.biz, Derek@hildegard.net, Tyrell@abdullah.ca]
+2020-02-03 12:17:36 INFO  EmailValidator:39 - Email is valid : Stefan.Crist@duane.ca , true
+2020-02-03 12:17:36 INFO  EmailValidator:39 - Email is valid : Aniyah.Ortiz@monte.me , true
+2020-02-03 12:17:36 INFO  EmailValidator:39 - Email is valid : Laverna@rico.biz , true
+2020-02-03 12:17:36 INFO  EmailValidator:39 - Email is valid : Derek@hildegard.net , true
+2020-02-03 12:17:36 INFO  EmailValidator:39 - Email is valid : Tyrell@abdullah.ca , true
+2020-02-03 12:17:36 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:37 INFO  TC03_Comments:64 - comments validation starts for the post id 24
+2020-02-03 12:17:37 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Reyes@hailey.name, Danika.Dicki@mekhi.biz, Alessandra.Nitzsche@stephania.us, Matteo@marquis.net, Joshua.Spinka@toby.io]
+2020-02-03 12:17:37 INFO  EmailValidator:39 - Email is valid : Reyes@hailey.name , true
+2020-02-03 12:17:37 INFO  EmailValidator:39 - Email is valid : Danika.Dicki@mekhi.biz , true
+2020-02-03 12:17:37 INFO  EmailValidator:39 - Email is valid : Alessandra.Nitzsche@stephania.us , true
+2020-02-03 12:17:37 INFO  EmailValidator:39 - Email is valid : Matteo@marquis.net , true
+2020-02-03 12:17:37 INFO  EmailValidator:39 - Email is valid : Joshua.Spinka@toby.io , true
+2020-02-03 12:17:37 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:38 INFO  TC03_Comments:64 - comments validation starts for the post id 25
+2020-02-03 12:17:38 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Annabelle@cole.com, Kacey@jamal.info, Mina@mallie.name, Hudson.Blick@ruben.biz, Domenic.Durgan@joaquin.name]
+2020-02-03 12:17:38 INFO  EmailValidator:39 - Email is valid : Annabelle@cole.com , true
+2020-02-03 12:17:38 INFO  EmailValidator:39 - Email is valid : Kacey@jamal.info , true
+2020-02-03 12:17:38 INFO  EmailValidator:39 - Email is valid : Mina@mallie.name , true
+2020-02-03 12:17:38 INFO  EmailValidator:39 - Email is valid : Hudson.Blick@ruben.biz , true
+2020-02-03 12:17:38 INFO  EmailValidator:39 - Email is valid : Domenic.Durgan@joaquin.name , true
+2020-02-03 12:17:38 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:40 INFO  TC03_Comments:64 - comments validation starts for the post id 26
+2020-02-03 12:17:40 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Alexie@alayna.org, Haven_Barrows@brant.org, Marianne@maximo.us, Fanny@danial.com, Trevion_Kuphal@bernice.name]
+2020-02-03 12:17:40 INFO  EmailValidator:39 - Email is valid : Alexie@alayna.org , true
+2020-02-03 12:17:40 INFO  EmailValidator:39 - Email is valid : Haven_Barrows@brant.org , true
+2020-02-03 12:17:40 INFO  EmailValidator:39 - Email is valid : Marianne@maximo.us , true
+2020-02-03 12:17:40 INFO  EmailValidator:39 - Email is valid : Fanny@danial.com , true
+2020-02-03 12:17:40 INFO  EmailValidator:39 - Email is valid : Trevion_Kuphal@bernice.name , true
+2020-02-03 12:17:40 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:41 INFO  TC03_Comments:64 - comments validation starts for the post id 27
+2020-02-03 12:17:41 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Emmet@guy.biz, Megane.Fritsch@claude.name, Amya@durward.ca, Jasen_Rempel@willis.org, Harmony@reggie.com]
+2020-02-03 12:17:41 INFO  EmailValidator:39 - Email is valid : Emmet@guy.biz , true
+2020-02-03 12:17:41 INFO  EmailValidator:39 - Email is valid : Megane.Fritsch@claude.name , true
+2020-02-03 12:17:41 INFO  EmailValidator:39 - Email is valid : Amya@durward.ca , true
+2020-02-03 12:17:41 INFO  EmailValidator:39 - Email is valid : Jasen_Rempel@willis.org , true
+2020-02-03 12:17:41 INFO  EmailValidator:39 - Email is valid : Harmony@reggie.com , true
+2020-02-03 12:17:41 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:43 INFO  TC03_Comments:64 - comments validation starts for the post id 28
+2020-02-03 12:17:43 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Rosanna_Kunze@guy.net, Ressie.Boehm@flossie.com, Domenic.Wuckert@jazmyne.us, Rhett.OKon@brian.info, Mathias@richmond.info]
+2020-02-03 12:17:43 INFO  EmailValidator:39 - Email is valid : Rosanna_Kunze@guy.net , true
+2020-02-03 12:17:43 INFO  EmailValidator:39 - Email is valid : Ressie.Boehm@flossie.com , true
+2020-02-03 12:17:43 INFO  EmailValidator:39 - Email is valid : Domenic.Wuckert@jazmyne.us , true
+2020-02-03 12:17:43 INFO  EmailValidator:39 - Email is valid : Rhett.OKon@brian.info , true
+2020-02-03 12:17:43 INFO  EmailValidator:39 - Email is valid : Mathias@richmond.info , true
+2020-02-03 12:17:43 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:45 INFO  TC03_Comments:64 - comments validation starts for the post id 29
+2020-02-03 12:17:45 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Ottis@lourdes.org, Estel@newton.ca, Bertha@erik.co.uk, Joesph@matteo.info, Alva@cassandre.net]
+2020-02-03 12:17:45 INFO  EmailValidator:39 - Email is valid : Ottis@lourdes.org , true
+2020-02-03 12:17:45 INFO  EmailValidator:39 - Email is valid : Estel@newton.ca , true
+2020-02-03 12:17:45 INFO  EmailValidator:39 - Email is valid : Bertha@erik.co.uk , true
+2020-02-03 12:17:45 INFO  EmailValidator:39 - Email is valid : Joesph@matteo.info , true
+2020-02-03 12:17:45 INFO  EmailValidator:39 - Email is valid : Alva@cassandre.net , true
+2020-02-03 12:17:45 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:47 INFO  TC03_Comments:64 - comments validation starts for the post id 30
+2020-02-03 12:17:47 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Vivienne@willis.org, Angelita@aliza.me, Timmothy_Okuneva@alyce.tv, Moriah_Welch@richmond.org, Ramiro_Kuhn@harmon.biz]
+2020-02-03 12:17:47 INFO  EmailValidator:39 - Email is valid : Vivienne@willis.org , true
+2020-02-03 12:17:47 INFO  EmailValidator:39 - Email is valid : Angelita@aliza.me , true
+2020-02-03 12:17:47 INFO  EmailValidator:39 - Email is valid : Timmothy_Okuneva@alyce.tv , true
+2020-02-03 12:17:47 INFO  EmailValidator:39 - Email is valid : Moriah_Welch@richmond.org , true
+2020-02-03 12:17:47 INFO  EmailValidator:39 - Email is valid : Ramiro_Kuhn@harmon.biz , true
+2020-02-03 12:17:47 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:17:47 INFO  TC03_Comments:84 - getting user id for the corresponding username
+2020-02-03 12:17:48 INFO  CommonUtility:70 - Test case starts for :Samantha
+2020-02-03 12:17:48 INFO  CommonUtility:72 - User id for username Samantha is 3
+2020-02-03 12:17:48 INFO  TC03_Comments:90 - Recieved user id for the corresponding username 3
+2020-02-03 12:17:48 INFO  TC03_Comments:91 - getting post ids for the corresponding user Id
+2020-02-03 12:17:48 INFO  TC03_Comments:97 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:17:48 INFO  TC03_Comments:100 - Creating comment for the post 21
+2020-02-03 12:17:50 INFO  TC03_Comments:108 - made comment for the post 21 is successful
+2020-02-03 12:17:50 INFO  TC03_Comments:100 - Creating comment for the post 22
+2020-02-03 12:17:52 INFO  TC03_Comments:108 - made comment for the post 22 is successful
+2020-02-03 12:17:52 INFO  TC03_Comments:100 - Creating comment for the post 23
+2020-02-03 12:17:54 INFO  TC03_Comments:108 - made comment for the post 23 is successful
+2020-02-03 12:17:54 INFO  TC03_Comments:100 - Creating comment for the post 24
+2020-02-03 12:17:55 INFO  TC03_Comments:108 - made comment for the post 24 is successful
+2020-02-03 12:17:55 INFO  TC03_Comments:100 - Creating comment for the post 25
+2020-02-03 12:17:56 INFO  TC03_Comments:108 - made comment for the post 25 is successful
+2020-02-03 12:17:56 INFO  TC03_Comments:100 - Creating comment for the post 26
+2020-02-03 12:18:00 INFO  TC03_Comments:108 - made comment for the post 26 is successful
+2020-02-03 12:18:00 INFO  TC03_Comments:100 - Creating comment for the post 27
+2020-02-03 12:18:01 INFO  TC03_Comments:108 - made comment for the post 27 is successful
+2020-02-03 12:18:01 INFO  TC03_Comments:100 - Creating comment for the post 28
+2020-02-03 12:18:02 INFO  TC03_Comments:108 - made comment for the post 28 is successful
+2020-02-03 12:18:02 INFO  TC03_Comments:100 - Creating comment for the post 29
+2020-02-03 12:18:04 INFO  TC03_Comments:108 - made comment for the post 29 is successful
+2020-02-03 12:18:04 INFO  TC03_Comments:100 - Creating comment for the post 30
+2020-02-03 12:18:06 INFO  TC03_Comments:108 - made comment for the post 30 is successful
+2020-02-03 12:18:06 INFO  TC03_Comments:100 - Creating comment for the post 21
+2020-02-03 12:18:07 INFO  TC03_Comments:108 - made comment for the post 21 is successful
+2020-02-03 12:18:07 INFO  TC03_Comments:100 - Creating comment for the post 22
+2020-02-03 12:18:08 INFO  TC03_Comments:108 - made comment for the post 22 is successful
+2020-02-03 12:18:08 INFO  TC03_Comments:100 - Creating comment for the post 23
+2020-02-03 12:18:10 INFO  TC03_Comments:108 - made comment for the post 23 is successful
+2020-02-03 12:18:10 INFO  TC03_Comments:100 - Creating comment for the post 24
+2020-02-03 12:18:11 INFO  TC03_Comments:108 - made comment for the post 24 is successful
+2020-02-03 12:18:11 INFO  TC03_Comments:100 - Creating comment for the post 25
+2020-02-03 12:18:12 INFO  TC03_Comments:108 - made comment for the post 25 is successful
+2020-02-03 12:18:12 INFO  TC03_Comments:100 - Creating comment for the post 26
+2020-02-03 12:18:14 INFO  TC03_Comments:108 - made comment for the post 26 is successful
+2020-02-03 12:18:14 INFO  TC03_Comments:100 - Creating comment for the post 27
+2020-02-03 12:18:16 INFO  TC03_Comments:108 - made comment for the post 27 is successful
+2020-02-03 12:18:16 INFO  TC03_Comments:100 - Creating comment for the post 28
+2020-02-03 12:18:17 INFO  TC03_Comments:108 - made comment for the post 28 is successful
+2020-02-03 12:18:17 INFO  TC03_Comments:100 - Creating comment for the post 29
+2020-02-03 12:18:19 INFO  TC03_Comments:108 - made comment for the post 29 is successful
+2020-02-03 12:18:19 INFO  TC03_Comments:100 - Creating comment for the post 30
+2020-02-03 12:18:20 INFO  TC03_Comments:108 - made comment for the post 30 is successful
+2020-02-03 12:41:35 INFO  TC03_Comments:46 - getting user id for the corresponding username
+2020-02-03 12:41:42 INFO  CommonUtility:70 - Test case starts for :Samantha
+2020-02-03 12:41:42 INFO  CommonUtility:72 - User id for username Samantha is 3
+2020-02-03 12:41:42 INFO  TC03_Comments:52 - Recieved user id for the corresponding username 3
+2020-02-03 12:41:42 INFO  TC03_Comments:53 - getting post ids for the corresponding user Id
+2020-02-03 12:41:43 INFO  TC03_Comments:59 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:41:44 INFO  TC03_Comments:64 - comments validation starts for the post id 21
+2020-02-03 12:41:44 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Lura@rod.tv, Lottie.Zieme@ruben.us, Winona_Price@jevon.me, Gabriel@oceane.biz, Adolph.Ondricka@mozell.co.uk]
+2020-02-03 12:41:44 INFO  EmailValidator:39 - Email is valid : Lura@rod.tv , true
+2020-02-03 12:41:44 INFO  EmailValidator:39 - Email is valid : Lottie.Zieme@ruben.us , true
+2020-02-03 12:41:44 INFO  EmailValidator:39 - Email is valid : Winona_Price@jevon.me , true
+2020-02-03 12:41:44 INFO  EmailValidator:39 - Email is valid : Gabriel@oceane.biz , true
+2020-02-03 12:41:44 INFO  EmailValidator:39 - Email is valid : Adolph.Ondricka@mozell.co.uk , true
+2020-02-03 12:41:44 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:45 INFO  TC03_Comments:64 - comments validation starts for the post id 22
+2020-02-03 12:41:45 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Allen@richard.biz, Nicholaus@mikayla.ca, Kayla@susanna.org, Gideon@amina.name, Cassidy@maribel.io]
+2020-02-03 12:41:45 INFO  EmailValidator:39 - Email is valid : Allen@richard.biz , true
+2020-02-03 12:41:45 INFO  EmailValidator:39 - Email is valid : Nicholaus@mikayla.ca , true
+2020-02-03 12:41:45 INFO  EmailValidator:39 - Email is valid : Kayla@susanna.org , true
+2020-02-03 12:41:45 INFO  EmailValidator:39 - Email is valid : Gideon@amina.name , true
+2020-02-03 12:41:45 INFO  EmailValidator:39 - Email is valid : Cassidy@maribel.io , true
+2020-02-03 12:41:45 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:46 INFO  TC03_Comments:64 - comments validation starts for the post id 23
+2020-02-03 12:41:46 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Stefan.Crist@duane.ca, Aniyah.Ortiz@monte.me, Laverna@rico.biz, Derek@hildegard.net, Tyrell@abdullah.ca]
+2020-02-03 12:41:46 INFO  EmailValidator:39 - Email is valid : Stefan.Crist@duane.ca , true
+2020-02-03 12:41:46 INFO  EmailValidator:39 - Email is valid : Aniyah.Ortiz@monte.me , true
+2020-02-03 12:41:46 INFO  EmailValidator:39 - Email is valid : Laverna@rico.biz , true
+2020-02-03 12:41:46 INFO  EmailValidator:39 - Email is valid : Derek@hildegard.net , true
+2020-02-03 12:41:46 INFO  EmailValidator:39 - Email is valid : Tyrell@abdullah.ca , true
+2020-02-03 12:41:46 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:47 INFO  TC03_Comments:64 - comments validation starts for the post id 24
+2020-02-03 12:41:47 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Reyes@hailey.name, Danika.Dicki@mekhi.biz, Alessandra.Nitzsche@stephania.us, Matteo@marquis.net, Joshua.Spinka@toby.io]
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Reyes@hailey.name , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Danika.Dicki@mekhi.biz , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Alessandra.Nitzsche@stephania.us , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Matteo@marquis.net , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Joshua.Spinka@toby.io , true
+2020-02-03 12:41:47 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:47 INFO  TC03_Comments:64 - comments validation starts for the post id 25
+2020-02-03 12:41:47 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Annabelle@cole.com, Kacey@jamal.info, Mina@mallie.name, Hudson.Blick@ruben.biz, Domenic.Durgan@joaquin.name]
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Annabelle@cole.com , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Kacey@jamal.info , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Mina@mallie.name , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Hudson.Blick@ruben.biz , true
+2020-02-03 12:41:47 INFO  EmailValidator:39 - Email is valid : Domenic.Durgan@joaquin.name , true
+2020-02-03 12:41:47 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:48 INFO  TC03_Comments:64 - comments validation starts for the post id 26
+2020-02-03 12:41:48 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Alexie@alayna.org, Haven_Barrows@brant.org, Marianne@maximo.us, Fanny@danial.com, Trevion_Kuphal@bernice.name]
+2020-02-03 12:41:48 INFO  EmailValidator:39 - Email is valid : Alexie@alayna.org , true
+2020-02-03 12:41:48 INFO  EmailValidator:39 - Email is valid : Haven_Barrows@brant.org , true
+2020-02-03 12:41:48 INFO  EmailValidator:39 - Email is valid : Marianne@maximo.us , true
+2020-02-03 12:41:48 INFO  EmailValidator:39 - Email is valid : Fanny@danial.com , true
+2020-02-03 12:41:48 INFO  EmailValidator:39 - Email is valid : Trevion_Kuphal@bernice.name , true
+2020-02-03 12:41:48 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:49 INFO  TC03_Comments:64 - comments validation starts for the post id 27
+2020-02-03 12:41:49 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Emmet@guy.biz, Megane.Fritsch@claude.name, Amya@durward.ca, Jasen_Rempel@willis.org, Harmony@reggie.com]
+2020-02-03 12:41:49 INFO  EmailValidator:39 - Email is valid : Emmet@guy.biz , true
+2020-02-03 12:41:49 INFO  EmailValidator:39 - Email is valid : Megane.Fritsch@claude.name , true
+2020-02-03 12:41:49 INFO  EmailValidator:39 - Email is valid : Amya@durward.ca , true
+2020-02-03 12:41:49 INFO  EmailValidator:39 - Email is valid : Jasen_Rempel@willis.org , true
+2020-02-03 12:41:49 INFO  EmailValidator:39 - Email is valid : Harmony@reggie.com , true
+2020-02-03 12:41:49 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:50 INFO  TC03_Comments:64 - comments validation starts for the post id 28
+2020-02-03 12:41:50 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Rosanna_Kunze@guy.net, Ressie.Boehm@flossie.com, Domenic.Wuckert@jazmyne.us, Rhett.OKon@brian.info, Mathias@richmond.info]
+2020-02-03 12:41:50 INFO  EmailValidator:39 - Email is valid : Rosanna_Kunze@guy.net , true
+2020-02-03 12:41:50 INFO  EmailValidator:39 - Email is valid : Ressie.Boehm@flossie.com , true
+2020-02-03 12:41:50 INFO  EmailValidator:39 - Email is valid : Domenic.Wuckert@jazmyne.us , true
+2020-02-03 12:41:50 INFO  EmailValidator:39 - Email is valid : Rhett.OKon@brian.info , true
+2020-02-03 12:41:50 INFO  EmailValidator:39 - Email is valid : Mathias@richmond.info , true
+2020-02-03 12:41:50 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:51 INFO  TC03_Comments:64 - comments validation starts for the post id 29
+2020-02-03 12:41:51 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Ottis@lourdes.org, Estel@newton.ca, Bertha@erik.co.uk, Joesph@matteo.info, Alva@cassandre.net]
+2020-02-03 12:41:51 INFO  EmailValidator:39 - Email is valid : Ottis@lourdes.org , true
+2020-02-03 12:41:51 INFO  EmailValidator:39 - Email is valid : Estel@newton.ca , true
+2020-02-03 12:41:51 INFO  EmailValidator:39 - Email is valid : Bertha@erik.co.uk , true
+2020-02-03 12:41:51 INFO  EmailValidator:39 - Email is valid : Joesph@matteo.info , true
+2020-02-03 12:41:51 INFO  EmailValidator:39 - Email is valid : Alva@cassandre.net , true
+2020-02-03 12:41:51 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:52 INFO  TC03_Comments:64 - comments validation starts for the post id 30
+2020-02-03 12:41:52 INFO  CommonUtility:170 - Validating email Ids for commented users on particular comments, and the email Ids are [Vivienne@willis.org, Angelita@aliza.me, Timmothy_Okuneva@alyce.tv, Moriah_Welch@richmond.org, Ramiro_Kuhn@harmon.biz]
+2020-02-03 12:41:52 INFO  EmailValidator:39 - Email is valid : Vivienne@willis.org , true
+2020-02-03 12:41:52 INFO  EmailValidator:39 - Email is valid : Angelita@aliza.me , true
+2020-02-03 12:41:52 INFO  EmailValidator:39 - Email is valid : Timmothy_Okuneva@alyce.tv , true
+2020-02-03 12:41:52 INFO  EmailValidator:39 - Email is valid : Moriah_Welch@richmond.org , true
+2020-02-03 12:41:52 INFO  EmailValidator:39 - Email is valid : Ramiro_Kuhn@harmon.biz , true
+2020-02-03 12:41:52 INFO  CommonUtility:173 - Validating done for email Ids
+2020-02-03 12:41:52 INFO  TC03_Comments:84 - getting user id for the corresponding username
+2020-02-03 12:41:53 INFO  CommonUtility:70 - Test case starts for :Samantha
+2020-02-03 12:41:53 INFO  CommonUtility:72 - User id for username Samantha is 3
+2020-02-03 12:41:53 INFO  TC03_Comments:90 - Recieved user id for the corresponding username 3
+2020-02-03 12:41:53 INFO  TC03_Comments:91 - getting post ids for the corresponding user Id
+2020-02-03 12:41:54 INFO  TC03_Comments:97 - Recieved post ids for the corresponding user Id [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-02-03 12:41:54 INFO  TC03_Comments:100 - Creating comment for the post 21
+2020-02-03 12:41:55 INFO  TC03_Comments:108 - made comment for the post 21 is successful
+2020-02-03 12:41:55 INFO  TC03_Comments:100 - Creating comment for the post 22
+2020-02-03 12:41:57 INFO  TC03_Comments:108 - made comment for the post 22 is successful
+2020-02-03 12:41:57 INFO  TC03_Comments:100 - Creating comment for the post 23
+2020-02-03 12:41:58 INFO  TC03_Comments:108 - made comment for the post 23 is successful
+2020-02-03 12:41:58 INFO  TC03_Comments:100 - Creating comment for the post 24
+2020-02-03 12:42:00 INFO  TC03_Comments:108 - made comment for the post 24 is successful
+2020-02-03 12:42:00 INFO  TC03_Comments:100 - Creating comment for the post 25
+2020-02-03 12:42:01 INFO  TC03_Comments:108 - made comment for the post 25 is successful
+2020-02-03 12:42:01 INFO  TC03_Comments:100 - Creating comment for the post 26
+2020-02-03 12:42:02 INFO  TC03_Comments:108 - made comment for the post 26 is successful
+2020-02-03 12:42:02 INFO  TC03_Comments:100 - Creating comment for the post 27
+2020-02-03 12:42:04 INFO  TC03_Comments:108 - made comment for the post 27 is successful
+2020-02-03 12:42:04 INFO  TC03_Comments:100 - Creating comment for the post 28
+2020-02-03 12:42:05 INFO  TC03_Comments:108 - made comment for the post 28 is successful
+2020-02-03 12:42:05 INFO  TC03_Comments:100 - Creating comment for the post 29
+2020-02-03 12:42:07 INFO  TC03_Comments:108 - made comment for the post 29 is successful
+2020-02-03 12:42:07 INFO  TC03_Comments:100 - Creating comment for the post 30
+2020-02-03 12:42:08 INFO  TC03_Comments:108 - made comment for the post 30 is successful
+2020-02-03 12:42:08 INFO  TC03_Comments:100 - Creating comment for the post 21
+2020-02-03 12:42:09 INFO  TC03_Comments:108 - made comment for the post 21 is successful
+2020-02-03 12:42:09 INFO  TC03_Comments:100 - Creating comment for the post 22
+2020-02-03 12:42:10 INFO  TC03_Comments:108 - made comment for the post 22 is successful
+2020-02-03 12:42:10 INFO  TC03_Comments:100 - Creating comment for the post 23
+2020-02-03 12:42:12 INFO  TC03_Comments:108 - made comment for the post 23 is successful
+2020-02-03 12:42:12 INFO  TC03_Comments:100 - Creating comment for the post 24
+2020-02-03 12:42:14 INFO  TC03_Comments:108 - made comment for the post 24 is successful
+2020-02-03 12:42:14 INFO  TC03_Comments:100 - Creating comment for the post 25
+2020-02-03 12:42:16 INFO  TC03_Comments:108 - made comment for the post 25 is successful
+2020-02-03 12:42:16 INFO  TC03_Comments:100 - Creating comment for the post 26
+2020-02-03 12:42:17 INFO  TC03_Comments:108 - made comment for the post 26 is successful
+2020-02-03 12:42:17 INFO  TC03_Comments:100 - Creating comment for the post 27
+2020-02-03 12:42:18 INFO  TC03_Comments:108 - made comment for the post 27 is successful
+2020-02-03 12:42:18 INFO  TC03_Comments:100 - Creating comment for the post 28
+2020-02-03 12:42:19 INFO  TC03_Comments:108 - made comment for the post 28 is successful
+2020-02-03 12:42:19 INFO  TC03_Comments:100 - Creating comment for the post 29
+2020-02-03 12:42:21 INFO  TC03_Comments:108 - made comment for the post 29 is successful
+2020-02-03 12:42:21 INFO  TC03_Comments:100 - Creating comment for the post 30
+2020-02-03 12:42:22 INFO  TC03_Comments:108 - made comment for the post 30 is successful
+2020-02-03 12:49:48 ERROR TC01_Users:165 - Exception java.lang.NullPointerException
+2020-02-03 12:49:48 ERROR TC01_Users:166 - Response not found.
+2020-02-03 12:53:25 ERROR TC01_Users:165 - Exception org.codehaus.jackson.map.JsonMappingException: Can not deserialize instance of com.freenow.usersPojoForResponse.UsersJson[] out of START_OBJECT token
+ at [Source: java.io.StringReader@6f667ad1; line: 1, column: 1]
+2020-02-03 12:53:25 ERROR TC01_Users:166 - Response not found.
+2020-02-03 13:00:23 ERROR TC01_Users:170 - Exception org.codehaus.jackson.map.JsonMappingException: Can not deserialize instance of com.freenow.usersPojoForResponse.UsersJson[] out of START_OBJECT token
+ at [Source: java.io.StringReader@566d0c69; line: 1, column: 1]
+2020-02-03 13:00:23 ERROR TC01_Users:171 - Response not found.
+2020-02-03 13:28:36 ERROR TC01_Users:169 - Exception org.codehaus.jackson.map.JsonMappingException: Can not deserialize instance of com.freenow.usersPojoForResponse.UsersJson[] out of START_OBJECT token
+ at [Source: java.io.StringReader@6f667ad1; line: 1, column: 1]
+2020-02-03 13:28:36 ERROR TC01_Users:170 - Response not found.
+2020-02-03 13:33:41 ERROR TC01_Users:170 - Exception org.codehaus.jackson.map.JsonMappingException: Can not deserialize instance of com.freenow.usersPojoForResponse.UsersJson[] out of START_OBJECT token
+ at [Source: java.io.StringReader@6f667ad1; line: 1, column: 1]
+2020-02-03 13:33:41 ERROR TC01_Users:171 - Response not found.
+2020-02-03 13:35:35 ERROR TC01_Users:171 - Exception org.codehaus.jackson.map.JsonMappingException: Can not deserialize instance of com.freenow.usersPojoForResponse.UsersJson[] out of START_OBJECT token
+ at [Source: java.io.StringReader@6f667ad1; line: 1, column: 1]
+2020-02-03 13:35:35 ERROR TC01_Users:172 - Response not found.
+2020-02-03 13:36:27 INFO  CommonUtility:43 - Test case starts..
+2020-02-03 13:36:27 INFO  CommonUtility:45 - Total 10 users present int the user list
+2020-02-03 13:36:27 INFO  CommonUtility:50 - Test case starts for :Samantha
+2020-02-03 13:36:27 INFO  CommonUtility:52 - User id for username Samantha is 3
+2020-02-03 13:36:27 INFO  CommonUtility:55 - Test case finished..
+2020-02-03 13:36:28 INFO  TC01_Users:77 - Storing email address to list
+2020-02-03 13:36:28 INFO  TC01_Users:83 - checking user id is duplicate or not.
+2020-02-03 13:36:28 INFO  CommonUtility:103 - duplicate id is not found
+2020-02-03 13:36:28 INFO  TC01_Users:86 - email validation for users is started.
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Sincere@april.biz , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Shanna@melissa.tv , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Nathan@yesenia.net , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Julianne.OConner@kory.org , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Lucio_Hettinger@annie.ca , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Karley_Dach@jasper.info , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Telly.Hoeger@billy.biz , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Sherwood@rosamond.me , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Chaim_McDermott@dana.io , true
+2020-02-03 13:36:28 INFO  EmailValidator:39 - Email is valid : Rey.Padberg@karina.biz , true
+2020-02-03 13:36:28 INFO  TC01_Users:88 - email validation for users is successfully done

@@ -1,5 +1,11 @@
 package com.freenow.usersPojoForResponse;
-	
+
+/**
+ * 
+ * @author sanjeetpandit
+ * @utility to De-Serialize response recieved from get Request
+ *
+ */
 public class Company {
 
 	private String name;

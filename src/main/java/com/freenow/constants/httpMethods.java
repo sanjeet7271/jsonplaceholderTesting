@@ -1,5 +1,10 @@
 package com.freenow.constants;
-
+/**
+ * 
+ * @author sanjeetpandit
+ * @constants, http methods
+ *
+ */
 public class HttpMethods {
 
 	public static final String GET = "get";

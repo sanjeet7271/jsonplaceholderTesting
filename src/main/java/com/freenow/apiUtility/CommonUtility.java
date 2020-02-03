@@ -16,6 +16,10 @@ import com.freenow.usersPojoForResponse.UsersJson;
 
 import io.restassured.response.Response;
 
+/*
+ * @Sanjeet.Pandit
+ * @common utilities for the business logics
+ */
 public class CommonUtility {
 	SearchForUseName username = new SearchForUseName();
 	private static Logger logger = Logger.getLogger(CommonUtility.class);
@@ -27,6 +31,14 @@ public class CommonUtility {
 	List<String> emailsCommentByUsers = new ArrayList<>();
 	List<String> usersEmails = new ArrayList<>();
 	EmailValidator emailValidators = new EmailValidator();
+
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to find user ID for corresponding username
+	 * 
+	 * @return userID
+	 */
 	public int findUserID(Response response) {
 		logger.info("Test case starts..");
 		List<UsersJson> userjson = Arrays.asList(response.getBody().as(UsersJson[].class));
@@ -43,17 +55,35 @@ public class CommonUtility {
 		logger.info("Test case finished..");
 		return id;
 	}
-	
+
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to find user ID for corresponding username
+	 * 
+	 * @return userID
+	 */
 	public int getUserID(Response response) {
 		List<UsersJson> userjson = Arrays.asList(response.getBody().as(UsersJson[].class));
 		for (int i = 0; i < userjson.size(); i++) {
 			if (userjson.get(i).getUsername().equals(username.getUserName())) {
+				logger.info("Test case starts for :" + username.getUserName());
 				id = userjson.get(i).getId();
+				logger.info("User id for username " + userjson.get(i).getUsername() + " is " + id);
 			}
 		}
 		return id;
 	}
-	
+
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to duplicate user ID, post ID and comment ID for corresponding
+	 * username
+	 * 
+	 * 
+	 */
+
 	public void CheckDuplicate(List<Integer> ids) {
 		Object[] arr = ids.toArray();
 		Set<Integer> hs = new HashSet<>();
@@ -74,6 +104,14 @@ public class CommonUtility {
 		}
 	}
 
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to print post ID and its details for corresponding user name
+	 * 
+	 * @Return List
+	 * 
+	 */
 	public List<Integer> getAllPostIdsAndPostDetails(Response response) {
 		List<Posts> postJson = Arrays.asList(response.getBody().as(Posts[].class));
 
@@ -90,22 +128,38 @@ public class CommonUtility {
 
 			logger.info("length of the body is :" + bodyLength);
 			logger.info("Body of the post is :" + body + " and post Id id :" + postJson.get(i).getId());
-			
+
 		}
 		return postIds;
 	}
-	
+
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to print only post ID
+	 * 
+	 * @Return List
+	 * 
+	 */
 	public List<Integer> getAllPostIds(Response response) {
 		List<Posts> postJson = Arrays.asList(response.getBody().as(Posts[].class));
 		for (int i = 0; i < postJson.size(); i++) {
 			postsId.add(postJson.get(i).getId());
-			
+
 		}
 		return postsId;
 	}
-	
+
+	/*
+	 * @Sanjeet.Pandit
+	 * 
+	 * @Utility to verify all email ID is proper or not, comment made by the user
+	 * 
+	 * 
+	 */
+
 	@SuppressWarnings("static-access")
-	public void validatingComments(Response commentResponse){
+	public void validatingComments(Response commentResponse) {
 		int statusCode2 = commentResponse.getStatusCode();
 		Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode2);
 
@@ -113,8 +167,9 @@ public class CommonUtility {
 		for (Comments comment : comments) {
 			emailsCommentByUsers.add(comment.getEmail());
 		}
-		logger.info("Validating email Ids for commented users on particular comments, and the email Ids are "+emailsCommentByUsers);
-		emailValidators.ValidEmailTest(emailsCommentByUsers);
+		logger.info("Validating email Ids for commented users on particular comments, and the email Ids are "
+				+ emailsCommentByUsers);
+		emailValidators.validEmailTest(emailsCommentByUsers);
 		logger.info("Validating done for email Ids");
 	}
 }

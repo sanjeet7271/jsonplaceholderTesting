@@ -1,5 +1,10 @@
 package com.freenow.commonPojoForPost;
 
+/*
+ * @Sanjeet.Pandit
+ * @Pojo class for Post section,
+ * @user constructor to initialize value to post data 
+ */
 
 public class Posts {
 

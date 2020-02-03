@@ -6,7 +6,11 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-
+/*
+ * @Sanjeet.Pandit
+ * @configuration Reader
+ * 
+ */
 public class ConfigReader {
 	
 	public Properties prop;
@@ -20,7 +24,7 @@ public class ConfigReader {
 	}
 	
 	/**
-	 * 
+	 * @author sanjeetpandit
 	 * @throws IOException
 	 */
 	public void configurationReader(){

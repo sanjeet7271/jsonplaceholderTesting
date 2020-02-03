@@ -4,13 +4,17 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
-
+/*
+ * @Sanjeet.Pandit
+ * @Utility to Validate email address with regex
+ */
 public class EmailValidator {
 
 	private static Pattern pattern;
 	private static Matcher matcher;
-
+	private static Logger logger = Logger.getLogger(EmailValidator.class);
 	private static final String EMAIL_PATTERN = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
 			+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 
@@ -24,14 +28,17 @@ public class EmailValidator {
 		return matcher.matches();
 
 	}
+	/*
+	 * @Sanjeet.Pandit
+	 * utility to Email validation
+	 */
+	public static void validEmailTest(List<String> email) {
 
-	public static void ValidEmailTest(List<String> Email) {
-
-		for (String temp : Email) {
+		for (String temp : email) {
 			boolean valid = validate(temp);
-			System.out.println("Email is valid : " + temp + " , " + valid);
+			logger.info("Email is valid : " + temp + " , " + valid);
 			Assert.assertEquals(valid, true);
 		}
-		Email.clear();
+		email.clear();
 	}
 }

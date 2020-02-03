@@ -11,7 +11,11 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+/**
+ * 
+ * @author sanjeetpandit
+ * @return Excel data
+ */
 public class ExcelDataReader {
 	public FileInputStream fis = null;
 	public XSSFWorkbook workbook = null;
@@ -19,27 +23,47 @@ public class ExcelDataReader {
 	public XSSFRow row = null;
 	public XSSFCell cell = null;
 	String xlFilePath;
-
+	/**
+	 * 
+	 * @param xlFilePath
+	 * @throws IOException
+	 */
 	public ExcelDataReader(String xlFilePath) throws IOException {
 		this.xlFilePath = xlFilePath;
 		fis = new FileInputStream(xlFilePath);
 		workbook = new XSSFWorkbook(fis);
 		fis.close();
 	}
-
+	/**
+	 * 
+	 * @param sheetName
+	 * @return row number
+	 * 
+	 */
 	public int getRowsNum(String sheetName) {
 		sheet = workbook.getSheet(sheetName);
 		int rowNum = sheet.getLastRowNum() + 1;
 		return rowNum;
 	}
-
+	/**
+	 * 
+	 * @param sheetName
+	 * @return column number
+	 * 
+	 */
 	public int getColumns(String sheetName) {
 		sheet = workbook.getSheet(sheetName);
 		row = sheet.getRow(0);
 		int colCount = row.getLastCellNum();
 		return colCount;
 	}
-
+	/**
+	 * 
+	 * @param sheetName
+	 * @param colNum
+	 * @param rowNum
+	 * @return data
+	 */
 	public String getCellData(String sheetName,int colNum, int rowNum) {
 		try {
 			sheet = workbook.getSheet(sheetName);
