@@ -56,8 +56,8 @@ public class TC02_Posts {
 			int statusCode1 = response.getStatusCode();
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1);
 			List<Integer> ids = commonUtility.getAllPostIdsAndPostDetails(response);
-			logger.error("Post IDs are :" + ids);
-			logger.error("Validating duplicate Post ID");
+			logger.info("Post IDs are :" + ids);
+			logger.info("Validating duplicate Post ID");
 			commonUtility.CheckDuplicate(ids);
 
 		} catch (Exception e) {
@@ -88,7 +88,7 @@ public class TC02_Posts {
 			String dummyTestData = postData.postJsonData(Integer.parseInt(userId), Integer.parseInt(id), title, body);
 			response = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforPosts(), "", "");
 			int statusCode = response.getStatusCode();
-			System.out.println(response.asString());
+			logger.info(response.asString());
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode);
 
 		} catch (Exception e) {
@@ -104,7 +104,8 @@ public class TC02_Posts {
 	 * @param id
 	 * @param title
 	 * @param body
-	 * @To retrieve post data created by users, Failed because it is not able to retrieve created data
+	 * @To retrieve post data created by users, Failed because it is not able to
+	 *     retrieve created data
 	 */
 	@Test(priority = 3, dataProvider = "post", description = "get response from newly created post")
 	public void getResponseFromCreatedNewUser(String userId, String id, String title, String body) {

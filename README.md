@@ -31,7 +31,7 @@
 				like : username=Samantha
 				
 3. Open the command prompt and go to the project path.
-4. Run the command "mvn clean install -DsuiteXmlFile=testng.xml"
+4. Run the command "mvn clean install"
 5. All the automated test cases in the testNG.xml will be executed.
 
 		

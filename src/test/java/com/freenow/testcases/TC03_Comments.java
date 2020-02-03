@@ -39,7 +39,6 @@ public class TC03_Comments {
 	 * 
 	 */
 
-	@SuppressWarnings("static-access")
 	@Test(description = "validating all emails which is comments by people for each post")
 	public void verifyToGetCommentsOnUserEachPost() {
 		try {

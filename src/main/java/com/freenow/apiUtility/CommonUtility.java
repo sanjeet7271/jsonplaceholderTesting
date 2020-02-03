@@ -24,12 +24,9 @@ public class CommonUtility {
 	SearchForUseName username = new SearchForUseName();
 	private static Logger logger = Logger.getLogger(CommonUtility.class);
 	int id;
-	List<String> usernames = new ArrayList<>();
-	List<Integer> ids = new ArrayList<>();
 	List<Integer> postIds = new ArrayList<>();
 	List<Integer> postsId = new ArrayList<>();
 	List<String> emailsCommentByUsers = new ArrayList<>();
-	List<String> usersEmails = new ArrayList<>();
 	EmailValidator emailValidators = new EmailValidator();
 
 	/*

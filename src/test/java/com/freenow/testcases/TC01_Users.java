@@ -38,12 +38,13 @@ public class TC01_Users {
 	CommonUtility commonUtility = new CommonUtility();
 	UserJsonforCreation userTestData = new UserJsonforCreation();
 	ParametersForUserAndPost queryParam = new ParametersForUserAndPost();
-	
+
 	String xlFilePath = "./src/main/resources/testdata/TestData.xlsx";
 	String sheetName = "Users";
 	ExcelSheetReader provideData = new ExcelSheetReader();
 	Object[][] data = null;
 	Integer createdID;
+
 	/**
 	 * 1. @find user ID if user name is known
 	 */
@@ -93,13 +94,12 @@ public class TC01_Users {
 			Assert.fail("Status code is not correct.");
 		}
 	}
-	
+
 	@DataProvider(name = "user")
 	public Object[][] testData() throws IOException {
 		data = provideData.testData(xlFilePath, sheetName);
 		return data;
 	}
-	
 
 	/**
 	 * 
@@ -120,8 +120,8 @@ public class TC01_Users {
 	 * @param bs
 	 * @verify user is created with test data
 	 */
-	
-	@Test(priority = 3,dataProvider="user", description = "to verify email address is proper and Unique user Id")
+
+	@Test(priority = 3, dataProvider = "user", description = "to verify email address is proper and Unique user Id")
 	public void createNewUser(String id, String name, String username, String email, String street, String suite,
 			String city, String zipcode, String lat, String lng, String phone, String website, String Cname,
 			String catchPhrase, String bs) {
@@ -140,25 +140,25 @@ public class TC01_Users {
 			Assert.fail("Status code is not correct.");
 		}
 	}
-	
-	@Test(priority = 3,dataProvider="user", description = "to verify email address is proper and Unique user Id")
-	public void getCreateNewUserDetails(String id, String name, String username, String email, String street, String suite,
-			String city, String zipcode, String lat, String lng, String phone, String website, String Cname,
-			String catchPhrase, String bs) {
+
+	@Test(priority = 4, dataProvider = "user", description = "to verify email address is proper and Unique user Id")
+	public void getCreateNewUserDetails(String id, String name, String username, String email, String street,
+			String suite, String city, String zipcode, String lat, String lng, String phone, String website,
+			String Cname, String catchPhrase, String bs) {
 		try {
 
 			String dummyTestData = userTestData.userJsonData(Integer.parseInt(id), name, username, email, street, suite,
 					city, zipcode, lat, lng, phone, website, Cname, catchPhrase, bs);
 			System.out.println(dummyTestData);
-			Response postResponse = rest.restAssuredCalls(HttpMethods.POST, dummyTestData, resources.getResourceforUsers(), "", "");
+			Response postResponse = rest.restAssuredCalls(HttpMethods.POST, dummyTestData,
+					resources.getResourceforUsers(), "", "");
 			int statusCode = postResponse.getStatusCode();
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_201, statusCode);
 			createdID = postResponse.jsonPath().get("id");
-			Response getResponse = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers()+"/"+createdID, "", " ");
+			Response getResponse = rest.restAssuredCalls(HttpMethods.GET, "",
+					resources.getResourceforUsers() + "/" + createdID, "", " ");
 			int statusCode1 = getResponse.getStatusCode();
 			Assert.assertEquals(HttpStatusCodes.RESPONSE_STATUS_CODE_200, statusCode1, "response is not 200");
-			
-		
 
 		} catch (Exception e) {
 			logger.error("Exception " + e);

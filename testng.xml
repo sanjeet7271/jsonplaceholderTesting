@@ -11,7 +11,7 @@
 			<class name="com.freenow.testcases.TC02_Posts" />
 		</classes>
 	</test>
-	<test name="Test Cases">
+	<test name="Test Cases Comments">
 		<classes>
 			<class name="com.freenow.testcases.TC03_Comments" />
 		</classes>
