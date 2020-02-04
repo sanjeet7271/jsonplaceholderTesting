@@ -81,7 +81,7 @@ public class TC02_Posts {
 	 * @param body
 	 * @Create post to particular users
 	 */
-	@Test(priority = 2, dataProvider = "post", description = "to create dummy post data")
+	@Test(priority = 2, dataProvider = "post", description = "create multiple new post with excel sheet test data")
 	public void createNewUser(String userId, String id, String title, String body) {
 		try {
 

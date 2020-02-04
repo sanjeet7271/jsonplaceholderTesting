@@ -29,7 +29,7 @@
 2. Go to `/src/main/resources/config/config.properties` file and update user name in configurations.
 	for e.g.	if you want to run test cases for "Samantha", then just update name into username field
 				like : username=Samantha
-3. Go to `/src/main/resources/testda`	file and update user and post test data as much as you want to create new user and create new post		
+3. Go to `/src/main/resources/testdata/TestData.xlsx`	file and update user and post test data as much as you want to create new user and create new post		
 4. Open the command prompt and go to the project path.
 5. Run the command "mvn clean install"
 6. All the automated test cases in the testNG.xml will be executed.

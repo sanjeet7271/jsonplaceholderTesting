@@ -39,7 +39,7 @@ public class TC03_Comments {
 	 * 
 	 */
 
-	@Test(description = "validating all emails which is comments by people for each post")
+	@Test(description = "validating all emails are proper or not, comments made by people for each post")
 	public void verifyToGetCommentsOnUserEachPost() {
 		try {
 			logger.info("getting user id for the corresponding username");
@@ -77,7 +77,7 @@ public class TC03_Comments {
 	 * 
 	 */
 
-	@Test(priority = 2, description = "make comment on each post of the user")
+	@Test(priority = 2, description = "make comment on each post of the user with dummy test data")
 	public void createNewComment() {
 		try {
 			logger.info("getting user id for the corresponding username");

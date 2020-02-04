@@ -68,7 +68,7 @@ public class TC01_Users {
 	 * unique
 	 */
 	@SuppressWarnings("static-access")
-	@Test(priority = 2, description = "to verify email address is proper and Unique user Id")
+	@Test(priority = 2, description = "validate email address is proper and user ID is not duplicate")
 	public void verifyToUserEmailAddress() {
 		try {
 			response = rest.restAssuredCalls(HttpMethods.GET, "", resources.getResourceforUsers(), "", "");
@@ -121,7 +121,7 @@ public class TC01_Users {
 	 * @verify user is created with test data
 	 */
 
-	@Test(priority = 3, dataProvider = "user", description = "to verify email address is proper and Unique user Id")
+	@Test(priority = 3, dataProvider = "user", description = "create multiple user using excel sheet test data")
 	public void createNewUser(String id, String name, String username, String email, String street, String suite,
 			String city, String zipcode, String lat, String lng, String phone, String website, String Cname,
 			String catchPhrase, String bs) {
@@ -141,7 +141,7 @@ public class TC01_Users {
 		}
 	}
 
-	@Test(priority = 4, dataProvider = "user", description = "to verify email address is proper and Unique user Id")
+	@Test(priority = 4, dataProvider = "user", description = "retrieve response from newly created created user")
 	public void getCreateNewUserDetails(String id, String name, String username, String email, String street,
 			String suite, String city, String zipcode, String lat, String lng, String phone, String website,
 			String Cname, String catchPhrase, String bs) {
