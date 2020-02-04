@@ -12,6 +12,7 @@ class Address {
 	private String city;
 	private String zipcode;
 	private Geo geo;
+
 	/**
 	 * 
 	 * @param street
@@ -20,8 +21,8 @@ class Address {
 	 * @param zipcode
 	 * @param geo
 	 * 
-	 *  @Constructor to initilaize default value
-	 *  
+	 * @Constructor to initilaize default value
+	 * 
 	 */
 	public Address(String street, String suite, String city, String zipcode, Geo geo) {
 		this.street = street;

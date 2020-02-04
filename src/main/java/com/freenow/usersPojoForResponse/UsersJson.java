@@ -17,7 +17,6 @@ public class UsersJson {
 	private String website;
 	private Company company;
 
-
 	public Integer getId() {
 		return id;
 	}

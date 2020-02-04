@@ -29,10 +29,10 @@
 2. Go to `/src/main/resources/config/config.properties` file and update user name in configurations.
 	for e.g.	if you want to run test cases for "Samantha", then just update name into username field
 				like : username=Samantha
-				
-3. Open the command prompt and go to the project path.
-4. Run the command "mvn clean install"
-5. All the automated test cases in the testNG.xml will be executed.
+3. Go to `/src/main/resources/testda`	file and update user and post test data as much as you want to create new user and create new post		
+4. Open the command prompt and go to the project path.
+5. Run the command "mvn clean install"
+6. All the automated test cases in the testNG.xml will be executed.
 
 		
 ## To view Report 
@@ -40,4 +40,4 @@
 2. All code coverage reports are saved under `/target/jacoco-ut/` 
 
 
-Note: Test cases are available in `Testcases.xlsx` for your reference.
+Note: Test cases and issues with these API are available in `Testcases.xlsx` for your reference.

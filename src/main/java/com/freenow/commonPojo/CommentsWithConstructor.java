@@ -1,4 +1,4 @@
-package com.freenow.commonPojo;
+package com.freenow.commonpojo;
 
 /*
  * @Sanjeet.Pandit

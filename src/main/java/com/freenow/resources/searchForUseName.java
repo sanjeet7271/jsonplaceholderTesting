@@ -1,6 +1,7 @@
 package com.freenow.resources;
 
 import com.freenow.config.ConfigReader;
+
 /**
  * 
  * @author sanjeetpandit
@@ -13,6 +14,7 @@ public class SearchForUseName extends ConfigReader {
 	public SearchForUseName() {
 		setConfig();
 	}
+
 	/**
 	 * Configuration reader
 	 * 
@@ -22,6 +24,7 @@ public class SearchForUseName extends ConfigReader {
 		this.userName = prop.getProperty("username");
 
 	}
+
 	/**
 	 * 
 	 * @return username test data

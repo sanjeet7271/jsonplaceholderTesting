@@ -6,15 +6,16 @@ import com.freenow.resources.ResourceURLs;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
 /**
  * 
- * @author sanjeetpandit
- * @ Different RestAssured methods
+ * @author sanjeetpandit @ Different RestAssured methods
  *
  */
 public class RestAssuredMethodsCall {
 	ResourceURLs resource = new ResourceURLs();
 	Response response = null;
+
 	/**
 	 * 
 	 * @param requestType
@@ -25,7 +26,8 @@ public class RestAssuredMethodsCall {
 	 * @return
 	 * 
 	 */
-	public Response restAssuredCalls(String requestType,String entityString, String request, String id, String queryParam) {
+	public Response restAssuredCalls(String requestType, String entityString, String request, String id,
+			String queryParam) {
 
 		switch (requestType) {
 		case HttpMethods.GET:
@@ -41,13 +43,13 @@ public class RestAssuredMethodsCall {
 
 		case HttpMethods.POST:
 			RestAssured.baseURI = resource.getBaseURI();
-			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON)
-					.when().post(request).then().extract().response();
+			response = RestAssured.given().body(entityString).log().all().contentType(ContentType.JSON).when()
+					.post(request).then().extract().response();
 			break;
 		case HttpMethods.POST_WITH_QUERYPARAM:
 			RestAssured.baseURI = resource.getBaseURI();
-			response = RestAssured.given().queryParam(queryParam, id).body(entityString).log().all().contentType(ContentType.JSON)
-					.when().post(request).then().extract().response();
+			response = RestAssured.given().queryParam(queryParam, id).body(entityString).log().all()
+					.contentType(ContentType.JSON).when().post(request).then().extract().response();
 			break;
 		case HttpMethods.PUT:
 			// TO DO

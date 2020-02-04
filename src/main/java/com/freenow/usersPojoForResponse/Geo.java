@@ -3,7 +3,7 @@ package com.freenow.userspojoforresponse;
 /**
  * 
  * @author sanjeetpandit
- *@utility to De-Serialize response recieved from get Request
+ * @utility to De-Serialize response recieved from get Request
  *
  */
 public class Geo {

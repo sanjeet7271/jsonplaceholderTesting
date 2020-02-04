@@ -8,8 +8,8 @@ import java.util.Set;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
-import com.freenow.commonPojo.Comments;
-import com.freenow.commonPojo.Posts;
+import com.freenow.commonpojo.Comments;
+import com.freenow.commonpojo.Posts;
 import com.freenow.constants.HttpStatusCodes;
 import com.freenow.resources.SearchForUseName;
 import com.freenow.userspojoforresponse.UsersJson;
