@@ -1,4 +1,4 @@
-# FREENOW Backend Test Challenges 
+# JSONPLACEHOLDER Backend Test Challenges 
 
 ## Features supported
 1. Dependency management and project management by using MAVEN 
